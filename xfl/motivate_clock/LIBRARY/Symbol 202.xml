@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 202" itemID="4de25a8b-00000506"
+               lastModified="1306679947">
+    <timeline>
+        <DOMTimeline name="Symbol 202">
+            <layers>
+                <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMShape>
+                                    <strokes>
+                                        <StrokeStyle index="1">
+                                            <SolidStroke scaleMode="normal" caps="square">
+                                                <fill>
+                                                    <SolidColor color="#547807"/>
+                                                </fill>
+                                            </SolidStroke>
+                                        </StrokeStyle>
+                                    </strokes>
+                                    <edges>
+                                        <Edge strokeStyle="1" edges="!2221 0S4|2279 0!2020 0|2078 0!2120 0|2178 0!1919 0|1970 0!1720 0|1768 0!1819 0|1879 0!2321 0|2352 0!1210 0|1268 0!1109 0|1160 0!910 0|958 0!1009 0|1069 0!1411 0|1469 0!1310 0|1368 0!1511 0|1572 0!400 0|458 0!300 0|358 0!199 0|259 0!0
+ 0|57 0!99 0|159 0!601 0|660 0!501 0|559 0!700 0|762 0!801 0|858 0!1611 0|1668 0"/>
+                                    </edges>
+                                </DOMShape>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+            </layers>
+        </DOMTimeline>
+    </timeline>
+</DOMSymbolItem>

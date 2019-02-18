@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 101" itemID="4cdc25f3-00000aed" symbolType="button" lastModified="1289496062">
+  <timeline>
+    <DOMTimeline name="Symbol 101" currentFrame="3">
+      <layers>
+        <DOMLayer name="955.png" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="955.png">
+                  <matrix>
+                    <Matrix tx="-10.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="956.png">
+                  <matrix>
+                    <Matrix tx="-10.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,124 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="ConfirmAlertSymbol" itemID="4d40852a-0000088e"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.view.alert.ConfirmAlert"
+               lastModified="1323199079" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="ConfirmAlertSymbol">
+      <layers>
+        <DOMLayer name="statusField" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="statusField" fontRenderingMode="customThicknessSharpness" width="133.9" height="14.8" antiAliasSharpness="-25" antiAliasThickness="-25" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-68" ty="-19"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Проект будет удален</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#263032"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="108.999994308176" blurX="0" blurY="0" color="#FFFFFF" distance="0.5" quality="3"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cancelButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 224" name="cancelButton">
+                  <matrix>
+                    <Matrix tx="-16" ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="13.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cancelButton" color="#808080" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 152 copy" name="cancelButton" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-3" ty="12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="okButton" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 152" name="okButton" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-28" ty="12.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="backing" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 156" name="backing">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lockLayer" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 215" name="lockLayer" selected="true">
+                  <matrix>
+                    <Matrix tx="-120.5" ty="-306.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="119.75" y="265.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="z019.jpg" color="#FF800A" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z019.jpg">
+                  <matrix>
+                    <Matrix tx="-110.95" ty="-74.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

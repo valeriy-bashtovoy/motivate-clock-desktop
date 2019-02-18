@@ -1,0 +1,90 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ConfirmAlert" itemID="522276d0-0000061d" linkageExportForAS="true" linkageClassName="gfx_confirm_alert" lastModified="1384713499" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="ConfirmAlert">
+      <layers>
+        <DOMLayer name="statusField" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="statusField" fontRenderingMode="customThicknessSharpness" width="133.9" height="14.8" antiAliasSharpness="-25" antiAliasThickness="-25" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-68" ty="-19"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Проект будет удален</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#263032"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="108.999994308176" blurX="0" blurY="0" color="#FFFFFF" distance="0.5" quality="3"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="confirmButton" color="#FF800A" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Project Assets/confirmButton">
+                  <matrix>
+                    <Matrix tx="-41.5" ty="-0.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="backing" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 156" name="backing">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lockLayer" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 215" name="lockLayer" selected="true">
+                  <matrix>
+                    <Matrix tx="-120.5" ty="-306.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="119.75" y="265.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="z019.jpg" color="#FF800A" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z019.jpg">
+                  <matrix>
+                    <Matrix tx="-110.95" ty="-74.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

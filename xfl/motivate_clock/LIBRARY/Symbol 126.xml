@@ -1,0 +1,121 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 126" itemID="4d344dee-000005a3" symbolType="button" lastModified="1295273454">
+  <timeline>
+    <DOMTimeline name="Symbol 126">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <DashedStroke dash1="2" dash2="3" scaleMode="normal" caps="square" weight="2" sharpCorners="true">
+                        <fill>
+                          <SolidColor color="#B2B31D"/>
+                        </fill>
+                      </DashedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1040 589S4[1040 804 888 957!888 957[736 1109 520 1109!520 1109[304 1109 152 957!152 957[0 804 0 589!0 589[0 373 152 221!152 221[304 69 520 69!520 69[736 69 888 221!888 221[1040 373 1040 589"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="55.75" height="18.35" antiAliasThickness="-100" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="64.4" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Работа</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#868714"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="55.75" height="18.35" antiAliasThickness="-100" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="118.65" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Отдых</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#910303"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMDynamicText selected="true" width="50.75" height="27.25" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="64.4" ty="18"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>80%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="22" bitmapSize="440" face="MyriadPro-Bold" fillColor="#868714"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" width="50.75" height="27.25" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="119.4" ty="18"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>20%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="22" bitmapSize="440" face="MyriadPro-Bold" fillColor="#910303"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="55.75" height="14.7" antiAliasThickness="-100" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="64.4" ty="42"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>21:12:55</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="55.75" height="14.7" antiAliasThickness="-100" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="119.4" ty="42"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>21:12:55</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="55.75" height="14.7" antiAliasThickness="-100" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="83.4" ty="56.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>дней</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

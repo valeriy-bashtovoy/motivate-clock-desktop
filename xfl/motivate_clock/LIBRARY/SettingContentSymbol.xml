@@ -1,0 +1,135 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="SettingContentSymbol" itemID="4ca0c820-0000026e"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.setting.SettingContent"
+               lastModified="1377995979" lastUniqueIdentifier="38">
+  <timeline>
+    <DOMTimeline name="SettingContentSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;64&lt;/guideline&gt;&lt;guideline direction="h"&gt;220&lt;/guideline&gt;&lt;guideline direction="h"&gt;90&lt;/guideline&gt;&lt;guideline direction="h"&gt;125&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="langBox" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="langBox" centerPoint3DX="31.9" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="12.9" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="idleBox" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="idleBox" centerPoint3DX="31.9" centerPoint3DY="117">
+                  <matrix>
+                    <Matrix tx="12.9" ty="117"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="soundBox" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="soundBox" centerPoint3DX="31.9" centerPoint3DY="220">
+                  <matrix>
+                    <Matrix tx="12.9" ty="220"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workBox" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="workBox" centerPoint3DX="31.9" centerPoint3DY="258">
+                  <matrix>
+                    <Matrix tx="12.9" ty="258"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restBox" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="restBox" centerPoint3DX="31.9" centerPoint3DY="334">
+                  <matrix>
+                    <Matrix tx="12.9" ty="334"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeBox" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="closeBox" centerPoint3DX="31.9" centerPoint3DY="80">
+                  <matrix>
+                    <Matrix tx="12.9" ty="80"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="autorunBox" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SettingCheckBoxSymbol" name="autorunBox" centerPoint3DX="31.9" centerPoint3DY="9">
+                  <matrix>
+                    <Matrix tx="12.9" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/751.png">
+                  <matrix>
+                    <Matrix tx="-7" ty="-1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

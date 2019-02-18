@@ -1,0 +1,103 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="StatisticMenuSymbol" itemID="4ddc225e-00000404"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.statistic.StatisticMenu"
+               lastModified="1330013092" lastUniqueIdentifier="6" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="StatisticMenuSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="updateButton" color="#FF800A" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 161" name="updateButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="129.5" ty="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="exportButton" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 208" name="exportButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="140" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.5" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="resetButton" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 146" name="resetButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="161"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="allButton" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuButtonSymbol" name="allButton">
+                  <transformationPoint>
+                    <Point x="16.45" y="9.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restButton" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuButtonSymbol" name="restButton">
+                  <matrix>
+                    <Matrix tx="73"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="9.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workButton" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuButtonSymbol" name="workButton">
+                  <matrix>
+                    <Matrix tx="27"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.45" y="9.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectQuestionButton" itemID="52b6243c-000002c6" linkageExportForAS="true" linkageClassName="gfx_project_question_button" lastModified="1387669116" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="ProjectQuestionButton">
+      <layers>
+        <DOMLayer name="line" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 202" name="line" selected="true">
+                  <matrix>
+                    <Matrix tx="3.5" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="field" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="label" selected="true" width="119.25" height="14.4" antiAliasThickness="-100" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>В чем вы работаете?</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Regular" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="230.00000227673" blurX="0" blurY="0" color="#FFFFFF" distance="1" isEnabled="false" quality="3" strength="0.94"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

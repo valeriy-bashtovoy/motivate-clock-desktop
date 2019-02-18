@@ -1,0 +1,63 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Common Assets/Symbol 127" itemID="4d35d9b5-0000035b" lastModified="1306672895">
+  <timeline>
+    <DOMTimeline name="Symbol 127">
+      <layers>
+        <DOMLayer name="numDays" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="numDays" fontRenderingMode="customThicknessSharpness" width="28.9" height="13.55" antiAliasSharpness="-50" antiAliasThickness="100" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix a="0.944564819335938" b="-0.328277587890625" c="0.328277587890625" d="0.944564819335938" tx="2.55" ty="13.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="9" bitmapSize="180" face="MyriadPro-Regular" fillColor="#353531"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="nameDays" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nameDays" width="55.75" height="14.7" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="29.5" ty="6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>дней</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z002.png">
+                  <matrix>
+                    <Matrix tx="0.65"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

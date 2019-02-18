@@ -1,0 +1,36 @@
+﻿﻿#   1.6.0
+*   Fixed PDF report accuracy;
+*   Fixed app height;
+*   Added ability to add urls such as localhost;
+*   Improved performance of stat displaying;
+*   Added options for configuring app color;
+*   Minor UI changes;
+
+﻿#   1.5.4
+*   Fixed: exception about expired certificate;
+*   Fixed: app doesn't switch to Rest mode in case idle;
+*   Fixed: Internet Explorer 11 doesn't track sites;
+*   Changed the link to Yandex.Browser store;
+
+#   1.5.3
+*   Possibility to change duration of working day has been added;
+*   UI changes;
+
+#   1.5.2
+*   Automatic time recalculation has been added, when a list of marked applications is changed;
+*   PDF statistics issue has been fixed;
+*   Possibility to change color of the application has been added;
+
+#   1.5.1
+*   Able to export only working hours into PDF;
+*   URL doubling in the Internet tab has been fixed;
+*   Has been removed possibility to disable inactivity behaviour;
+
+#   1.5.0
+*   Fix crashes associated with Firefox browser;
+*   Fix time stops after application focus has been changed to the desktop;
+*   Fix accelerated time counting after system’s hibernate;
+*   Fix wrong detection of active application, when inactive website has been updated automatically;
+*   Fix memory leak;
+*   Added ability to reset statistic by project’s context menu;
+*   Minor bug fixes;

@@ -1,0 +1,18 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 23" itemID="4c939893-00000398"
+               lastModified="1377995079">
+    <timeline>
+        <DOMTimeline name="Symbol 23">
+            <layers>
+                <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMBitmapInstance selected="true" libraryItemName="Bitmap/403.png"/>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+            </layers>
+        </DOMTimeline>
+    </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 189" itemID="4dc2b6bd-000003f9" symbolType="button" lastModified="1304606436" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="Symbol 189" currentFrame="1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 190" centerPoint3DX="6" centerPoint3DY="17.5">
+                  <transformationPoint>
+                    <Point x="6" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 190" selected="true" centerPoint3DX="6" centerPoint3DY="17.5">
+                  <transformationPoint>
+                    <Point x="6" y="17.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redOffset="25" blueOffset="25" greenOffset="25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

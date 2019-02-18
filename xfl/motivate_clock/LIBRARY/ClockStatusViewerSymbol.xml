@@ -1,0 +1,66 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="ClockStatusViewerSymbol" itemID="4cefe638-00000335"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.clock.ClockStatusViewer"
+               lastModified="1323457614" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="ClockStatusViewerSymbol">
+      <layers>
+        <DOMLayer name="dayHolder" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 223" name="dayHolder">
+                  <matrix>
+                    <Matrix tx="75.5" ty="3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.2" y="14.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="prevStatusHolder" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/prevStatusHolder" name="prevStatusHolder" selected="true">
+                  <matrix>
+                    <Matrix tx="152" ty="9.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32" y="21.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="statusField" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="statusField" fontRenderingMode="customThicknessSharpness" width="204.35" height="14.4" antiAliasSharpness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="11.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Вы работаете</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Regular" fillColor="#E5E5E5"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="213.000017075472" blurX="0" blurY="0" distance="0.75" quality="3" strength="0.21"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

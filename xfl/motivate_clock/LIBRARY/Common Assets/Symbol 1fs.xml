@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Common Assets/Symbol 1fs" itemID="4c8fd32a-0000070f" lastModified="1326209634">
+  <timeline>
+    <DOMTimeline name="Symbol 1fs">
+      <layers>
+        <DOMLayer name="timeField" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="timeField" fontRenderingMode="standard" width="26.6" height="23.25" antiAliasThickness="-100" includeOutlines="true" isSelectable="false" scrollable="true">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>01</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" letterSpacing="-0.4" lineSpacing="0" size="20" bitmapSize="400" face="TrebuchetMS-Bold" fillColor="#383834"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

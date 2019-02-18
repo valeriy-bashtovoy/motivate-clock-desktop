@@ -1,0 +1,62 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProcessesMenu" itemID="4eedd256-00000460" linkageExportForAS="true" linkageClassName="gfx_process_menu" lastModified="1387665201" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="ProcessesMenu" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;21&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="siteButton" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 235" name="siteButton" selected="true">
+                  <matrix>
+                    <Matrix tx="150" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53" y="8.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="appButton" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 225" name="appButton">
+                  <matrix>
+                    <Matrix tx="3" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <BitmapFill bitmapPath="Bitmap/x051.png">
+                        <matrix>
+                          <Matrix a="20" d="20"/>
+                        </matrix>
+                      </BitmapFill>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!4200 0|0 0!0 0|0 720!0 720|4200 720!4200 720|4200 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

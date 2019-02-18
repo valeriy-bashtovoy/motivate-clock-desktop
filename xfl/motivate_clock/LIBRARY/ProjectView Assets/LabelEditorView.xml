@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectView Assets/LabelEditorView" itemID="52322770-00000197" linkageExportForAS="true" linkageClassName="Lib.LabelEditorView" lastModified="1384612935" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="LabelEditorView">
+      <layers>
+        <DOMLayer name="labelField" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="labelField" selected="true" width="152.25" height="15.9" antiAliasThickness="-75">
+                  <matrix>
+                    <Matrix tx="13.5" ty="5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Верстка для бобров</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="13" bitmapSize="260" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labelFrame" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 185" name="labelFrame" centerPoint3DX="94" centerPoint3DY="14">
+                  <matrix>
+                    <Matrix tx="8.5" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="85.5" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

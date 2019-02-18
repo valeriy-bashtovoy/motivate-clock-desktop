@@ -1,0 +1,141 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ComboBox" itemID="4e381d65-00000b24" linkageExportForAS="true" linkageClassName="gfx_combo_box" lastModified="1441139315" lastUniqueIdentifier="22">
+  <timeline>
+    <DOMTimeline name="ComboBox">
+      <layers>
+        <DOMLayer name="openButton" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="combo_open_button" name="openButton">
+                  <matrix>
+                    <Matrix tx="69.5" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12" y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stateFiled" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="stateField" width="53.3" height="14.7" antiAliasSharpness="100" antiAliasThickness="25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="12" ty="7.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>15 минут</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" rotation="true" lineSpacing="2.3" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#5E6064"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="backing" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 124" name="backing" centerPoint3DX="45.5" centerPoint3DY="16">
+                  <matrix>
+                    <Matrix tx="4" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="trackButton" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 190" name="trackButton" centerPoint3DX="81" centerPoint3DY="40.5">
+                  <matrix>
+                    <Matrix tx="75" ty="23"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="track" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 109" name="track" centerPoint3DX="81" centerPoint3DY="142.65">
+                  <matrix>
+                    <Matrix d="0.676925659179688" tx="75" ty="23"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6" y="121.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadowBack" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 53" name="shadowBack" centerPoint3DX="48.25" centerPoint3DY="17.95">
+                  <matrix>
+                    <Matrix tx="5.75" ty="3.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="42.5" y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="dropPanel" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 122" name="dropPanel" centerPoint3DX="93" centerPoint3DY="69.75">
+                  <matrix>
+                    <Matrix d="0.979995727539063" tx="4" ty="7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="89" y="62.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ComboItemSymbol" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ComboItemRenderer" centerPoint3DX="34.65" centerPoint3DY="81.6">
+                  <matrix>
+                    <Matrix tx="6" ty="72.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28.65" y="9.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

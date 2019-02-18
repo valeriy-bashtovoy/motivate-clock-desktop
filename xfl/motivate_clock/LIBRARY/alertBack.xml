@@ -1,0 +1,106 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="alertBack" itemID="52b36cc3-0000032c" scaleGridLeft="14.05" scaleGridRight="290.15" scaleGridTop="15.6" scaleGridBottom="28.65" lastModified="1387490544">
+  <timeline>
+    <DOMTimeline name="alertBack">
+      <layers>
+        <DOMLayer name="alert_back_bmp" color="#4F80FF" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Bitmap/alert_back.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="alert_back_slices" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="14" objectHeight="15.6" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="276.1" objectHeight="15.6" x="14.05" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="15.6" x="290.15" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="14" objectHeight="13.05" x="0" y="15.6" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="276.1" objectHeight="13.05" x="14.05" y="15.6" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="13.05" x="290.15" y="15.6" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="14" objectHeight="14.35" x="0" y="28.65" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="276.1" objectHeight="14.35" x="14.05" y="28.65" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="14.35" x="290.15" y="28.65" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Bitmap/alert_back.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

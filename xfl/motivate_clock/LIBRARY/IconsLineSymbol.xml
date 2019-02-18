@@ -1,0 +1,77 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="IconsLineSymbol" itemID="4cd19a37-000004b8"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.projects.creater.IconsLine"
+               lastModified="1312299879" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="IconsLineSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="maskLayer" color="#808080" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 89" name="maskLayer" selected="true" centerPoint3DX="-0.5" centerPoint3DY="0.25">
+                  <matrix>
+                    <Matrix a="1.02531433105469" d="1.68492126464844" tx="-41" ty="-13.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.5" y="8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ProjectIconSymbol" color="#FF4FFF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="IconItemRendererSymbol" centerPoint3DX="-36.25" centerPoint3DY="-2">
+                  <matrix>
+                    <Matrix tx="-45.75" ty="-11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rightButton" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 92" name="rightButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="44.5" ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4" y="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="leftButton" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 90" name="leftButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-52.5" ty="-6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4" y="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

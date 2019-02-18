@@ -1,0 +1,133 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SettingCheckBox" itemID="5289274e-000001db" linkageExportForAS="true" linkageClassName="gfx_setting_check_box" lastModified="1384720219" lastUniqueIdentifier="15">
+  <timeline>
+    <DOMTimeline name="SettingCheckBox">
+      <layers>
+        <DOMLayer name="SliderSymbol" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Slider">
+                  <matrix>
+                    <Matrix tx="22" ty="32"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hitsArea" color="#4F80FF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 12" name="hitsArea" selected="true" centerPoint3DX="83.1" centerPoint3DY="0.85">
+                  <matrix>
+                    <Matrix tx="-1.25" ty="0.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="timeField" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="timeField" selected="true" width="138.75" height="14.7" antiAliasThickness="-25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="21.5" ty="44.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#5C5E61"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 29" name="separator" centerPoint3DX="79.6" centerPoint3DY="12.45">
+                  <matrix>
+                    <Matrix tx="-10.4" ty="9.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="check" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 11" name="check" centerPoint3DX="6.5" centerPoint3DY="0.5">
+                  <matrix>
+                    <Matrix ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="nameField" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nameField" fontRenderingMode="customThicknessSharpness" width="145" height="14.7" antiAliasThickness="-50" isSelectable="false" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="22" ty="-7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Включать при запуске OS</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/icon" name="icon">
+                  <matrix>
+                    <Matrix ty="-6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.5" y="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

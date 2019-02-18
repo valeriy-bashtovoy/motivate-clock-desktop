@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ContentToggle Assets/ContentToggle" itemID="4ff598be-0000078a" linkageExportForAS="true" linkageClassName="ui.contenttoggle" lastModified="1341649532" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="ContentToggle">
+      <layers>
+        <DOMLayer name="leftButton" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ContentToggle Assets/leftButton" name="leftButton" selected="true" centerPoint3DX="68.35" centerPoint3DY="17">
+                  <transformationPoint>
+                    <Point x="28.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rightButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ContentToggle Assets/rightButton" name="rightButton" centerPoint3DX="144.5" centerPoint3DY="17">
+                  <matrix>
+                    <Matrix tx="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="53" y="8.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

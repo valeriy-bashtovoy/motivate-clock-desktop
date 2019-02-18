@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+    <id>MotivateClock</id>
+    <versionNumber>VERSION</versionNumber>
+    <versionLabel>VER_LABEL</versionLabel>
+    <filename>Motivate Clock</filename>
+    <description>
+        <text xml:lang="ru">Motivate Clock это невероятно простой и абсолютно бесплатный помощник, который позволяет вести посекундный учет времени проведенного в различных приложениях и сайтах.</text>
+        <text xml:lang="en">Motivate Clock is incredibly simple and absolutely free time tracking assistant for anyone whose work involves working with computers.</text>
+        <text xml:lang="uk">Motivate Clock це неймовірно простий і абсолютно безоплатний помічник, що дозволяє вести посекундний облік часу, проведеного в різних застосунках і сайтах.</text>
+    </description>
+    <name>Motivate Clock</name>
+    <copyright>www.motivateclock.org</copyright>
+    <initialWindow>
+        <content>motivateclock.swf</content>
+        <title>Motivate Clock</title>
+        <systemChrome>none</systemChrome>
+        <transparent>true</transparent>
+        <visible>false</visible>
+        <fullScreen>false</fullScreen>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>auto</renderMode>
+        <maximizable>false</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>false</resizable>
+    </initialWindow>
+    <icon>
+        <image16x16>icons/16х16.png</image16x16>
+        <image32x32>icons/32х32.png</image32x32>
+        <image48x48>icons/48х48.png</image48x48>
+        <image128x128>icons/128х128.png</image128x128>
+    </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <supportedProfiles>extendedDesktop</supportedProfiles>
+</application>

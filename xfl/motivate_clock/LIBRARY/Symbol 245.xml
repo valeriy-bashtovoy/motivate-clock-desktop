@@ -1,0 +1,106 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 245" itemID="4f3906c4-000004ce" lastModified="1329137408">
+  <timeline>
+    <DOMTimeline name="Symbol 245">
+      <layers>
+        <DOMLayer name="2001_bmp" color="#4FFF4F" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="2001.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="2001_slices" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="16.95" objectHeight="15.5" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="207.55" objectHeight="15.5" x="16.95" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="14.5" objectHeight="15.5" x="224.5" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="16.95" objectHeight="348" x="0" y="15.5" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="207.55" objectHeight="348" x="16.95" y="15.5" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="14.5" objectHeight="348" x="224.5" y="15.5" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="16.95" objectHeight="17.5" x="0" y="363.5" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="207.55" objectHeight="17.5" x="16.95" y="363.5" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="14.5" objectHeight="17.5" x="224.5" y="363.5" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="2001.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

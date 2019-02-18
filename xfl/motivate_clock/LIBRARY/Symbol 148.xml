@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 148" itemID="4d3ea5c1-00000353" lastModified="1295951556">
+  <timeline>
+    <DOMTimeline name="Symbol 148">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.121307373046875" d="0.050201416015625" tx="99.35" ty="41.1"/>
+                        </matrix>
+                        <GradientEntry color="#DFDED8" alpha="0" ratio="0"/>
+                        <GradientEntry color="#DFDED8" ratio="0.180392156862745"/>
+                        <GradientEntry color="#DFDED8" ratio="0.537254901960784"/>
+                        <GradientEntry color="#DFDED8" ratio="0.827450980392157"/>
+                        <GradientEntry color="#DFDED8" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3975 1645|0 1645!0 1645|0 0!0 0|3975 0!3975 0|3975 1645"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 116" itemID="4cf7901b-0000031d" lastModified="1291292752">
+  <timeline>
+    <DOMTimeline name="Symbol 116">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="6" height="14.4" antiAliasThickness="-75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-2" ty="-6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>|</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="-0.5" bitmapSize="240" face="MyriadPro-Regular" fillColor="#E5E5E5"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="213.000017075472" blurX="0" blurY="0" distance="0.75" quality="3" strength="0.21"/>
+                  </filters>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

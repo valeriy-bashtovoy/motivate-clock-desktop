@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 197" itemID="4de1fda4-00000442" lastModified="1306659903">
+  <timeline>
+    <DOMTimeline name="Symbol 197">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="field" fontRenderingMode="customThicknessSharpness" width="46.25" height="17.5" antiAliasSharpness="50" antiAliasThickness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Работа</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14.3" bitmapSize="286" face="MyriadPro-Semibold" fillColor="#171717"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

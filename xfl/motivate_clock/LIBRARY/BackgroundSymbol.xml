@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BackgroundSymbol" itemID="4ce1783c-000008c0" lastModified="1338803842">
+  <timeline>
+    <DOMTimeline name="BackgroundSymbol">
+      <layers>
+        <DOMLayer name="Layer 6" color="#808080" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 70" selected="true" centerPoint3DX="127.5" centerPoint3DY="101.35">
+                  <matrix>
+                    <Matrix ty="0.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="127.5" y="101"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

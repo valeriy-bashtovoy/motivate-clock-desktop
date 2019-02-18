@@ -1,0 +1,230 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="AlertContentSymbol" itemID="4c950880-000008ef"
+               linkageExportForAS="true" linkageClassName="gfx_alert_content" lastModified="1384713553"
+               lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="AlertContentSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="updateIcon" color="#808080" current="true" isSelected="true" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 115" name="updateIcon" centerPoint3DX="-296.5" centerPoint3DY="4.5">
+                  <matrix>
+                    <Matrix tx="-296.5" ty="4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="projectsIcon" color="#FF4FFF" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 222" name="projectsIcon">
+                  <matrix>
+                    <Matrix tx="-295.45" ty="6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="18" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="exitButton" color="#FF800A" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 113" name="exitButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-2.5" ty="7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pauseIcon" color="#FF4FFF" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 137" name="pauseIcon" centerPoint3DX="-189" centerPoint3DY="24.5">
+                  <matrix>
+                    <Matrix tx="-208.5" ty="5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.5" y="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="proposalField" color="#808080" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="proposalField" selected="true" fontRenderingMode="customThicknessSharpness" width="159" height="14.4" antiAliasSharpness="-50" antiAliasThickness="25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-168.5" ty="22"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Не пора ли отдохнуть?</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.15" lineSpacing="0" bitmapSize="240" face="MyriadPro-Regular" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="269.999993169811" blurX="0" blurY="0" distance="1" isEnabled="false" quality="3" strength="0.5"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="statusFiled" color="#4FFFFF" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="statusFiled" selected="true" width="159" height="19.25" antiAliasSharpness="-25" antiAliasThickness="-25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-169.5" ty="4.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Вы работаете</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="213.000017075472" blurX="0" blurY="0" distance="0.75" isEnabled="false" quality="3" strength="0.5"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="timeField" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="timeField" fontRenderingMode="customThicknessSharpness" width="58.6" height="19.25" antiAliasThickness="-75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-71.5" ty="4.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>22:21:29</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="0" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#7FBD59"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="269.999993169811" blurX="0" blurY="0" distance="1" isEnabled="false" quality="3" strength="0.5"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workIcon" color="#4FFF4F" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 32" name="workIcon" centerPoint3DX="-189.5" centerPoint3DY="24.5">
+                  <matrix>
+                    <Matrix tx="-208.5" ty="5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restIcon" color="#4F80FF" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 33" name="restIcon" centerPoint3DX="-189.5" centerPoint3DY="24.5">
+                  <matrix>
+                    <Matrix tx="-208.5" ty="5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4F80FF" locked="true" autoNamed="false" visible="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 112" name="background" centerPoint3DX="-105" centerPoint3DY="19">
+                  <matrix>
+                    <Matrix tx="37.5" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.87890625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="984.png" color="#4FFFFF" locked="true" autoNamed="false" visible="false" layerType="guide" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/985.png">
+                  <matrix>
+                    <Matrix tx="-305.5" ty="-6.8"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="606.png" color="#4F80FF" locked="true" autoNamed="false" visible="false" layerType="guide" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/606.png">
+                  <matrix>
+                    <Matrix tx="-230.7" ty="-13.2"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

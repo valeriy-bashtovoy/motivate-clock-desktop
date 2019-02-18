@@ -1,0 +1,82 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectView Assets/Project Assets/confirmButton" itemID="512227d8-00000742" linkageExportForAS="true" linkageClassName="gfx_confirm_button" lastModified="1384713345" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="confirmButton">
+      <layers>
+        <DOMLayer name="labelHolder" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Assets/Symbol 197 copy" name="labelHolder" selected="true" centerPoint3DX="29.05" centerPoint3DY="11.35">
+                  <matrix>
+                    <Matrix tx="5.3" ty="0.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="25.1" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadowHolder" color="#808080" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Assets/Symbol 197 copy 2" name="shadowHolder" centerPoint3DX="28.65" centerPoint3DY="11.05">
+                  <matrix>
+                    <Matrix tx="4.5" ty="0.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="25.1" y="10.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="down" color="#FF4FFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Assets/confirmButtonDownState" name="down" selected="true" centerPoint3DX="26.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="26.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="over" color="#9933CC" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Assets/confirmButtonOverState" name="over" centerPoint3DX="28.5" centerPoint3DY="11.5">
+                  <transformationPoint>
+                    <Point x="28.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="up" color="#FF800A" current="true" isSelected="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/Assets/confirmButtonUpState" name="up" selected="true" centerPoint3DX="28.5" centerPoint3DY="11.5">
+                  <transformationPoint>
+                    <Point x="28.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

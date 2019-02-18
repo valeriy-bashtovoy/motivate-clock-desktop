@@ -1,0 +1,101 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectsGui/ProjectsCreaterSymbol" itemID="4dbd3d89-000003f2" linkageExportForAS="true" linkageClassName="org.motivateclock.gui.projects.ProjectsCreater" lastModified="1312300231" lastUniqueIdentifier="19">
+  <timeline>
+    <DOMTimeline name="ProjectsCreaterSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;27&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="ProjectEditorSymbol" color="#808080" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectsGui/ProjectEditorSymbol" centerPoint3DX="93.85" centerPoint3DY="60.65">
+                  <matrix>
+                    <Matrix tx="-5.5" ty="28.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.35" y="32.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeButton" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="CreaterButtonSymbol" name="closeButton" centerPoint3DX="58.6" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.65" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openButton" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="CreaterButtonSymbol" name="openButton" centerPoint3DX="58.6" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.65" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openButton" color="#9933CC" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 179 copy 2" name="openButton" selected="true" centerPoint3DX="58.45" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.5" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 29" centerPoint3DX="90" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix ty="26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 29" centerPoint3DX="90" centerPoint3DY="2.5">
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,79 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="sprite 48f" itemID="4c8fc980-000004b7"
+               lastModified="1324755634" lastUniqueIdentifier="2">
+    <timeline>
+        <DOMTimeline name="sprite 48f"
+                     guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;20&lt;/guideline&gt;&lt;/guidelines&gt;'>
+            <layers>
+                <DOMLayer name="Layer 2" color="#9933CC" locked="true" visible="false">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMBitmapInstance libraryItemName="Bitmap/924.png">
+                                    <matrix>
+                                        <Matrix tx="-24.1" ty="1.05"/>
+                                    </matrix>
+                                </DOMBitmapInstance>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+                <DOMLayer name="Mask Layer 3" color="#FFFF00" locked="true" visible="false" layerType="mask">
+                    <frames>
+                        <DOMFrame index="0" motionTweenScale="false" keyMode="8192">
+                            <elements>
+                                <DOMShape isFloating="true">
+                                    <matrix>
+                                        <Matrix tx="-0.8" ty="1.05"/>
+                                    </matrix>
+                                    <fills>
+                                        <FillStyle index="1">
+                                            <SolidColor color="#FF9900"/>
+                                        </FillStyle>
+                                    </fills>
+                                    <edges>
+                                        <Edge fillStyle1="1"
+                                              edges="!667 -1S2|667 539!667 539|-464 539!-464 539|-464 -1!-464 -1|667 -1"/>
+                                    </edges>
+                                </DOMShape>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+                <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="1" current="true" isSelected="true">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMSymbolInstance libraryItemName="Symbol 1f" name="timeCont" centerPoint3DX="0.4"
+                                                   centerPoint3DY="1">
+                                    <matrix>
+                                        <Matrix tx="0.4" ty="1"/>
+                                    </matrix>
+                                    <transformationPoint>
+                                        <Point/>
+                                    </transformationPoint>
+                                </DOMSymbolInstance>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+                <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMSymbolInstance libraryItemName="Symbol 96" centerPoint3DX="5.05"
+                                                   centerPoint3DY="14.05">
+                                    <matrix>
+                                        <Matrix tx="-24.95" ty="1.05"/>
+                                    </matrix>
+                                    <transformationPoint>
+                                        <Point x="30" y="13"/>
+                                    </transformationPoint>
+                                </DOMSymbolInstance>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+            </layers>
+        </DOMTimeline>
+    </timeline>
+</DOMSymbolItem>

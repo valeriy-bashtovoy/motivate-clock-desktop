@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="searchBar" itemID="5290c727-00000156" lastModified="1385219879">
+  <timeline>
+    <DOMTimeline name="searchBar">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Bitmap/x054.png">
+                  <matrix>
+                    <Matrix ty="0.05"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 152" name="addButton" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="159" ty="13"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMInputText name="urlField" selected="true" width="134.5" height="14.7" antiAliasSharpness="-25" antiAliasThickness="-25">
+                  <matrix>
+                    <Matrix tx="4.75" ty="5.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>http://</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="-1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#B6B6B6"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

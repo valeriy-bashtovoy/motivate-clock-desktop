@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 83" itemID="4ce1783d-0000093d" lastModified="1289844797">
+  <timeline>
+    <DOMTimeline name="Symbol 83">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="58.5" height="17.1" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="-29.25" ty="-8.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Работа</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="14" bitmapSize="280" face="MyriadPro-Semibold" fillColor="#171717"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="230.00000227673" blurX="0" blurY="0" color="#FFFFFF" distance="1" quality="3" strength="0.94"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

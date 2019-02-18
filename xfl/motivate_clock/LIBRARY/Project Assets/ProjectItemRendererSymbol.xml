@@ -1,0 +1,131 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Project Assets/ProjectItemRendererSymbol"
+               itemID="4dbe8883-000003f7" linkageExportForAS="true"
+               linkageClassName="org.motivateclock.gui.projects.ProjectItemRenderer"
+               lastModified="1379018156" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="ProjectItemRendererSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;182&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="area" color="#FF800A" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 187" name="area" centerPoint3DX="24.15" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="3.46412658691406" d="1.1566162109375" tx="0.75" ty="1.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.4" y="10.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lock" color="#4FFFFF" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 188" name="lock" centerPoint3DX="178.5" centerPoint3DY="14.5">
+                  <matrix>
+                    <Matrix tx="173.5" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5" y="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="indicator" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 193" name="indicator" centerPoint3DX="7.5" centerPoint3DY="15.5">
+                  <matrix>
+                    <Matrix tx="3" ty="10.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 29" name="separator" centerPoint3DX="99" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="9" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="settingButton" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Project Assets/Assets/Symbol 195s" name="settingButton" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="169" ty="6.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labelField" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="labelField" width="152.25" height="15.9" antiAliasThickness="-75" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="13.5" ty="6.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Лежебоковство</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="-0.1" size="13" bitmapSize="260" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 148" name="background" centerPoint3DX="99.35" centerPoint3DY="42">
+                  <matrix>
+                    <Matrix a="0.996231079101563" d="0.308975219726563" ty="0.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.45" y="41.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

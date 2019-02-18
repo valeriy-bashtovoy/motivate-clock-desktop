@@ -1,0 +1,130 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StatisticItemRenderer" itemID="4f3f7a9c-000004c9" linkageExportForAS="true" linkageClassName="gfx_statistic_item_renderer" lastModified="1387666365" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="StatisticItemRenderer">
+      <layers>
+        <DOMLayer name="changeButton" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 246" name="changeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="79" ty="5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="IconItemRendererSymbol" color="#FF800A" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="IconItemRenderer" centerPoint3DX="9.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix ty="3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="daysBox" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 129" name="daysBox" centerPoint3DX="109" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix tx="109" ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 194" name="separator">
+                  <matrix>
+                    <Matrix tx="-9" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 136" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 136" centerPoint3DX="81" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="81" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="nameField" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nameField" width="74.5" height="14.7" antiAliasSharpness="100" antiAliasThickness="25">
+                  <matrix>
+                    <Matrix tx="22.25" ty="4.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Photosho</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="timeField" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="timeField" width="50.75" height="14.7" antiAliasThickness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="119.75" ty="4.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>12:21:32</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#910303"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CONFIG>
+
+    <UPDATE URL="https://motivateclock.org/beta/update.xml" />
+
+    <OVERRIDE />
+
+</CONFIG>

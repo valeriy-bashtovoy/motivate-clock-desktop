@@ -1,0 +1,102 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectCreateButton" itemID="52b629be-000002ce" linkageExportForAS="true" linkageClassName="gfx_project_create_button" lastModified="1387669952" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="ProjectCreateButton">
+      <layers>
+        <DOMLayer name="line" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 202" name="line" selected="true">
+                  <matrix>
+                    <Matrix tx="-34.55" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="58.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labelHolder" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 201" name="labelHolder">
+                  <matrix>
+                    <Matrix tx="-38"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47.6" y="9.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="max" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 184" name="max" centerPoint3DX="-47.5" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="-57.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 184" name="max" centerPoint3DX="-47.5" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="-57.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redOffset="100"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="min" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 183" name="min" centerPoint3DX="-47.5" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="-57.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 183" name="min" centerPoint3DX="-47.5" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix tx="-57.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redOffset="100"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

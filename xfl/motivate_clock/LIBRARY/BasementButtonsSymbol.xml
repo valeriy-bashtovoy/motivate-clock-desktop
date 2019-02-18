@@ -1,0 +1,82 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BasementButtonsSymbol" itemID="4ca36d52-0000036c" lastModified="1296146253">
+  <timeline>
+    <DOMTimeline name="BasementButtonsSymbol">
+      <layers>
+        <DOMLayer name="closeStatisticButton" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 103 copy" name="closeStatisticButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="51" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openStatisticButton" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 103" name="openStatisticButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="51" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="812.png">
+                  <matrix>
+                    <Matrix tx="-30.05" ty="1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="settingButton" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 62" name="settingButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="101" ty="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="968.png" color="#FF4FFF" locked="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="968.png">
+                  <matrix>
+                    <Matrix tx="-52" ty="-29"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

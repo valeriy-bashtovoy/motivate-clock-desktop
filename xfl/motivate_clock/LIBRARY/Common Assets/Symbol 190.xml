@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Common Assets/Symbol 190" itemID="52228e80-000006c1" sourceFlashFilepath="../../AuthortimeSharedAssets.fla" sourceLibraryItemHRef="Symbol 190" sourceLastModified="1304606405" lastModified="1367878564" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="Symbol 190">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Bitmap/13005.png">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

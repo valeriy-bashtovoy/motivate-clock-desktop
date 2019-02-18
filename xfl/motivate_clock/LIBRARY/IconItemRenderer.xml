@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="IconItemRenderer" itemID="52b62596-000002c9" linkageExportForAS="true" linkageClassName="gfx_icon_item_renderer" lastModified="1387668980" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="IconItemRenderer">
+      <layers>
+        <DOMLayer name="removeButton" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 88" name="removeButton" centerPoint3DX="15" centerPoint3DY="2">
+                  <matrix>
+                    <Matrix tx="5.5" ty="-7.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="noIcon" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 94" name="noIcon" selected="true" centerPoint3DX="8" centerPoint3DY="8.5">
+                  <matrix>
+                    <Matrix ty="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

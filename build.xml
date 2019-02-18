@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <property file="build.properties"/>
+
+    <!-- SDK properties -->
+    <property name="ADT" value="${FLEX_HOME}/lib/adt.jar"/>
+    <property name="ADL" value="${FLEX_HOME}/bin/adl.exe"/>
+
+    <!-- points to our flexTasks.jar we copied to the libs folder to distribute with the project -->
+    <taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+
+    <!-- Project properties -->
+    <property name="APP_DESCRIPTOR_TEMPLATE" value="${TEMPLATES_DIR}/${APP_NAME}-app.xml"/>
+    <property name="APP_DESCRIPTOR" value="${APP_NAME}-app.xml"/>
+
+    <property name="STORETYPE" value="pkcs12"/>
+    <property name="TEMP_DIR" value="${DIST_DIR}/temp"/>
+
+    <condition property="isMac">
+        <os family="mac"/>
+    </condition>
+
+    <condition property="isWindows">
+        <os family="windows"/>
+    </condition>
+
+    <target name="start">
+        <sequential>
+            <serve.debug.dir/>
+            <compile file="${MAIN_CLASS}" output="${DEBUG_DIR}/${APP_NAME}.swf" debug="true"/>
+            <exec executable="cmd">
+                <arg value="/c"/>
+                <arg value="${ADL}"/>
+                <arg value="${DEBUG_DIR}/${APP_DESCRIPTOR}"/>
+            </exec>
+        </sequential>
+    </target>
+
+    <target name="package" depends="package.exe, package.dmg">
+    </target>
+
+    <target name="package.dmg" if="isMac">
+        <sequential>
+            <cleanup dir="${TEMP_DIR}"/>
+            <create.app.descriptor dir="${TEMP_DIR}" url="${UPDATE_URL}"/>
+            <create.update.descriptor url="${UPDATE_URL}"/>
+            <compile file="${MAIN_CLASS}" output="${TEMP_DIR}/${APP_NAME}.swf"/>
+            <package.native ext="dmg"/>
+            <sign.dmg file="${DIST_DIR}/motivateclock.dmg"/>
+            <delete dir="${TEMP_DIR}"/>
+        </sequential>
+    </target>
+
+    <target name="package.exe" if="isWindows">
+        <sequential>
+            <cleanup dir="${TEMP_DIR}"/>
+            <create.app.descriptor dir="${TEMP_DIR}" url="${UPDATE_URL}"/>
+            <create.update.descriptor url="${UPDATE_URL}"/>
+            <compile file="${MAIN_CLASS}" output="${TEMP_DIR}/${APP_NAME}.swf"/>
+            <package.native ext="exe"/>
+            <sign.exe file="${DIST_DIR}/motivateclock.exe"/>
+            <delete dir="${TEMP_DIR}"/>
+        </sequential>
+    </target>
+
+    <macrodef name="serve.debug.dir">
+        <sequential>
+            <cleanup dir="${DEBUG_DIR}"/>
+            <copy todir="${DEBUG_DIR}" verbose="true">
+                <fileset dir="${STATIC_DIR}" includes="**/*"/>
+            </copy>
+            <create.app.descriptor dir="${DEBUG_DIR}" url="${UPDATE_URL}"/>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="package.native">
+        <attribute name="ext"/>
+        <sequential>
+            <java jar="${ADT}" fork="true" failonerror="true">
+                <arg value="-package"/>
+                <arg value="-storetype"/>
+                <arg value="${STORETYPE}"/>
+                <arg value="-keystore"/>
+                <arg value="${KEYSTORE}"/>
+                <arg value="-storepass"/>
+                <arg value="${STOREPASS}"/>
+                <arg value="-target"/>
+                <arg value="native"/>
+                <arg value="${DIST_DIR}/${APP_NAME}.@{ext}"/>
+                <arg value="${TEMP_DIR}/${APP_DESCRIPTOR}"/>
+                <arg line="-C ${TEMP_DIR} ${APP_NAME}.swf"/>
+                <arg line="-C ${RESOURCES_DIR} ${ASSETS_FILELIST}"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="compile">
+        <attribute name="debug" default="false"/>
+        <attribute name="file"/>
+        <attribute name="output"/>
+        <sequential>
+            <mxmlc
+                    file="@{file}"
+                    output="@{output}"
+                    optimize="true"
+                    show-actionscript-warnings="false"
+                    locale="en_US"
+                    debug="@{debug}">
+                <load-config filename="${FLEX_HOME}/frameworks/air-config.xml"/>
+                <source-path path-element="${SRC_DIR}"/>
+                <library-path dir="${FLEX_HOME}/frameworks/libs/" includes="*.swc"/>
+                <library-path dir="${VENDOR_DIR}" includes="*.swc"/>
+            </mxmlc>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="cleanup">
+        <attribute name="dir"/>
+        <sequential>
+            <delete includeemptydirs="true" quiet="true">
+                <fileset dir="@{dir}" includes="**/*"/>
+            </delete>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="migrate.air">
+        <sequential>
+            <java jar="${ADT}" fork="true" failonerror="true">
+                <arg value="-migrate"/>
+                <arg value="-storetype"/>
+                <arg value="${STORETYPE}"/>
+                <arg value="-keystore"/>
+                <arg value="${OLD_KEYSTORE}"/>
+                <arg value="-storepass"/>
+                <arg value="${OLD_STOREPASS}"/>
+                <arg value="${DIST_DIR}\${APP_NAME}.air"/>
+                <arg value="${DIST_DIR}\${APP_NAME}.air"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="create.app.descriptor">
+        <attribute name="dir"/>
+        <attribute name="url"/>
+        <sequential>
+            <!-- update app version in descriptor.xml -->
+            <copy file="${APP_DESCRIPTOR_TEMPLATE}" tofile="@{dir}/${APP_DESCRIPTOR}" overwrite="true"/>
+            <replace file="@{dir}/${APP_DESCRIPTOR}">
+                <replacefilter token="VERSION" value="${APP_VERSION}"/>
+                <replacefilter token="VER_LABEL" value="${APP_VERSION_LABEL}"/>
+            </replace>
+            <!-- update update_url in config.xml -->
+            <copy file="${TEMPLATES_DIR}/${APP_CONFIG}" tofile="${RESOURCES_DIR}/${APP_CONFIG}" overwrite="true"/>
+            <replace file="${RESOURCES_DIR}/${APP_CONFIG}">
+                <replacefilter token="UPDATE_DESCRIPTOR" value="@{url}/${APP_UPDATER}"/>
+            </replace>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="create.update.descriptor">
+        <attribute name="url"/>
+        <sequential>
+            <!-- update app version in update.xml -->
+            <copy file="${TEMPLATES_DIR}/${APP_UPDATER}" tofile="${DIST_DIR}/${APP_UPDATER}" overwrite="true"/>
+            <replace file="${DIST_DIR}/${APP_UPDATER}">
+                <replacefilter token="VERSION" value="${APP_VERSION}"/>
+                <replacefilter token="VER_LABEL" value="${APP_VERSION_LABEL}"/>
+                <replacefilter token="DOWNLOAD_URL" value="@{url}/${APP_NAME}.exe"/>
+            </replace>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="sign.exe">
+        <attribute name="file"/>
+        <sequential>
+            <exec executable="${SIGN_TOOL}">
+                <arg line="sign /f ${KEYSTORE} /p ${STOREPASS} /d ${PUBLISHER_NAME} /du ${PUBLISHER_URL} /t ${TIMESTAMP_SERVER} @{file}"/>
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="sign.dmg">
+        <attribute name="file"/>
+        <sequential>
+        </sequential>
+    </macrodef>
+</project>

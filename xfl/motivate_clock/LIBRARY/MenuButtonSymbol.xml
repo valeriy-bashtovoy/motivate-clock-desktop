@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="MenuButtonSymbol" itemID="4de2378a-00000481"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.statistic.MenuButton"
+               lastModified="1306671549" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="MenuButtonSymbol">
+      <layers>
+        <DOMLayer name="label" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="label" selected="true" width="28.9" height="14.8" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Все</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#267E99"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="line" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 199" name="line">
+                  <matrix>
+                    <Matrix tx="3" ty="15.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

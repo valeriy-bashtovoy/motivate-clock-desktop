@@ -1,0 +1,74 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="InfoHintSymbol" itemID="4d4425af-000003b5"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.hint.InfoHint"
+               lastModified="1306674861" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="InfoHintSymbol">
+      <layers>
+        <DOMLayer name="dateField" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="dateField" width="200" height="14.4" antiAliasThickness="-50">
+                  <matrix>
+                    <Matrix a="0.943634033203125" tx="22.9" ty="56.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="7.2"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" bitmapSize="240" face="MyriadPro-Regular" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textField" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textField" width="202" height="35.4" antiAliasThickness="-50">
+                  <matrix>
+                    <Matrix a="0.939315795898438" tx="21.9" ty="22"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101" y="17.7"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" size="15" bitmapSize="300" face="MyriadPro-Bold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="backing" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 164" name="backing" centerPoint3DX="169.5" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix a="0.6962890625" tx="-9" ty="-8.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="178.5" y="44.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

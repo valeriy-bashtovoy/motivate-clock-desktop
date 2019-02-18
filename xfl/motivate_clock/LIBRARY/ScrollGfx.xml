@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ScrollGfx" itemID="518cc8de-0000038c" linkageExportForAS="true" linkageClassName="common.mocloscroll" lastModified="1441138480" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="ScrollGfx">
+      <layers>
+        <DOMLayer name="trackButton" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 190" name="trackButton" selected="true" centerPoint3DX="6" centerPoint3DY="17.5">
+                  <transformationPoint>
+                    <Point x="6" y="17.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="track" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 109" name="track" selected="true" centerPoint3DX="6" centerPoint3DY="121.5">
+                  <transformationPoint>
+                    <Point x="6" y="121.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

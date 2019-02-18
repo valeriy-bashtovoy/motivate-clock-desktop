@@ -1,0 +1,125 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="LanguageCheckBoxSymbol" itemID="4ca0d7ac-00000349"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.setting.LanguageCheckBox"
+               lastModified="1285610062" lastUniqueIdentifier="15">
+  <timeline>
+    <DOMTimeline name="LanguageCheckBoxSymbol">
+      <layers>
+        <DOMLayer name="engHitArea" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 12" name="engHitArea" centerPoint3DX="137" centerPoint3DY="10.75">
+                  <matrix>
+                    <Matrix a="0.26043701171875" d="0.710525512695313" tx="52.65" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.3"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ruHitArea" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 12" name="ruHitArea" centerPoint3DX="85.75" centerPoint3DY="10.75">
+                  <matrix>
+                    <Matrix a="0.26043701171875" d="0.710525512695313" tx="1.4" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84.3"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="engCheck" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 45" name="engCheck" centerPoint3DX="59.5" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix tx="52"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ruCheck" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 45" name="ruCheck" centerPoint3DX="7.5" centerPoint3DY="7.5">
+                  <transformationPoint>
+                    <Point x="7.5" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="754.png" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/754.png">
+                  <matrix>
+                    <Matrix tx="52"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="754.png" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/754.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="752.png" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/752.png">
+                  <matrix>
+                    <Matrix tx="18"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="753.png" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/753.png">
+                  <matrix>
+                    <Matrix tx="70" ty="1"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

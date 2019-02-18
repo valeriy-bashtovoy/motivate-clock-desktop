@@ -1,0 +1,122 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Content Assets/WindowBackground" itemID="4ff7ee0f-00000492" linkageExportForAS="true" linkageClassName="gfx_window_background" lastModified="1384713230" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="WindowBackground">
+      <layers>
+        <DOMLayer name="contentHolder" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/contentHolder" name="contentHolder" centerPoint3DX="48" centerPoint3DY="54">
+                  <matrix>
+                    <Matrix tx="25" ty="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23" y="21"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 23" name="separator" centerPoint3DX="127" centerPoint3DY="68.5">
+                  <matrix>
+                    <Matrix tx="37" ty="66"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="titleFiled" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="titleFiled" width="166.35" height="18.95" antiAliasThickness="-25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="45" ty="42.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="14" bitmapSize="280" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="substrate" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 105" name="substrate" centerPoint3DX="127" centerPoint3DY="146.5">
+                  <matrix>
+                    <Matrix tx="127" ty="32"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="114.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 151" name="background" centerPoint3DX="126" centerPoint3DY="110">
+                  <matrix>
+                    <Matrix a="0.992263793945313" tx="127" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="104"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeButton" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 59" name="closeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="204" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z031.png">
+                  <matrix>
+                    <Matrix tx="-4" ty="-23.2"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

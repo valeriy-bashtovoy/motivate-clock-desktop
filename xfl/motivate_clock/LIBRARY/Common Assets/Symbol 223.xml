@@ -1,0 +1,53 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Common Assets/Symbol 223" itemID="4edd223d-00000494" lastModified="1323115069" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Symbol 223">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nowDaysText" selected="true" fontRenderingMode="customThicknessSharpness" width="28.9" height="14.4" antiAliasSharpness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="31.5" ty="8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>дней</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Regular" fillColor="#E5E5E5"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="213.000017075472" blurX="0" blurY="0" distance="0.75" quality="3" strength="0.21"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 111" name="nowDaysBack" selected="true" centerPoint3DX="19.5" centerPoint3DY="15.5">
+                  <matrix>
+                    <Matrix tx="19.5" ty="15.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="nowDaysField" selected="true" fontRenderingMode="customThicknessSharpness" width="28.9" height="14.4" antiAliasSharpness="-50" antiAliasThickness="100" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix a="0.944564819335938" b="-0.328277587890625" c="0.328277587890625" d="0.944564819335938" tx="2.55" ty="12.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>16</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" bitmapSize="240" face="MyriadPro-Regular" fillColor="#353531"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

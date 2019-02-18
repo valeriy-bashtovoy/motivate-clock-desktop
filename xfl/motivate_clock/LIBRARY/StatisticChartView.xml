@@ -1,0 +1,198 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StatisticChartView" itemID="52b61df4-000002c3" linkageExportForAS="true" linkageClassName="gfx_statistic_chart_view" lastModified="1441225385" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="StatisticChartView" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="circleMask" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 128" name="circleMask" centerPoint3DX="26" centerPoint3DY="29.5">
+                  <matrix>
+                    <Matrix tx="26" ty="29.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workDayBox" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 127" name="workDayBox" centerPoint3DX="97.65" centerPoint3DY="45.55">
+                  <matrix>
+                    <Matrix tx="54" ty="31.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="43.65" y="14.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restDayBox" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 127" name="restDayBox" centerPoint3DX="152.65" centerPoint3DY="45.55">
+                  <matrix>
+                    <Matrix tx="109" ty="31.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="43.65" y="14.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 200">
+                  <matrix>
+                    <Matrix tx="26" ty="29.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restLabel" color="#FF800A" locked="true" outline="true" useOutlineView="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="restLabel" selected="true" width="55.75" height="18.35" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="118.5" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Отдых</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#910303"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workLabel" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="workLabel" selected="true" width="55.75" height="18.35" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="64.5" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Работа</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="15" bitmapSize="300" face="MyriadPro-Semibold" fillColor="#868714"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restTimeField" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="restTimeField" width="55.75" height="14.7" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="119.5" ty="23"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00:00:00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workTimeField" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="workTimeField" width="55.75" height="14.7" antiAliasSharpness="50" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="64.5" ty="23"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00:00:00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#252628"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restPctField" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="restPctField" width="50.75" height="27.25" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="119.5" ty="-1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="MyriadPro-Bold" fillColor="#910303"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workPctField" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="workPctField" width="50.75" height="27.25" antiAliasThickness="50" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="64.5" ty="-1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>0%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="22" bitmapSize="440" face="MyriadPro-Bold" fillColor="#868714"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

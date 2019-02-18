@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 234" itemID="4eef3fce-000008c7" scaleGridLeft="12.5" scaleGridRight="172.75" scaleGridTop="5.25" scaleGridBottom="15.85" lastModified="1324302291">
+  <timeline>
+    <DOMTimeline name="Symbol 234">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#DFDED8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!3675 160S1[3675 94 3628 47!3628 47[3581 0 3515 0!3515 0|160 0!160 0[94 0 47 47!47 47[0 94 0 160!0 160|0 262!0 262[0 328 47 375!47 375[94 422 160 422!160 422|3515 422!3515 422[3581 422 3628 375!3628 375[3675 328 3675 262!3675 262|3675
+ 160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

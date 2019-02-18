@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectEditMenuSymbol" itemID="4de01571-000003f8" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="org.motivateclock.gui.projects.ProjectEditMenu" lastModified="1312299862" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ProjectEditMenuSymbol">
+      <layers>
+        <DOMLayer name="resetButton" color="#9933CC" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 146" name="resetButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-1" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="duplicateButton" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 195" name="duplicateButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="1.5" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.85" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="editButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 145" name="editButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="22" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="deleteButton" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 144" name="deleteButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="44" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

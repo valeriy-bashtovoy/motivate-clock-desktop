@@ -1,0 +1,98 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClockView" itemID="52890f4a-00000175" linkageExportForAS="true" linkageClassName="gfx_clock_view" lastModified="1384723962" lastUniqueIdentifier="17">
+  <timeline>
+    <DOMTimeline name="ClockView">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z047.png">
+                  <matrix>
+                    <Matrix tx="138" ty="35.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z046.png">
+                  <matrix>
+                    <Matrix tx="63" ty="19.5"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="secFlipper" color="#4FFFFF" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SmallFlipper" name="secFlipper" centerPoint3DX="167" centerPoint3DY="40">
+                  <matrix>
+                    <Matrix tx="167" ty="39.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hourFlipper" color="#4F80FF" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="BigFlipper" name="hourFlipper" selected="true" centerPoint3DX="23" centerPoint3DY="27.5">
+                  <matrix>
+                    <Matrix tx="23" ty="27"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="minFlipper" color="#808080" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="BigFlipper" name="minFlipper" cacheAsBitmap="true" centerPoint3DX="100" centerPoint3DY="27.5">
+                  <matrix>
+                    <Matrix tx="100" ty="27"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="clockStatusViewer" color="#FF4F4F" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockStatusView" name="clockStatusViewer" centerPoint3DX="106.15" centerPoint3DY="-2.3">
+                  <matrix>
+                    <Matrix tx="-2" ty="-29.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.15" y="27.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

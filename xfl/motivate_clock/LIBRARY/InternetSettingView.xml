@@ -1,0 +1,70 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="InternetSettingView" itemID="5290c61c-00000152" linkageExportForAS="true" linkageClassName="gfx_internet_setting_view" lastModified="1386275174" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="InternetSettingView">
+      <layers>
+        <DOMLayer name="targetArea" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 226" name="targetArea" selected="true">
+                  <matrix>
+                    <Matrix ty="46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84" y="25.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="searchBar" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="searchBar" name="searchBar">
+                  <matrix>
+                    <Matrix ty="138.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="86.5" y="13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="infoField" color="#009999" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoField" width="194.5" height="28.4" antiAliasSharpness="-25" antiAliasThickness="-25" isSelectable="false" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="10" ty="103.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>или вставьте url рабочего &#xD;сайта в адресную строку&#xA;                                            </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="-1" face="MyriadPro-Semibold" fillColor="#5E6064"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x053.png" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/x053.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

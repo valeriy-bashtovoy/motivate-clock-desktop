@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Project Assets/Assets/Symbol 197 copy 2"
+               itemID="5222744c-00000619" lastModified="1323198610">
+  <timeline>
+    <DOMTimeline name="Symbol 197 copy 2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="field" fontRenderingMode="customThicknessSharpness" width="46.15" height="17.5" antiAliasSharpness="50" antiAliasThickness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="1.1" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Работа</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="MyriadPro-Semibold" fillColor="#171717"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

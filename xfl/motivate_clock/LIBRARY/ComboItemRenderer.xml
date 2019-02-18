@@ -1,0 +1,63 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ComboItemRenderer" itemID="4e369770-000004ad" linkageExportForAS="true" linkageClassName="gfx_combo_item_renderer" lastModified="1384719009" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="ComboItemRenderer">
+      <layers>
+        <DOMLayer name="labelFiled" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="labelFiled" fontRenderingMode="customThicknessSharpness" width="53.3" height="14.7" antiAliasSharpness="10" antiAliasThickness="-10" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>60 минут</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="2.3" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#5E6064"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 40" name="background" centerPoint3DX="30.35" centerPoint3DY="7.6">
+                  <matrix>
+                    <Matrix tx="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="29.35" y="7.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" outline="true" useOutlineView="true" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#6E6E6E" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1195 500|20 500!20 500|20 0!20 0|1195 0!1195 0|1195 500"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

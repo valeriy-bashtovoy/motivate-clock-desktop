@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 200" itemID="4de23ee0-000004ae" lastModified="1306672864">
+  <timeline>
+    <DOMTimeline name="Symbol 200">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <DashedStroke dash1="2" dash2="3" scaleMode="normal" caps="square" weight="2" sharpCorners="true">
+                        <fill>
+                          <SolidColor color="#B2B31D"/>
+                        </fill>
+                      </DashedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!368 -368S4[520 -216 520 0!520 0[520 215 368 368!368 368[216 520 0 520!0 520[-216 520 -368 368!-368 368[-520 215 -520 0!-520 0[-520 -216 -368 -368!-368 -368[-216 -520 0 -520!0 -520[216 -520 368 -368"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,109 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectView Assets/ProjectsCreatorView" itemID="52b627dc-000002cd" linkageExportForAS="true" linkageClassName="gfx_projects_creator_view" lastModified="1387670283" lastUniqueIdentifier="19">
+  <timeline>
+    <DOMTimeline name="ProjectsCreatorView" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;27&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="ProjectEditorSymbol" color="#808080" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectView Assets/ProjectEditorView" centerPoint3DX="93.85" centerPoint3DY="60.65">
+                  <matrix>
+                    <Matrix tx="-5.5" ty="28.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.35" y="32.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeButton" color="#808080" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectCreateButton" name="closeButton" selected="true" centerPoint3DX="58.6" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.65" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openButton" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectCreateButton" name="openButton" centerPoint3DX="58.6" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.65" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openButton" color="#9933CC" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 179 copy 2" name="openButton" selected="true" centerPoint3DX="58.45" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix tx="58.5" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 29" centerPoint3DX="90" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix ty="26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 29" centerPoint3DX="90" centerPoint3DY="2.5">
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 29" name="separator" centerPoint3DX="90" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix ty="26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

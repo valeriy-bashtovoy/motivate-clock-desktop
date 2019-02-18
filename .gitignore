@@ -1,0 +1,6 @@
+/.idea
+/dist
+/debug
+
+/static/config.xml
+*.iml

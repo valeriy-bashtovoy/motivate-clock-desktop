@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="ProcessesContent" itemID="4ef3a5f2-00000566"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.processes.ProcessesContent"
+               lastModified="1385219490" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="ProcessesContent">
+      <layers>
+        <DOMLayer name="processesMenu" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProcessesMenu" name="processesMenu" selected="true">
+                  <matrix>
+                    <Matrix tx="22.5" ty="27.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="105" y="18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SiteSelector" color="#4FFFFF" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="InternetSettingView">
+                  <matrix>
+                    <Matrix tx="20.55" ty="25.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.5" y="163"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AppSelector" color="#808080" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="AppSelector">
+                  <matrix>
+                    <Matrix tx="27.55" ty="204.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100.25" y="16.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

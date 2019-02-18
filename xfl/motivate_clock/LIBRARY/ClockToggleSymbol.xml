@@ -1,0 +1,106 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="ClockToggleSymbol" itemID="4c938bd6-0000022f"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.view.clock.ClockToggle"
+               lastModified="1377976720" lastUniqueIdentifier="14">
+  <timeline>
+    <DOMTimeline name="ClockToggleSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;3&lt;/guideline&gt;&lt;guideline direction="v"&gt;4&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="indicator" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 209" name="indicator">
+                  <matrix>
+                    <Matrix tx="2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="restButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/ToggleButton" name="restButton">
+                  <matrix>
+                    <Matrix tx="101.5" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workButton" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/ToggleButton" name="workButton">
+                  <matrix>
+                    <Matrix tx="3.5" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="idleButton" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 171" name="idleButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="91" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="settingButton" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 163" name="settingButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="189" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="exitButton" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 59 copy" name="exitButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="195.5" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

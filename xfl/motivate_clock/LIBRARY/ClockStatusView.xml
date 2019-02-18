@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClockStatusView" itemID="5289111b-0000017b" linkageExportForAS="true" linkageClassName="gfx_clock_status_view" lastModified="1387665947" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="ClockStatusView">
+      <layers>
+        <DOMLayer name="dayHolder" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 223" name="dayHolder">
+                  <matrix>
+                    <Matrix tx="75.5" ty="3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.2" y="14.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="statusField" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="statusField" fontRenderingMode="customThicknessSharpness" width="204.35" height="14.4" antiAliasSharpness="50" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="2" ty="11.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Вы работаете</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-0.1" bitmapSize="240" face="MyriadPro-Regular" fillColor="#E5E5E5"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="213.000017075472" blurX="0" blurY="0" distance="0.75" quality="3" strength="0.21"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

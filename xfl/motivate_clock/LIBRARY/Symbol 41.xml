@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 41" itemID="4ce1783d-00000928" lastModified="1289844797">
+  <timeline>
+    <DOMTimeline name="Symbol 41">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.1123046875" c="-0.113525390625" d="0" tx="-113.5" ty="87.55"/>
+                        </matrix>
+                        <GradientEntry color="#03617E" ratio="0.164705882352941"/>
+                        <GradientEntry color="#012D3B" ratio="0.913725490196078"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!4360 0S1|220 0!220 0[0 0 0 220!0 220|0 3500!0 3500[0 3720 220 3720!220 3720|4360 3720!4360 3720[4580 3720 4580 3500!4580 3500|4580 220!4580 220[4580 0 4360 0"/>
+                    <Edge cubics="!4580 220(;4580,73 4507,0 4360,0q4580 220Q4580 0q4360 0)4360,0;"/>
+                    <Edge cubics="!4580 3500(4580,3500;4580,3500 4580,220 4580,220q4580 3500 4580 220);"/>
+                    <Edge cubics="!220 0(;73,0 0,73 0,220q220 0Q0 0q0 220);"/>
+                    <Edge cubics="!0 220(0,220;0,220 0,3500 0,3500q0 220 0 3500)0,3500;"/>
+                    <Edge cubics="!220 3720(220,3720;220,3720 4360,3720 4360,3720q220 3720 4360 3720)4360,3720;"/>
+                    <Edge cubics="!4360 3720(4360,3720;4507,3720 4580,3647 4580,3500q4360 3720Q4580 3720q4580 3500)4580,3500;"/>
+                    <Edge cubics="!4360 0(4360,0;4360,0 220,0 220,0q4360 0 220 0)220,0;"/>
+                    <Edge cubics="!0 3500(0,3500;0,3647 73,3720 220,3720q0 3500Q0 3720q220 3720)220,3720;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,162 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectsGui/ProjectsGuiSymbol" itemID="4dbd3cc8-000003ef" linkageExportForAS="true" linkageClassName="org.motivateclock.gui.projects.ProjectsGui" lastModified="1312300227" lastUniqueIdentifier="26">
+  <timeline>
+    <DOMTimeline name="ProjectsGuiSymbol" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;-5&lt;/guideline&gt;&lt;guideline direction="h"&gt;152&lt;/guideline&gt;&lt;guideline direction="v"&gt;-93&lt;/guideline&gt;&lt;guideline direction="h"&gt;178&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="ProjectEditMenuSymbol" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectEditMenuSymbol" centerPoint3DX="56" centerPoint3DY="47">
+                  <matrix>
+                    <Matrix tx="24.5" ty="38"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="33" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ProjectItemRendererSymbol" color="#4FFFFF" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectsGui/ProjectItemRendererSymbol" centerPoint3DX="-59.55" centerPoint3DY="143.75">
+                  <matrix>
+                    <Matrix tx="-99.3" ty="126"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.75" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ProjectsCreaterSymbol" color="#9933CC" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ProjectsGui/ProjectsCreaterSymbol" centerPoint3DY="52.5">
+                  <matrix>
+                    <Matrix tx="-90" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90.75" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeButton" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="closeButton" name="closeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="openButton" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="openButton" name="openButton" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labelHolder" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 178 copy" name="labelHolder" cacheAsBitmap="true" centerPoint3DY="21.55">
+                  <matrix>
+                    <Matrix ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadow" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 192" name="shadow" centerPoint3DX="1" centerPoint3DY="26.5">
+                  <matrix>
+                    <Matrix tx="-99" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 191" name="background" centerPoint3DY="18.5">
+                  <matrix>
+                    <Matrix tx="-100.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100.5" y="18.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/x006.png">
+                  <matrix>
+                    <Matrix tx="-136.8" ty="-127"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/x002.png">
+                  <matrix>
+                    <Matrix tx="-128.8" ty="-138"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

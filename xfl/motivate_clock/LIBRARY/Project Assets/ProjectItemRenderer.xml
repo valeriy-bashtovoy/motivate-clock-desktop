@@ -1,0 +1,130 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Project Assets/ProjectItemRenderer"
+               itemID="52322f2d-00000359" linkageExportForAS="true"
+               linkageClassName="org.motivateclock.gui.projects.ProjectItemRenderer"
+               lastModified="1382684929" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="ProjectItemRenderer" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;182&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="LabelEditorView" color="#009999" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Project Assets/LabelEditorView" selected="true">
+                  <transformationPoint>
+                    <Point x="90.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="area" color="#FF800A" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 187" name="area" centerPoint3DX="24.25" centerPoint3DY="11.45">
+                  <matrix>
+                    <Matrix a="2.83795166015625" d="1.25048828125" tx="0.75" ty="0.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="23.4" y="10.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lock" color="#4FFFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 188" name="lock" centerPoint3DX="178.5" centerPoint3DY="14.5">
+                  <matrix>
+                    <Matrix tx="173.5" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5" y="6.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="indicator" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 193" name="indicator" centerPoint3DX="8" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="3.5" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="separator" color="#4FFF4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 29" name="separator" centerPoint3DX="99" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix tx="9" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="90" y="2.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="optionsMenu" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Project Assets/optionsMenu" name="optionsMenu" selected="true" centerPoint3DX="155.25" centerPoint3DY="14.5">
+                  <matrix>
+                    <Matrix tx="123" ty="5.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.75" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 148" name="background" centerPoint3DX="99.35" centerPoint3DY="42.1">
+                  <matrix>
+                    <Matrix a="0.996231079101563" d="0.308975219726563" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.45" y="41.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

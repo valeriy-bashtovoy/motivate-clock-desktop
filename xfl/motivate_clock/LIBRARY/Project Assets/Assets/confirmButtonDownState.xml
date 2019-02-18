@@ -1,0 +1,130 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Project Assets/Assets/confirmButtonDownState"
+               itemID="5122288b-000007d1" scaleGridLeft="12.85" scaleGridRight="45.25" scaleGridTop="8.25"
+               scaleGridBottom="14.25" lastModified="1367855239">
+  <timeline>
+    <DOMTimeline name="confirmButtonDownState">
+      <layers>
+        <DOMLayer name="x043_bmp" color="#4FFF4F" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Project Assets/bitmap/x043.png">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x043_slices" color="#808080" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="10.85" objectHeight="6.25" x="2" y="2" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="32.4" objectHeight="6.25" x="12.85" y="2" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.75" objectHeight="6.25" x="45.25" y="2" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="10.85" objectHeight="6" x="2" y="8.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="32.4" objectHeight="6" x="12.85" y="8.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.75" objectHeight="6" x="45.25" y="8.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="10.85" objectHeight="6.75" x="2" y="14.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="32.4" objectHeight="6.75" x="12.85" y="14.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="9.75" objectHeight="6.75" x="45.25" y="14.25" selected="true" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="Project Assets/bitmap/x043.png">
+                      <matrix>
+                        <Matrix a="20" d="20" tx="2" ty="2"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.00392156862745098"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1140 460|0 460!0 460|0 0!0 0|1140 0!1140 0|1140 460"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

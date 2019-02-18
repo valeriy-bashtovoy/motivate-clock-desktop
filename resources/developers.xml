@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DEVELOPERS>
+
+    <DEVELOPER link="https://ua.linkedin.com/in/bashtovoy">
+        <NAME lang='ru'>Валерий Баштовой</NAME>
+        <NAME lang='en'>Valeriy Bashovoy</NAME>
+        <NAME lang='ua'>Валерій Баштовой</NAME>
+    </DEVELOPER>
+
+    <DEVELOPER link="https://ua.linkedin.com/in/starishev">
+        <NAME lang='ru'>Дмитрий Старишев</NAME>
+        <NAME lang='en'>Dmitriy Starishev</NAME>
+        <NAME lang='ua'>Дмитро Старишев</NAME>
+    </DEVELOPER>
+
+</DEVELOPERS>

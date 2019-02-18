@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectView Assets/optionsMenu" itemID="518b75a8-000003bc" lastModified="1382685287" lastUniqueIdentifier="2" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="optionsMenu" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;0&lt;/guideline&gt;&lt;guideline direction="h"&gt;15&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="settingButton" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 195z" name="settingButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="10" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.85" y="7.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="editButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 145z" name="editButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="26" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="removeButton" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 144z" name="removeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="43" ty="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 148" name="background" selected="true" centerPoint3DX="-40.05" centerPoint3DY="36.6">
+                  <matrix>
+                    <Matrix a="0.382339477539063" d="0.308975219726563" tx="-12.5" ty="-4.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.65" y="41.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

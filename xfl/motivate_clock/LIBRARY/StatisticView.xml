@@ -1,0 +1,156 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="StatisticView" itemID="52b61f23-000002c4" linkageExportForAS="true" linkageClassName="gfx_statistic_view" lastModified="1387667345" lastUniqueIdentifier="25">
+  <timeline>
+    <DOMTimeline name="StatisticView" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;181&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="openButton" color="#9933CC" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 166" name="openButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-0.75" ty="15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="closeButton" color="#FF800A" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 167" name="closeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="12"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labelHolder" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 178" name="labelHolder" cacheAsBitmap="true" centerPoint3DX="-1" centerPoint3DY="21.55">
+                  <matrix>
+                    <Matrix tx="-1" ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="arrow" color="#4FFFFF" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 160" name="arrow" centerPoint3DX="-0.25" centerPoint3DY="9">
+                  <matrix>
+                    <Matrix tx="-0.25" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="z069.png" color="#808080" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z069.png">
+                  <matrix>
+                    <Matrix tx="-30" ty="2"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="StatisticItemRendererSymbol" color="#9933CC" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="StatisticItemRenderer" centerPoint3DX="-68" centerPoint3DY="101.5">
+                  <matrix>
+                    <Matrix tx="-87" ty="101.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="StatisticMenuSymbol" color="#FF800A" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="StatisticMenu" selected="true">
+                  <matrix>
+                    <Matrix tx="-89" ty="57"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="87.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="GraphPannelSymbol" color="#9933CC" autoNamed="false" layerType="guide" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="StatisticChartView" name="graphPannel" centerPoint3DX="-0.35" centerPoint3DY="204.55">
+                  <matrix>
+                    <Matrix tx="-88.9" ty="168.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="87.9" y="36.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#FF800A" autoNamed="false" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 165" name="background" centerPoint3DX="-0.5" centerPoint3DY="23.5">
+                  <matrix>
+                    <Matrix tx="-0.5" ty="9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="14.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ComboBoxSymbol" color="#4FFFFF" autoNamed="false" layerType="guide" heightLiteral="18">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

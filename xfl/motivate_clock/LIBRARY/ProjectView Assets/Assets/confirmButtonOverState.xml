@@ -1,0 +1,106 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ProjectView Assets/Assets/confirmButtonOverState" itemID="51222869-000007bf" scaleGridLeft="11.85" scaleGridRight="46.5" scaleGridTop="8.25" scaleGridBottom="14.25" lastModified="1367855035">
+  <timeline>
+    <DOMTimeline name="confirmButtonOverState">
+      <layers>
+        <DOMLayer name="x042_bmp" color="#4FFF4F" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="ProjectView Assets/bitmap/x042.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x042_slices" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="8.25" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="34.65" objectHeight="8.25" x="11.85" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="10.5" objectHeight="8.25" x="46.5" y="0" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="6" x="0" y="8.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="34.65" objectHeight="6" x="11.85" y="8.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="10.5" objectHeight="6" x="46.5" y="8.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="11.85" objectHeight="8.75" x="0" y="14.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="34.65" objectHeight="8.75" x="11.85" y="14.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="10.5" objectHeight="8.75" x="46.5" y="14.25" lockFlag="true">
+                  <fill>
+                    <BitmapFill bitmapPath="ProjectView Assets/bitmap/x042.png">
+                      <matrix>
+                        <Matrix a="20" d="20"/>
+                      </matrix>
+                    </BitmapFill>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

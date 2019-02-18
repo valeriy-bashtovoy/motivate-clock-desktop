@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 129" itemID="4d387a9a-0000033d" lastModified="1295547176">
+  <timeline>
+    <DOMTimeline name="Symbol 129">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/z002.png">
+                  <matrix>
+                    <Matrix tx="-17.75" ty="-14.05"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMDynamicText name="numDays" fontRenderingMode="customThicknessSharpness" width="28.9" height="13.55" antiAliasSharpness="-50" antiAliasThickness="100" includeOutlines="true" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix a="0.944564819335938" b="-0.328277587890625" c="0.328277587890625" d="0.944564819335938" tx="-15.85" ty="-1.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>16</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" size="9" face="MyriadPro-Regular" fillColor="#353531"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

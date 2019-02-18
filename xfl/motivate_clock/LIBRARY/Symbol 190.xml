@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 190" itemID="4dc2b6c5-000003fe"
+               sourceFlashFilepath="..\..\AuthortimeSharedAssets.fla" sourceLibraryItemHRef="Symbol 190"
+               sourceLastModified="1304606405" lastModified="1377996427" sourceItemID="00000000-ffffffff">
+    <timeline>
+        <DOMTimeline name="Symbol 190">
+            <layers>
+                <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" visible="false"
+                          layerType="guide">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMBitmapInstance selected="true" libraryItemName="Bitmap/2005.png">
+                                    <matrix>
+                                        <Matrix tx="1" ty="1"/>
+                                    </matrix>
+                                </DOMBitmapInstance>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+                <DOMLayer name="308.png" color="#FF800A" autoNamed="false">
+                    <frames>
+                        <DOMFrame index="0" keyMode="9728">
+                            <elements>
+                                <DOMBitmapInstance libraryItemName="Bitmap/308.png"/>
+                            </elements>
+                        </DOMFrame>
+                    </frames>
+                </DOMLayer>
+            </layers>
+        </DOMTimeline>
+    </timeline>
+</DOMSymbolItem>

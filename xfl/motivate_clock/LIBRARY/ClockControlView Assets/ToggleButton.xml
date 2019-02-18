@@ -1,0 +1,137 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClockControlView Assets/ToggleButton" itemID="518c2085-00000389" linkageExportForAS="true" linkageClassName="gfx_toggle_button" lastModified="1384814049" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="ToggleButton">
+      <layers>
+        <DOMLayer name="labelHolder" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 197" name="labelHolder" selected="true" centerPoint3DX="34.6" centerPoint3DY="12">
+                  <matrix>
+                    <Matrix tx="9.5" ty="1.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="25.1" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadowHolder" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 197" name="shadowHolder" centerPoint3DX="32" centerPoint3DY="11.7">
+                  <matrix>
+                    <Matrix tx="9.5" ty="0.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="25.1" y="10.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x018.png" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/toggleButtonUp" centerPoint3DX="38" centerPoint3DY="12.5">
+                  <matrix>
+                    <Matrix a="1.159423828125" tx="-2" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.5" y="13.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x017.png" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/toggleButtonDown" centerPoint3DX="38" centerPoint3DY="11.5">
+                  <matrix>
+                    <Matrix a="1.16921997070313"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.5" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x018.png" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/toggleButtonOver" centerPoint3DX="38" centerPoint3DY="12.5">
+                  <matrix>
+                    <Matrix a="1.159423828125" tx="-2" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.5" y="13.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x016.png" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/toggleButtonUp" centerPoint3DX="38" centerPoint3DY="12.5">
+                  <matrix>
+                    <Matrix a="1.159423828125" tx="-2" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.5" y="13.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

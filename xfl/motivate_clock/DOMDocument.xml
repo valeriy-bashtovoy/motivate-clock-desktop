@@ -1,0 +1,835 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="300" height="300" currentTimeline="1" xflVersion="2.3" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 13.0 build 759" majorVersion="13" buildNumber="759" rulerVisible="true" timelineLabelWidth="241" adjustViewAngle3D="false" viewAngle3D="27.1381080787376" vanishingPoint3DX="130" nextSceneIdentifier="80" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <folders>
+          <DOMFolderItem name="Bitmap" itemID="52223c99-0000045e" isExpanded="true"/>
+          <DOMFolderItem name="ClockControlView Assets" itemID="518ce75b-00000393" isExpanded="true"/>
+          <DOMFolderItem name="Common Assets" itemID="5234400a-0000017e"/>
+          <DOMFolderItem name="Content Assets" itemID="52228720-0000066b"/>
+          <DOMFolderItem name="ContentToggle Assets" itemID="4ff596b2-00000494"/>
+          <DOMFolderItem name="Fonts" itemID="52343ead-0000016f"/>
+          <DOMFolderItem name="ProjectView Assets" itemID="527cec81-0000015a"/>
+          <DOMFolderItem name="ProjectView Assets/Assets" itemID="522248b5-00000582" isExpanded="true"/>
+          <DOMFolderItem name="ProjectView Assets/bitmap" itemID="5186c24f-00000867" isExpanded="true"/>
+          <DOMFolderItem name="ProjectView Assets/Project Assets" itemID="5222744c-0000060d" isExpanded="true"/>
+     </folders>
+     <fonts>
+          <DOMFontItem name="Fonts/Font 5" itemID="4deb6629-00000690" font="ArialMT" size="0" id="9" sourceLastImported="1307272745" embedRanges="1|2|3|4|22"/>
+          <DOMFontItem name="Fonts/Font 4" itemID="4c92755e-000004c3" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="MyriadProSemibold" font="MyriadPro-Semibold" size="0" id="8" sourceLastImported="1379449608" embedRanges="1|2|3|4|22"/>
+          <DOMFontItem name="Fonts/Trebuchet MS" itemID="4c72fc0b-000002cf" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="TrebuchetMS" font="TrebuchetMS" size="0" id="1" sourceLastImported="1283115626" embedRanges="1|2|3|4|22"/>
+          <DOMFontItem name="Fonts/Font 1" itemID="4c8fbbbe-0000044e" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="MyriadProRegular" font="MyriadPro-Regular" size="0" id="2" sourceLastImported="1384632692" embedRanges="1|2|3|4|22"/>
+          <DOMFontItem name="Fonts/Font 2" itemID="4c8fbc3e-00000452" font="MyriadPro-Bold" size="0" id="3" sourceLastImported="1284488254" embedRanges="1|2|3|4|22"/>
+          <DOMFontItem name="Fonts/Font 3" itemID="4c8fcb96-000005f1" font="TrebuchetMS-Bold" size="0" id="4" sourceLastImported="1284492182" embedRanges="3|4"/>
+     </fonts>
+     <media>
+          <DOMBitmapItem name="Bitmap/106.png" itemID="52224174-000004e9" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/106.png" sourceLastImported="1377975840" externalFileCRC32="1841192009" externalFileSize="3595" originalCompressionType="lossless" quality="50" href="Bitmap/106.png" bitmapDataHRef="M 18 1284491815.dat" frameRight="1460" frameBottom="880"/>
+          <DOMBitmapItem name="Bitmap/107.png" itemID="52224174-000004ea" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/107.png" sourceLastImported="1377975840" externalFileCRC32="3784445109" externalFileSize="1523" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/107.png" bitmapDataHRef="M 19 1284492322.dat" frameRight="1220" frameBottom="1120"/>
+          <DOMBitmapItem name="Bitmap/11_100.png" itemID="52224175-000004eb" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/11_100.png" sourceLastImported="1377975840" externalFileSize="1742" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/11_100.png" bitmapDataHRef="M 307 1320595943.dat" frameRight="420" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/11_101.png" itemID="52224175-000004ec" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/11_101.png" sourceLastImported="1377975840" externalFileSize="1204" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/11_101.png" bitmapDataHRef="M 308 1320595951.dat" frameRight="420" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/13004.png" itemID="51882b03-000004e6" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/13004.png" sourceLastImported="1367878308" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/13004.png" bitmapDataHRef="M 354 1377996416.dat" frameRight="180" frameBottom="2600"/>
+          <DOMBitmapItem name="Bitmap/13005.png" itemID="51882b6c-000004eb" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/13005.png" sourceLastImported="1367878474" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/13005.png" bitmapDataHRef="M 353 1377996416.dat" frameRight="180" frameBottom="660"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14007.png" itemID="526a1a19-0000021a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14007.png" sourceLastImported="1382684742" externalFileSize="1472" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14007.png" bitmapDataHRef="M 139 1382684960.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14008.png" itemID="526a1a19-0000021b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14008.png" sourceLastImported="1382684784" externalFileSize="1472" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14008.png" bitmapDataHRef="M 141 1382685081.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14009.png" itemID="526a1a19-0000021c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14009.png" sourceLastImported="1382684812" externalFileSize="1234" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14009.png" bitmapDataHRef="M 143 1382685161.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14010.png" itemID="526a1a19-0000021d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14010.png" sourceLastImported="1382684858" externalFileSize="1357" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14010.png" bitmapDataHRef="M 140 1382685034.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14011.png" itemID="526a1a19-0000021e" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14011.png" sourceLastImported="1382684891" externalFileSize="1396" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14011.png" bitmapDataHRef="M 142 1382685108.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/14012.png" itemID="526a1a19-0000021f" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Project Assets/bitmap/14012.png" sourceLastImported="1382684918" externalFileSize="1199" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/14012.png" bitmapDataHRef="M 144 1382685193.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/2002.png" itemID="52224175-000004ed" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/2002.png" sourceLastImported="1377975840" externalFileCRC32="3390520758" externalFileSize="1513" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/2002.png" bitmapDataHRef="M 327 1329560263.dat" frameRight="300" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/2003.png" itemID="52224175-000004ee" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/2003.png" sourceLastImported="1377975840" externalFileCRC32="1062408803" externalFileSize="1550" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/2003.png" bitmapDataHRef="M 328 1329560263.dat" frameRight="300" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/2041.png" itemID="52224175-000004f0" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/2041.png" sourceLastImported="1377975840" externalFileSize="1938" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/2041.png" bitmapDataHRef="M 332 1338804814.dat" frameRight="380" frameBottom="380"/>
+          <DOMBitmapItem name="Content Assets/2051.png" itemID="51274d4b-000004b3" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Content Assets/2051.png" sourceLastImported="1361530187" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Content Assets/2051.png" bitmapDataHRef="M 344 1377994531.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Content Assets/2052.png" itemID="51274d4b-000004b4" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Content Assets/2052.png" sourceLastImported="1361530187" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Content Assets/2052.png" bitmapDataHRef="M 343 1377994531.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/314.png" itemID="52224175-000004f3" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/314.png" sourceLastImported="1377975840" externalFileSize="1100" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/314.png" bitmapDataHRef="M 36 1284666005.dat" frameRight="260" frameBottom="260"/>
+          <DOMBitmapItem name="Bitmap/316.png" itemID="52224175-000004f4" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/316.png" sourceLastImported="1377975840" externalFileCRC32="1289384652" externalFileSize="1430" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/316.png" bitmapDataHRef="M 38 1284666005.dat" frameRight="320" frameBottom="320"/>
+          <DOMBitmapItem name="Bitmap/317.png" itemID="52224175-000004f5" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/317.png" sourceLastImported="1377975840" externalFileSize="1062" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/317.png" bitmapDataHRef="M 39 1284666005.dat" frameRight="3600" frameBottom="100"/>
+          <DOMBitmapItem name="Bitmap/403.png" itemID="51274d4b-000004bf" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/403.png" sourceLastImported="1366448245" externalFileCRC32="3930028792" externalFileSize="1062" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/403.png" bitmapDataHRef="M 346 1377995079.dat" frameRight="3600" frameBottom="100"/>
+          <DOMBitmapItem name="Bitmap/604.png" itemID="52224175-000004f7" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/604.png" sourceLastImported="1377975840" externalFileCRC32="3364209669" externalFileSize="2948" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/604.png" bitmapDataHRef="M 58 1284833642.dat" frameRight="760" frameBottom="760"/>
+          <DOMBitmapItem name="Bitmap/605.png" itemID="52224175-000004f8" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/605.png" sourceLastImported="1377975840" externalFileCRC32="3651296522" externalFileSize="2947" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/605.png" bitmapDataHRef="M 59 1284833642.dat" frameRight="760" frameBottom="760"/>
+          <DOMBitmapItem name="Bitmap/606.png" itemID="52224175-000004f9" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/606.png" sourceLastImported="1377975840" externalFileCRC32="1625865685" externalFileSize="10580" originalCompressionType="lossless" quality="50" href="Bitmap/606.png" bitmapDataHRef="M 54 1284833641.dat" frameRight="4920" frameBottom="1520"/>
+          <DOMBitmapItem name="Bitmap/703.png" itemID="52224175-000004fa" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/703.png" sourceLastImported="1377975840" externalFileCRC32="2797630861" externalFileSize="1308" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/703.png" bitmapDataHRef="M 64 1285356652.dat" frameRight="1660" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/755.png" itemID="52224175-000004ff" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/755.png" sourceLastImported="1377975840" externalFileCRC32="4118382516" externalFileSize="1414" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/755.png" bitmapDataHRef="M 76 1285608756.dat" frameRight="300" frameBottom="300"/>
+          <DOMBitmapItem name="Bitmap/764.png" itemID="52224175-00000500" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/764.png" sourceLastImported="1377975840" externalFileCRC32="1931974139" externalFileSize="3761" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/764.png" bitmapDataHRef="M 80 1285611606.dat" frameRight="1700" frameBottom="580"/>
+          <DOMBitmapItem name="Bitmap/765.png" itemID="52224175-00000501" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/765.png" sourceLastImported="1377975840" externalFileSize="1457" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/765.png" bitmapDataHRef="M 82 1285689574.dat" frameRight="240" frameBottom="700"/>
+          <DOMBitmapItem name="Bitmap/766.png" itemID="52224175-00000502" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/766.png" sourceLastImported="1377975840" externalFileCRC32="2026281095" externalFileSize="1320" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/766.png" bitmapDataHRef="M 83 1285689574.dat" frameRight="240" frameBottom="1860"/>
+          <DOMBitmapItem name="Bitmap/905.png" itemID="52224175-00000503" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/905.png" sourceLastImported="1377975840" externalFileCRC32="2388526847" externalFileSize="1397" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/905.png" bitmapDataHRef="M 102 1288789004.dat" frameRight="3420" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/912.png" itemID="52224175-00000504" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/912.png" sourceLastImported="1377975840" externalFileCRC32="3221368103" externalFileSize="991" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/912.png" bitmapDataHRef="M 112 1288804288.dat" frameRight="160" frameBottom="260"/>
+          <DOMBitmapItem name="Bitmap/918.png" itemID="52224175-00000505" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/918.png" sourceLastImported="1377975840" externalFileCRC32="1978969688" externalFileSize="1490" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/918.png" bitmapDataHRef="M 116 1289138531.dat" frameRight="380" frameBottom="380"/>
+          <DOMBitmapItem name="Bitmap/921.png" itemID="52224175-00000508" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/921.png" sourceLastImported="1377975840" externalFileCRC32="252863218" externalFileSize="1374" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/921.png" bitmapDataHRef="M 119 1289178712.dat" frameRight="1260" frameBottom="600"/>
+          <DOMBitmapItem name="Bitmap/922.png" itemID="52224175-00000509" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/922.png" sourceLastImported="1377975840" externalFileCRC32="1992941005" externalFileSize="1471" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/922.png" bitmapDataHRef="M 120 1289179078.dat" frameRight="1180" frameBottom="580"/>
+          <DOMBitmapItem name="Bitmap/923.png" itemID="52224175-0000050a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/923.png" sourceLastImported="1377975840" externalFileCRC32="894814879" externalFileSize="1281" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/923.png" bitmapDataHRef="M 121 1289179368.dat" frameRight="1200" frameBottom="560"/>
+          <DOMBitmapItem name="Bitmap/924.png" itemID="52224175-0000050b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/924.png" sourceLastImported="1377975840" externalFileCRC32="3913974902" externalFileSize="1196" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/924.png" bitmapDataHRef="M 122 1289179442.dat" frameRight="1180" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/931.png" itemID="52224175-0000050c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/931.png" sourceLastImported="1377975840" externalFileCRC32="720891968" externalFileSize="2263" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/931.png" bitmapDataHRef="M 123 1289180135.dat" frameRight="880" frameBottom="680"/>
+          <DOMBitmapItem name="Bitmap/932.png" itemID="52224175-0000050d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/932.png" sourceLastImported="1377975840" externalFileSize="1078" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/932.png" bitmapDataHRef="M 124 1289180374.dat" frameRight="700" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/933.png" itemID="52224175-0000050e" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/933.png" sourceLastImported="1377975840" externalFileSize="1094" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/933.png" bitmapDataHRef="M 125 1289180442.dat" frameRight="700" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/934.png" itemID="52224175-0000050f" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/934.png" sourceLastImported="1377975840" externalFileCRC32="405597464" externalFileSize="1138" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/934.png" bitmapDataHRef="M 126 1289180761.dat" frameRight="720" frameBottom="300"/>
+          <DOMBitmapItem name="Bitmap/935.png" itemID="52224175-00000510" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/935.png" sourceLastImported="1377975840" externalFileCRC32="1099418191" externalFileSize="1042" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/935.png" bitmapDataHRef="M 127 1289180840.dat" frameRight="660" frameBottom="240"/>
+          <DOMBitmapItem name="Bitmap/961.png" itemID="51274d4c-000004fb" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/961.png" sourceLastImported="1366448246" externalFileCRC32="3457501097" externalFileSize="2569" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/961.png" bitmapDataHRef="M 347 1377995079.dat" frameRight="4080" frameBottom="4580"/>
+          <DOMBitmapItem name="Bitmap/981.png" itemID="52224175-00000512" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/981.png" sourceLastImported="1377975840" externalFileCRC32="1625359834" externalFileSize="1780" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/981.png" bitmapDataHRef="M 148 1291075729.dat" frameRight="480" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/982.png" itemID="52224175-00000513" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/982.png" sourceLastImported="1377975840" externalFileCRC32="2782804057" externalFileSize="1869" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/982.png" bitmapDataHRef="M 149 1291075729.dat" frameRight="480" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/983.png" itemID="52224175-00000514" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/983.png" sourceLastImported="1377975840" externalFileCRC32="4075033947" externalFileSize="2727" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/983.png" bitmapDataHRef="M 150 1291077362.dat" frameRight="780" frameBottom="780"/>
+          <DOMBitmapItem name="Bitmap/985.png" itemID="52224175-00000515" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/985.png" sourceLastImported="1377975840" externalFileCRC32="1796110796" externalFileSize="11280" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/985.png" bitmapDataHRef="M 152 1291077785.dat" frameRight="6280" frameBottom="1100"/>
+          <DOMBitmapItem name="Bitmap/992.png" itemID="52224175-00000516" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/992.png" sourceLastImported="1377975840" externalFileSize="2292" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/992.png" bitmapDataHRef="M 154 1291291671.dat" frameRight="540" frameBottom="540"/>
+          <DOMBitmapItem name="Bitmap/996.png" itemID="52224175-00000517" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/996.png" sourceLastImported="1377975840" externalFileCRC32="3174878083" externalFileSize="2797" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/996.png" bitmapDataHRef="M 306 1315821140.dat" frameRight="720" frameBottom="700"/>
+          <DOMBitmapItem name="Bitmap/alert_back.png" itemID="52b36cfe-000004c7" sourceExternalFilepath="../motivate_clock/LIBRARY/alert_back.png" sourceLastImported="1387627036" externalFileCRC32="145739936" externalFileSize="1628" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/alert_back.png" bitmapDataHRef="M 131 1387490472.dat" frameRight="6040" frameBottom="860"/>
+          <DOMBitmapItem name="Bitmap/bg.png" itemID="52224175-00000518" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/bg.png" sourceLastImported="1377975840" externalFileSize="4020" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/bg.png" bitmapDataHRef="M 147 1291075462.dat" frameRight="5700" frameBottom="1260"/>
+          <DOMBitmapItem name="Bitmap/close_over.png" itemID="52224175-00000519" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/close_over.png" sourceLastImported="1377975840" externalFileCRC32="1544063238" externalFileSize="1405" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/close_over.png" bitmapDataHRef="M 6 1283140564.dat" frameRight="280" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/x002.png" itemID="52224175-0000051a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x002.png" sourceLastImported="1377975840" externalFileCRC32="3358855692" externalFileSize="29713" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x002.png" bitmapDataHRef="M 266 1303586007.dat" frameRight="5160" frameBottom="5080"/>
+          <DOMBitmapItem name="Bitmap/x003.png" itemID="52224175-0000051b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x003.png" sourceLastImported="1377975840" externalFileCRC32="285956950" externalFileSize="1396" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x003.png" bitmapDataHRef="M 268 1303762880.dat" frameRight="3980" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x004.png" itemID="52224175-0000051c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x004.png" sourceLastImported="1377975840" externalFileCRC32="2569543570" externalFileSize="1003" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x004.png" bitmapDataHRef="M 267 1303762880.dat" frameRight="160" frameBottom="80"/>
+          <DOMBitmapItem name="Bitmap/x005.png" itemID="52224175-0000051d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x005.png" sourceLastImported="1377975840" externalFileCRC32="879736416" externalFileSize="992" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x005.png" bitmapDataHRef="M 269 1303763011.dat" frameRight="180" frameBottom="80"/>
+          <DOMBitmapItem name="Bitmap/x006.png" itemID="52224175-0000051e" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x006.png" sourceLastImported="1377975840" externalFileCRC32="290102280" externalFileSize="46969" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x006.png" bitmapDataHRef="M 270 1303846499.dat" frameRight="5320" frameBottom="8400"/>
+          <DOMBitmapItem name="Bitmap/x007.png" itemID="52224175-0000051f" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x007.png" sourceLastImported="1377975840" externalFileSize="1661" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x007.png" bitmapDataHRef="M 271 1303847755.dat" frameRight="400" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x008.png" itemID="52224175-00000520" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x008.png" sourceLastImported="1377975840" externalFileSize="1613" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x008.png" bitmapDataHRef="M 272 1303849570.dat" frameRight="400" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x012.png" itemID="52224175-00000521" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x012.png" sourceLastImported="1377975840" externalFileCRC32="1147632415" externalFileSize="1190" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x012.png" bitmapDataHRef="M 276 1304343038.dat" frameRight="200" frameBottom="260"/>
+          <DOMBitmapItem name="Bitmap/x013.png" itemID="52224175-00000522" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x013.png" sourceLastImported="1377975840" externalFileCRC32="696828440" externalFileSize="2404" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x013.png" bitmapDataHRef="M 277 1304863032.dat" frameRight="4020" frameBottom="740"/>
+          <DOMBitmapItem name="Bitmap/x014.png" itemID="52224175-00000523" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x014.png" sourceLastImported="1377975840" externalFileCRC32="3490949701" externalFileSize="1426" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x014.png" bitmapDataHRef="M 278 1304863535.dat" frameRight="4000" frameBottom="380"/>
+          <DOMBitmapItem name="Bitmap/x016.png" itemID="51274d4c-00000517" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x016.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x016.png" bitmapDataHRef="M 333 1377975614.dat" frameRight="1380" frameBottom="540"/>
+          <DOMBitmapItem name="Bitmap/x017.png" itemID="51274d4c-00000518" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x017.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x017.png" bitmapDataHRef="M 335 1377975614.dat" frameRight="1380" frameBottom="540"/>
+          <DOMBitmapItem name="Bitmap/x018.png" itemID="51274d4c-00000519" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x018.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x018.png" bitmapDataHRef="M 334 1377975614.dat" frameRight="1300" frameBottom="460"/>
+          <DOMBitmapItem name="Bitmap/x019.png" itemID="52224175-00000524" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x019.png" sourceLastImported="1384804885" externalFileCRC32="2935303834" externalFileSize="1711" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x019.png" bitmapDataHRef="M 283 1306661987.dat" frameRight="520" frameBottom="460"/>
+          <DOMBitmapItem name="Bitmap/x020.png" itemID="52224175-00000525" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x020.png" sourceLastImported="1377975840" externalFileCRC32="2585896514" externalFileSize="1550" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x020.png" bitmapDataHRef="M 284 1306878398.dat" frameRight="1100" frameBottom="320"/>
+          <DOMBitmapItem name="Bitmap/x025.png" itemID="52224175-00000529" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x025.png" sourceLastImported="1377975840" externalFileSize="1103" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x025.png" bitmapDataHRef="M 289 1307479771.dat" frameRight="160" frameBottom="180"/>
+          <DOMBitmapItem name="Bitmap/x026.png" itemID="52224175-0000052a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x026.png" sourceLastImported="1377975840" externalFileCRC32="2156493289" externalFileSize="1569" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x026.png" bitmapDataHRef="M 292 1307480342.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/x027.png" itemID="52224175-0000052b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x027.png" sourceLastImported="1377975840" externalFileCRC32="2529307251" externalFileSize="1556" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x027.png" bitmapDataHRef="M 291 1307480342.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/x028.png" itemID="52224175-0000052c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x028.png" sourceLastImported="1377975840" externalFileSize="1541" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x028.png" bitmapDataHRef="M 293 1307480374.dat" frameRight="360" frameBottom="360"/>
+          <DOMBitmapItem name="Bitmap/x029.png" itemID="52224175-0000052d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x029.png" sourceLastImported="1377975840" externalFileCRC32="2498861911" externalFileSize="1509" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x029.png" bitmapDataHRef="M 294 1307480505.dat" frameRight="1380" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/x031.png" itemID="52224175-0000052f" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x031.png" sourceLastImported="1377975840" externalFileCRC32="1377762493" externalFileSize="1479" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x031.png" bitmapDataHRef="M 297 1308087903.dat" frameRight="340" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/x032.png" itemID="52224175-00000530" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x032.png" sourceLastImported="1377975840" externalFileCRC32="1636316220" externalFileSize="1864" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x032.png" bitmapDataHRef="M 296 1308087903.dat" frameRight="420" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x034.png" itemID="52224175-00000531" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x034.png" sourceLastImported="1377975840" externalFileSize="1665" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x034.png" bitmapDataHRef="M 298 1308088345.dat" frameRight="400" frameBottom="380"/>
+          <DOMBitmapItem name="Bitmap/x035.png" itemID="52224175-00000532" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x035.png" sourceLastImported="1377975840" externalFileSize="1446" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x035.png" bitmapDataHRef="M 304 1309377470.dat" frameRight="340" frameBottom="320"/>
+          <DOMBitmapItem name="Bitmap/x036.png" itemID="52224175-00000533" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x036.png" sourceLastImported="1377975840" externalFileCRC32="4024350558" externalFileSize="1110" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x036.png" bitmapDataHRef="M 303 1309377470.dat" frameRight="2920" frameBottom="100"/>
+          <DOMBitmapItem name="Bitmap/x037.png" itemID="52224175-00000534" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x037.png" sourceLastImported="1377975840" externalFileSize="1120" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x037.png" bitmapDataHRef="M 302 1309377469.dat" frameRight="2920" frameBottom="100"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/x041.png" itemID="51274d4c-0000052c" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x041.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/x041.png" bitmapDataHRef="M 339 1377989708.dat" frameRight="1140" frameBottom="460"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/x042.png" itemID="51274d4c-0000052d" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x042.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/x042.png" bitmapDataHRef="M 338 1377989708.dat" frameRight="1140" frameBottom="460"/>
+          <DOMBitmapItem name="ProjectView Assets/bitmap/x043.png" itemID="51274d4c-0000052e" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x043.png" sourceLastImported="1366448246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="ProjectView Assets/bitmap/x043.png" bitmapDataHRef="M 337 1377989708.dat" frameRight="1060" frameBottom="380"/>
+          <DOMBitmapItem name="Bitmap/x044.png" itemID="52224175-00000538" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x044.png" sourceLastImported="1377975840" externalFileCRC32="566683293" externalFileSize="1810" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x044.png" bitmapDataHRef="M 313 1324123516.dat" frameRight="400" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x051.png" itemID="52224175-00000539" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x051.png" sourceLastImported="1377975840" externalFileSize="4615" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x051.png" bitmapDataHRef="M 314 1324134643.dat" frameRight="4200" frameBottom="720"/>
+          <DOMBitmapItem name="Bitmap/x052.png" itemID="52224175-0000053a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x052.png" sourceLastImported="1387399524" externalFileSize="1475" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x052.png" bitmapDataHRef="M 315 1324137292.dat" frameRight="3360" frameBottom="1020"/>
+          <DOMBitmapItem name="Bitmap/x053.png" itemID="52224175-0000053b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x053.png" sourceLastImported="1377975840" externalFileCRC32="2446013657" externalFileSize="20233" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x053.png" bitmapDataHRef="M 316 1324137292.dat" frameRight="4340" frameBottom="6520"/>
+          <DOMBitmapItem name="Bitmap/x054.png" itemID="52224175-0000053c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x054.png" sourceLastImported="1385322705" externalFileSize="1388" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x054.png" bitmapDataHRef="M 317 1324137292.dat" frameRight="2900" frameBottom="500"/>
+          <DOMBitmapItem name="Bitmap/x055.png" itemID="51274d4c-00000533" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x055.png" sourceLastImported="1366448246" externalFileSize="1551" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x055.png" bitmapDataHRef="M 341 1377994530.dat" frameRight="1140" frameBottom="680"/>
+          <DOMBitmapItem name="Bitmap/x056.png" itemID="51274d4c-00000534" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x056.png" sourceLastImported="1366448246" externalFileSize="1467" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x056.png" bitmapDataHRef="M 340 1377994530.dat" frameRight="560" frameBottom="400"/>
+          <DOMBitmapItem name="Bitmap/x057.png" itemID="51274d4c-00000535" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x057.png" sourceLastImported="1366448246" externalFileSize="1589" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x057.png" bitmapDataHRef="M 342 1377994530.dat" frameRight="1140" frameBottom="680"/>
+          <DOMBitmapItem name="Bitmap/x058.png" itemID="51274d4c-00000536" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/x058.png" sourceLastImported="1366448246" externalFileSize="1712" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x058.png" bitmapDataHRef="M 345 1377994531.dat" frameRight="400" frameBottom="420"/>
+          <DOMBitmapItem name="Bitmap/x061.png" itemID="52224175-00000541" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x061.png" sourceLastImported="1377975840" externalFileCRC32="1475676204" externalFileSize="1474" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x061.png" bitmapDataHRef="M 324 1326647584.dat" frameRight="300" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/x062.png" itemID="52224175-00000542" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/x062.png" sourceLastImported="1377975840" externalFileCRC32="906924721" externalFileSize="1511" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/x062.png" bitmapDataHRef="M 325 1326647584.dat" frameRight="300" frameBottom="280"/>
+          <DOMBitmapItem name="Bitmap/z001.png" itemID="52224175-00000543" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z001.png" sourceLastImported="1377975840" externalFileCRC32="2485706866" externalFileSize="2355" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z001.png" bitmapDataHRef="M 160 1295255677.dat" frameRight="3560" frameBottom="2500"/>
+          <DOMBitmapItem name="Bitmap/z002.png" itemID="52224175-00000544" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z002.png" sourceLastImported="1377975840" externalFileCRC32="3001161801" externalFileSize="2669" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z002.png" bitmapDataHRef="M 161 1295374701.dat" frameRight="620" frameBottom="540"/>
+          <DOMBitmapItem name="Bitmap/z004.png" itemID="52224175-00000545" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z004.png" sourceLastImported="1377975840" externalFileCRC32="3761074354" externalFileSize="2865" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z004.png" bitmapDataHRef="M 163 1295775623.dat" frameRight="780" frameBottom="760"/>
+          <DOMBitmapItem name="Bitmap/z012.png" itemID="52224175-0000054b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z012.png" sourceLastImported="1377975840" externalFileCRC32="3341815607" externalFileSize="1357" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z012.png" bitmapDataHRef="M 173 1295882515.dat" frameRight="380" frameBottom="320"/>
+          <DOMBitmapItem name="Bitmap/z016.png" itemID="52224175-0000054c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z016.png" sourceLastImported="1377975840" externalFileCRC32="1280551632" externalFileSize="6591" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z016.png" bitmapDataHRef="M 177 1296072806.dat" frameRight="4720" frameBottom="3340"/>
+          <DOMBitmapItem name="Bitmap/z019.jpg" itemID="52224175-0000054d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z019.jpg" sourceLastImported="1377975840" externalFileCRC32="1974123868" externalFileSize="18555" quality="50" href="Bitmap/z019.jpg" bitmapDataHRef="M 180 1296073094.dat" frameRight="4360" frameBottom="3200" isJPEG="true"/>
+          <DOMBitmapItem name="Bitmap/z024.png" itemID="51274d4c-00000549" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/z024.png" sourceLastImported="1366448247" externalFileSize="4246" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z024.png" bitmapDataHRef="M 348 1377995079.dat" frameRight="5160" frameBottom="4160"/>
+          <DOMBitmapItem name="Bitmap/z028.png" itemID="52224175-00000550" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z028.png" sourceLastImported="1377975840" externalFileCRC32="1918849823" externalFileSize="1032" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z028.png" bitmapDataHRef="M 189 1296137517.dat" frameRight="220" frameBottom="140"/>
+          <DOMBitmapItem name="Content Assets/z029.png" itemID="4d41c6cb-0000076b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/z029.png" sourceLastImported="1296156186" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Content Assets/z029.png" bitmapDataHRef="M 148 1378043928.dat" frameRight="420" frameBottom="340"/>
+          <DOMBitmapItem name="Bitmap/z029.png" itemID="52224175-00000551" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z029.png" sourceLastImported="1377975840" externalFileCRC32="3053376157" externalFileSize="1497" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z029.png" bitmapDataHRef="M 191 1296156363.dat" frameRight="420" frameBottom="340"/>
+          <DOMBitmapItem name="Bitmap/z031.png" itemID="51274d4c-0000054d" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/z031.png" sourceLastImported="1366448247" externalFileCRC32="493096315" externalFileSize="27089" originalCompressionType="lossless" quality="50" href="Bitmap/z031.png" bitmapDataHRef="M 352 1377995079.dat" frameRight="5580" frameBottom="6160"/>
+          <DOMBitmapItem name="Bitmap/z046.png" itemID="52224175-00000554" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z046.png" sourceLastImported="1377975840" externalFileCRC32="958545572" externalFileSize="1062" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z046.png" bitmapDataHRef="M 198 1296305270.dat" frameRight="160" frameBottom="300"/>
+          <DOMBitmapItem name="Bitmap/z047.png" itemID="52224175-00000555" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z047.png" sourceLastImported="1377975840" externalFileCRC32="3287384833" externalFileSize="1029" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z047.png" bitmapDataHRef="M 199 1296305328.dat" frameRight="140" frameBottom="220"/>
+          <DOMBitmapItem name="Bitmap/z048.png" itemID="52224175-00000556" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z048.png" sourceLastImported="1377975840" externalFileCRC32="3220508775" externalFileSize="3857" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z048.png" bitmapDataHRef="M 200 1296312664.dat" frameRight="7140" frameBottom="1780"/>
+          <DOMBitmapItem name="Content Assets/z050.png" itemID="4d453009-00000380" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/z050.png" sourceLastImported="1296379884" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Content Assets/z050.png" bitmapDataHRef="M 146 1378043928.dat" frameRight="460" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z050.png" itemID="52224175-00000557" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z050.png" sourceLastImported="1377975840" externalFileCRC32="880434419" externalFileSize="1724" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z050.png" bitmapDataHRef="M 202 1296379913.dat" frameRight="460" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z051.png" itemID="52224175-00000558" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z051.png" sourceLastImported="1377975841" externalFileSize="1748" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z051.png" bitmapDataHRef="M 203 1296380008.dat" frameRight="480" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z052.png" itemID="52224175-00000559" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z052.png" sourceLastImported="1377975841" externalFileSize="2105" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z052.png" bitmapDataHRef="M 204 1296380076.dat" frameRight="560" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z053.png" itemID="52224175-0000055a" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z053.png" sourceLastImported="1377975841" externalFileSize="1998" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z053.png" bitmapDataHRef="M 205 1296380137.dat" frameRight="560" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z059.png" itemID="52224175-0000055d" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z059.png" sourceLastImported="1377975841" externalFileCRC32="2751486167" externalFileSize="1836" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z059.png" bitmapDataHRef="M 211 1296381088.dat" frameRight="480" frameBottom="460"/>
+          <DOMBitmapItem name="Bitmap/z060.png" itemID="52224175-0000055e" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z060.png" sourceLastImported="1377975841" externalFileSize="1622" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z060.png" bitmapDataHRef="M 212 1296381088.dat" frameRight="460" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z063.png" itemID="52224175-00000560" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z063.png" sourceLastImported="1377975841" externalFileSize="1916" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z063.png" bitmapDataHRef="M 215 1296381527.dat" frameRight="480" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/z064.png" itemID="52224175-00000561" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z064.png" sourceLastImported="1377975841" externalFileSize="2016" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z064.png" bitmapDataHRef="M 216 1296381527.dat" frameRight="480" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/z065.png" itemID="52224175-00000562" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z065.png" sourceLastImported="1377975841" externalFileCRC32="2085392611" externalFileSize="1961" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z065.png" bitmapDataHRef="M 217 1296383143.dat" frameRight="3280" frameBottom="580"/>
+          <DOMBitmapItem name="Bitmap/z066.png" itemID="52224175-00000563" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z066.png" sourceLastImported="1377975841" externalFileCRC32="3150651250" externalFileSize="1390" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z066.png" bitmapDataHRef="M 219 1296383596.dat" frameRight="3240" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z067.png" itemID="52224175-00000564" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z067.png" sourceLastImported="1377975841" externalFileCRC32="3459727916" externalFileSize="1501" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z067.png" bitmapDataHRef="M 220 1296383596.dat" frameRight="3280" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z068.png" itemID="52224175-00000565" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z068.png" sourceLastImported="1377975841" externalFileCRC32="1926198212" externalFileSize="1600" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z068.png" bitmapDataHRef="M 221 1296383596.dat" frameRight="4040" frameBottom="480"/>
+          <DOMBitmapItem name="Bitmap/z069.png" itemID="52224175-00000566" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z069.png" sourceLastImported="1377975841" externalFileCRC32="2939531336" externalFileSize="1895" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z069.png" bitmapDataHRef="M 222 1296383596.dat" frameRight="1200" frameBottom="460"/>
+          <DOMBitmapItem name="Bitmap/z077.png" itemID="51274d4c-00000568" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/z077.png" sourceLastImported="1361530074" externalFileCRC32="1150096399" externalFileSize="1726" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z077.png" bitmapDataHRef="M 351 1377995079.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z080.png" itemID="52224175-0000056b" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z080.png" sourceLastImported="1377975841" externalFileCRC32="1452025755" externalFileSize="1791" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z080.png" bitmapDataHRef="M 237 1296390065.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z083.png" itemID="52224175-0000056c" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z083.png" sourceLastImported="1384804885" externalFileCRC32="188983870" externalFileSize="1671" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z083.png" bitmapDataHRef="M 238 1296390065.dat" frameRight="500" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z086.png" itemID="51274d4c-00000571" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/z086.png" sourceLastImported="1384804885" externalFileCRC32="3112664110" externalFileSize="1541" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z086.png" bitmapDataHRef="M 349 1377995079.dat" frameRight="500" frameBottom="440"/>
+          <DOMBitmapItem name="Bitmap/z090.png" itemID="51274d4c-00000574" sourceExternalFilepath="../../../../work/moclo/branches/1.X/xfl/motivate_clock/LIBRARY/Assets/z090.png" sourceLastImported="1384804885" externalFileCRC32="837164133" externalFileSize="1718" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z090.png" bitmapDataHRef="M 350 1377995079.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z093.png" itemID="52224175-00000571" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z093.png" sourceLastImported="1377975841" externalFileCRC32="3028055299" externalFileSize="1829" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z093.png" bitmapDataHRef="M 236 1296390064.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z102.png" itemID="52224175-00000572" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z102.png" sourceLastImported="1377975841" externalFileSize="1827" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z102.png" bitmapDataHRef="M 253 1296660443.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z103.png" itemID="52224175-00000573" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z103.png" sourceLastImported="1377975841" externalFileCRC32="3471110411" externalFileSize="1810" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z103.png" bitmapDataHRef="M 254 1296660443.dat" frameRight="580" frameBottom="520"/>
+          <DOMBitmapItem name="Bitmap/z104.png" itemID="52224175-00000574" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z104.png" sourceLastImported="1384804885" externalFileCRC32="499950432" externalFileSize="1638" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z104.png" bitmapDataHRef="M 255 1296660443.dat" frameRight="500" frameBottom="440"/>
+          <DOMBitmapItem name="Content Assets/z110.png" itemID="4d49dadd-00000513" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/z110.png" sourceLastImported="1296685726" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Content Assets/z110.png" bitmapDataHRef="M 147 1378043928.dat" frameRight="480" frameBottom="460"/>
+          <DOMBitmapItem name="Bitmap/z110.png" itemID="52224175-00000578" sourceExternalFilepath="../1.4/xfl/motivate_clock/LIBRARY/Bitmap/z110.png" sourceLastImported="1377975841" externalFileCRC32="2530007497" externalFileSize="1975" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bitmap/z110.png" bitmapDataHRef="M 261 1296685789.dat" frameRight="480" frameBottom="460"/>
+     </media>
+     <symbols>
+          <Include href="alertBack.xml" loadImmediate="false" itemID="52b36cc3-0000032c" lastModified="1387490544"/>
+          <Include href="AlertContent.xml" itemID="52890d56-00000174" lastModified="1387631089"/>
+          <Include href="AppSelector.xml" itemID="4eecc29e-000007e4" lastModified="1387666207"/>
+          <Include href="BigFlipper.xml" itemID="5289090a-0000015c" lastModified="1384724227"/>
+          <Include href="ClockControlView Assets/ToggleButton.xml" itemID="518c2085-00000389" lastModified="1384814049"/>
+          <Include href="ClockControlView Assets/toggleButtonDown.xml" loadImmediate="false" itemID="518ce7b2-000003a4" lastModified="1368188946"/>
+          <Include href="ClockControlView Assets/toggleButtonOver.xml" loadImmediate="false" itemID="518ce7a5-0000039e" lastModified="1368188927"/>
+          <Include href="ClockControlView Assets/toggleButtonUp.xml" loadImmediate="false" itemID="518ce79a-00000396" lastModified="1368188904"/>
+          <Include href="ClockStatusView.xml" itemID="5289111b-0000017b" lastModified="1387665947"/>
+          <Include href="ClockToggleView.xml" itemID="52891134-0000017c" lastModified="1384718473"/>
+          <Include href="ClockView.xml" itemID="52890f4a-00000175" lastModified="1384723962"/>
+          <Include href="combo_open_button.xml" loadImmediate="false" itemID="55e606eb-00000153" lastModified="1441138449"/>
+          <Include href="ComboBox.xml" itemID="4e381d65-00000b24" lastModified="1441139315"/>
+          <Include href="ComboItemRenderer.xml" itemID="4e369770-000004ad" lastModified="1384719009"/>
+          <Include href="Common Assets/background.xml" loadImmediate="false" itemID="4e0b844b-00000461" lastModified="1338803850"/>
+          <Include href="Common Assets/closeButton.xml" itemIcon="0" loadImmediate="false" itemID="4db5d8a9-000003f3" lastModified="1310203029"/>
+          <Include href="Common Assets/contentHolder.xml" loadImmediate="false" itemID="4ff59c17-000007cb" lastModified="1341496343"/>
+          <Include href="Common Assets/icon.xml" loadImmediate="false" itemID="4e0257d4-00000762" lastModified="1320595983"/>
+          <Include href="Common Assets/openButton.xml" itemIcon="0" loadImmediate="false" itemID="4db5d8bb-000003fe" lastModified="1310286501"/>
+          <Include href="Common Assets/separator.xml" itemID="523ca714-0000015d" lastModified="1379713361"/>
+          <Include href="Common Assets/sprite 40f.xml" loadImmediate="false" itemID="4c8fc97b-000004b5" lastModified="1289178395"/>
+          <Include href="Common Assets/sprite 48f.xml" loadImmediate="false" itemID="4c8fc980-000004b7" lastModified="1324755634"/>
+          <Include href="Common Assets/sprite 48fs.xml" loadImmediate="false" itemID="4c8fd314-000006ff" lastModified="1326194004"/>
+          <Include href="Common Assets/sprite 49f.xml" loadImmediate="false" itemID="4c8fc97e-000004b6" lastModified="1289957755"/>
+          <Include href="Common Assets/sprite 49fs.xml" loadImmediate="false" itemID="4c8fd313-000006fe" lastModified="1326209466"/>
+          <Include href="Common Assets/Symbol 1f.xml" loadImmediate="false" itemID="4c8fc979-000004b3" lastModified="1324756154"/>
+          <Include href="Common Assets/Symbol 1fs.xml" loadImmediate="false" itemID="4c8fd32a-0000070f" lastModified="1326209634"/>
+          <Include href="Common Assets/Symbol 11.xml" loadImmediate="false" itemID="4c932743-00000247" lastModified="1324302172"/>
+          <Include href="Common Assets/Symbol 12.xml" loadImmediate="false" itemID="4c9328ee-00000258" lastModified="1321797629"/>
+          <Include href="Common Assets/Symbol 23.xml" loadImmediate="false" itemID="52228947-000006a0" lastModified="1284741267"/>
+          <Include href="Common Assets/Symbol 29.xml" loadImmediate="false" itemID="4ca0cac1-000002b3" lastModified="1285606082"/>
+          <Include href="Common Assets/Symbol 32.xml" loadImmediate="false" itemID="4c9502e5-000008d4" lastModified="1284834021"/>
+          <Include href="Common Assets/Symbol 33.xml" loadImmediate="false" itemID="4c950308-000008dd" lastModified="1284834056"/>
+          <Include href="Common Assets/Symbol 40.xml" loadImmediate="false" itemID="4c9e1334-0000026f" lastModified="1285428020"/>
+          <Include href="Common Assets/Symbol 51.xml" itemIcon="0" loadImmediate="false" itemID="4ca0e1d7-00000410" lastModified="1441138375"/>
+          <Include href="Common Assets/Symbol 53.xml" loadImmediate="false" itemID="4ca0f2c5-0000027a" lastModified="1285616325"/>
+          <Include href="Common Assets/Symbol 55.xml" loadImmediate="false" itemID="4ca21320-00000294" lastModified="1285693685"/>
+          <Include href="Common Assets/Symbol 59.xml" itemIcon="0" loadImmediate="false" itemID="52228947-000006a6" lastModified="1296390533"/>
+          <Include href="Common Assets/Symbol 59 copy.xml" itemIcon="0" loadImmediate="false" itemID="52343fc2-00000176" lastModified="1384814019"/>
+          <Include href="Common Assets/Symbol 88.xml" loadImmediate="false" itemID="4cd6b7a8-000002f4" lastModified="1289140136"/>
+          <Include href="Common Assets/Symbol 89.xml" loadImmediate="false" itemID="4cd6bf82-000003ee" lastModified="1289142146"/>
+          <Include href="Common Assets/Symbol 90.xml" itemIcon="0" loadImmediate="false" itemID="4cd6d3b3-000003f6" lastModified="1289147401"/>
+          <Include href="Common Assets/Symbol 91.xml" loadImmediate="false" itemID="4cd6d402-000003fc" lastModified="1289147394"/>
+          <Include href="Common Assets/Symbol 92.xml" itemIcon="0" loadImmediate="false" itemID="4cd6d426-00000401" lastModified="1289147439"/>
+          <Include href="Common Assets/Symbol 93.xml" loadImmediate="false" itemID="4cd6d42a-00000406" lastModified="1289147434"/>
+          <Include href="Common Assets/Symbol 94.xml" loadImmediate="false" itemID="4cd6db43-00000414" lastModified="1338805319"/>
+          <Include href="Common Assets/Symbol 96.xml" loadImmediate="false" itemID="4cd75100-00000a43" lastModified="1289179392"/>
+          <Include href="Common Assets/Symbol 105.xml" loadImmediate="false" itemID="52228947-000006a2" lastModified="1289497309"/>
+          <Include href="Common Assets/Symbol 109.xml" loadImmediate="false" itemID="52228e80-000006c2" lastModified="1382692615"/>
+          <Include href="Common Assets/Symbol 111.xml" loadImmediate="false" itemID="4cf40448-0000040d" lastModified="1296305768"/>
+          <Include href="Common Assets/Symbol 113.xml" itemIcon="0" loadImmediate="false" itemID="4cf440b4-00000550" lastModified="1291075809"/>
+          <Include href="Common Assets/Symbol 115.xml" loadImmediate="false" itemID="4cf4472f-00000573" lastModified="1326459039"/>
+          <Include href="Common Assets/Symbol 122.xml" loadImmediate="false" itemID="4d340896-0000034f" lastModified="1295255733"/>
+          <Include href="Common Assets/Symbol 124.xml" loadImmediate="false" itemID="4d340966-000004e7" lastModified="1295255920"/>
+          <Include href="Common Assets/Symbol 127.xml" loadImmediate="false" itemID="4d35d9b5-0000035b" lastModified="1306672895"/>
+          <Include href="Common Assets/Symbol 128.xml" loadImmediate="false" itemID="4d35ec12-00000385" lastModified="1295379474"/>
+          <Include href="Common Assets/Symbol 129.xml" loadImmediate="false" itemID="4d387a9a-0000033d" lastModified="1295547176"/>
+          <Include href="Common Assets/Symbol 136.xml" loadImmediate="false" itemID="4d394fcd-0000050c" lastModified="1295601613"/>
+          <Include href="Common Assets/Symbol 144z.xml" itemIcon="0" loadImmediate="false" itemID="52337948-00000349" lastModified="1382685207"/>
+          <Include href="Common Assets/Symbol 145z.xml" itemIcon="0" loadImmediate="false" itemID="5233794b-0000034a" lastModified="1382685125"/>
+          <Include href="Common Assets/Symbol 146.xml" itemIcon="0" loadImmediate="false" itemID="4d3d9931-00000653" lastModified="1308088137"/>
+          <Include href="Common Assets/Symbol 148.xml" loadImmediate="false" itemID="4d3ea5c1-00000353" lastModified="1295951556"/>
+          <Include href="Common Assets/Symbol 151.xml" loadImmediate="false" itemID="52228947-000006a4" lastModified="1296132654"/>
+          <Include href="Common Assets/Symbol 152.xml" itemIcon="0" loadImmediate="false" itemID="4d40815f-0000036d" lastModified="1296380255"/>
+          <Include href="Common Assets/Symbol 156.xml" loadImmediate="false" itemID="4d4084be-000006c9" lastModified="1296073936"/>
+          <Include href="Common Assets/Symbol 160.xml" loadImmediate="false" itemID="4d41932c-00000730" lastModified="1296143151"/>
+          <Include href="Common Assets/Symbol 161.xml" itemIcon="0" loadImmediate="false" itemID="4d41c6e6-0000076d" lastModified="1296685810"/>
+          <Include href="Common Assets/Symbol 162.xml" loadImmediate="false" itemID="4d41c6eb-00000772" lastModified="1296156395"/>
+          <Include href="Common Assets/Symbol 163.xml" itemIcon="0" loadImmediate="false" itemID="4d43fc10-00000395" lastModified="1384813984"/>
+          <Include href="Common Assets/Symbol 165.xml" loadImmediate="false" itemID="4d453cc8-00000416" lastModified="1296383231"/>
+          <Include href="Common Assets/Symbol 166.xml" itemIcon="0" loadImmediate="false" itemID="4d453f06-0000087a" lastModified="1310203173"/>
+          <Include href="Common Assets/Symbol 167.xml" itemIcon="0" loadImmediate="false" itemID="4d453fe3-00000886" lastModified="1310203226"/>
+          <Include href="Common Assets/Symbol 168.xml" loadImmediate="false" itemID="4d453ff3-0000088b" lastModified="1296383987"/>
+          <Include href="Common Assets/Symbol 171.xml" itemIcon="0" loadImmediate="false" itemID="4d4977ed-000003c5" lastModified="1384813940"/>
+          <Include href="Common Assets/Symbol 176.xml" loadImmediate="false" itemID="4db5d90f-00000410" lastModified="1303763215"/>
+          <Include href="Common Assets/Symbol 178.xml" loadImmediate="false" itemID="4db5e3a3-000007b1" lastModified="1307477655"/>
+          <Include href="Common Assets/Symbol 178 copy.xml" loadImmediate="false" itemID="4dee869f-00000470" lastModified="1307479182"/>
+          <Include href="Common Assets/Symbol 179 copy 2.xml" loadImmediate="false" itemID="4dbc1f69-000003ee" lastModified="1306679316"/>
+          <Include href="Common Assets/Symbol 181.xml" loadImmediate="false" itemID="4db72458-00000438" lastModified="1303848165"/>
+          <Include href="Common Assets/Symbol 182.xml" loadImmediate="false" itemID="4db72532-00000441" lastModified="1303848242"/>
+          <Include href="Common Assets/Symbol 183.xml" loadImmediate="false" itemID="4db72a7c-000004b6" lastModified="1303849596"/>
+          <Include href="Common Assets/Symbol 184.xml" loadImmediate="false" itemID="4dbc1f97-000003f3" lastModified="1304174487"/>
+          <Include href="Common Assets/Symbol 185.xml" loadImmediate="false" itemID="4dbd4486-00000b07" lastModified="1304249478"/>
+          <Include href="Common Assets/Symbol 186.xml" itemIcon="0" loadImmediate="false" itemID="4dbd4747-00000c5f" lastModified="1307480401"/>
+          <Include href="Common Assets/Symbol 187.xml" loadImmediate="false" itemID="4dbeadd4-000009d6" lastModified="1304341972"/>
+          <Include href="Common Assets/Symbol 188.xml" loadImmediate="false" itemID="4dbeb227-000009e1" lastModified="1304343079"/>
+          <Include href="Common Assets/Symbol 190.xml" loadImmediate="false" itemID="52228e80-000006c1" lastModified="1367878564"/>
+          <Include href="Common Assets/Symbol 191.xml" loadImmediate="false" itemID="4dc6a1d3-000003f0" lastModified="1304863224"/>
+          <Include href="Common Assets/Symbol 192.xml" loadImmediate="false" itemID="4dc6a36b-000005d4" lastModified="1304863595"/>
+          <Include href="Common Assets/Symbol 193.xml" loadImmediate="false" itemID="4dc6a70e-000005e1" lastModified="1307479876"/>
+          <Include href="Common Assets/Symbol 194.xml" loadImmediate="false" itemID="4ddd69e0-00000831" lastModified="1306356193"/>
+          <Include href="Common Assets/Symbol 195z.xml" itemIcon="0" loadImmediate="false" itemID="5233794c-0000034b" lastModified="1382685054"/>
+          <Include href="Common Assets/Symbol 197.xml" loadImmediate="false" itemID="52223d3e-00000472" lastModified="1368189164"/>
+          <Include href="Common Assets/Symbol 199.xml" loadImmediate="false" itemID="4de23821-00000493" lastModified="1306671137"/>
+          <Include href="Common Assets/Symbol 200.xml" loadImmediate="false" itemID="4de23ee0-000004ae" lastModified="1306672864"/>
+          <Include href="Common Assets/Symbol 201.xml" loadImmediate="false" itemID="4de257db-000004c8" lastModified="1306679259"/>
+          <Include href="Common Assets/Symbol 202.xml" loadImmediate="false" itemID="4de25a8b-00000506" lastModified="1306679947"/>
+          <Include href="Common Assets/Symbol 203.xml" loadImmediate="false" itemID="4de56203-0000040a" lastModified="1306878509"/>
+          <Include href="Common Assets/Symbol 205.xml" loadImmediate="false" itemID="4dea49e5-0000084f" lastModified="1307199973"/>
+          <Include href="Common Assets/Symbol 207.xml" loadImmediate="false" itemID="4dee91c8-000005a0" lastModified="1307480562"/>
+          <Include href="Common Assets/Symbol 208.xml" itemIcon="0" loadImmediate="false" itemID="4df7d66a-00000526" lastModified="1308088370"/>
+          <Include href="Common Assets/Symbol 210.xml" loadImmediate="false" itemID="4e0b8483-00000473" lastModified="1309377667"/>
+          <Include href="Common Assets/Symbol 213.xml" loadImmediate="false" itemID="4e0c6887-00000445" lastModified="1309446707"/>
+          <Include href="Common Assets/Symbol 214.xml" loadImmediate="false" itemID="4e0c8506-000005f0" lastModified="1309443334"/>
+          <Include href="Common Assets/Symbol 215.xml" loadImmediate="false" itemID="4e0eebc9-000004d8" lastModified="1309600713"/>
+          <Include href="Common Assets/Symbol 216.xml" loadImmediate="false" itemID="4e181b3e-00000444" lastModified="1310202686"/>
+          <Include href="Common Assets/Symbol 217.xml" loadImmediate="false" itemID="4e181ced-00000475" lastModified="1310203117"/>
+          <Include href="Common Assets/Symbol 218.xml" loadImmediate="false" itemID="4e181d45-0000047e" lastModified="1310203205"/>
+          <Include href="Common Assets/Symbol 219.xml" itemIcon="0" loadImmediate="false" itemID="4e1832dc-000004ea" lastModified="1441138472"/>
+          <Include href="Common Assets/Symbol 221.xml" loadImmediate="false" itemID="4e37bd22-00000681" lastModified="1312275746"/>
+          <Include href="Common Assets/Symbol 222.xml" loadImmediate="false" itemID="4e6dd66b-000007e1" lastModified="1315821163"/>
+          <Include href="Common Assets/Symbol 223.xml" loadImmediate="false" itemID="4edd223d-00000494" lastModified="1323115069"/>
+          <Include href="Common Assets/Symbol 225.xml" loadImmediate="false" itemID="4eedd35c-0000048a" lastModified="1324589839"/>
+          <Include href="Common Assets/Symbol 226.xml" loadImmediate="false" itemID="4eecbc57-000007a0" lastModified="1386275264"/>
+          <Include href="Common Assets/Symbol 228.xml" loadImmediate="false" itemID="52228722-00000682" lastModified="1341495687"/>
+          <Include href="Common Assets/Symbol 228 copy.xml" loadImmediate="false" itemID="52343fc2-00000177" lastModified="1377994530"/>
+          <Include href="Common Assets/Symbol 229.xml" loadImmediate="false" itemID="52228722-00000685" lastModified="1324209068"/>
+          <Include href="Common Assets/Symbol 229 copy.xml" loadImmediate="false" itemID="52343fc2-00000178" lastModified="1377994530"/>
+          <Include href="Common Assets/Symbol 230.xml" loadImmediate="false" itemID="52228722-00000683" lastModified="1324209157"/>
+          <Include href="Common Assets/Symbol 230 copy.xml" loadImmediate="false" itemID="52343fc2-00000179" lastModified="1324209157"/>
+          <Include href="Common Assets/Symbol 234.xml" loadImmediate="false" itemID="4eef3fce-000008c7" lastModified="1324302291"/>
+          <Include href="Common Assets/Symbol 235.xml" loadImmediate="false" itemID="4ef39258-0000048f" lastModified="1324589848"/>
+          <Include href="Common Assets/Symbol 236.xml" loadImmediate="false" itemID="52228723-00000689" lastModified="1324585697"/>
+          <Include href="Common Assets/Symbol 236 copy.xml" loadImmediate="false" itemID="52343fc2-0000017a" lastModified="1377994530"/>
+          <Include href="Common Assets/Symbol 237.xml" loadImmediate="false" itemID="52228722-00000687" lastModified="1324585713"/>
+          <Include href="Common Assets/Symbol 237 copy.xml" loadImmediate="false" itemID="52343fc2-0000017b" lastModified="1324585713"/>
+          <Include href="Common Assets/Symbol 238.xml" loadImmediate="false" itemID="52228722-00000686" lastModified="1341495733"/>
+          <Include href="Common Assets/Symbol 238 copy.xml" loadImmediate="false" itemID="52343fc2-0000017c" lastModified="1377994531"/>
+          <Include href="Common Assets/Symbol 239.xml" loadImmediate="false" itemID="4ef64add-00000770" lastModified="1324763869"/>
+          <Include href="Common Assets/Symbol 240.xml" loadImmediate="false" itemID="4ef64dce-000007bd" lastModified="1324764622"/>
+          <Include href="Common Assets/Symbol 241.xml" loadImmediate="false" itemID="4ef904ac-0000063a" lastModified="1324942560"/>
+          <Include href="Common Assets/Symbol 243.xml" itemIcon="0" loadImmediate="false" itemID="4f130951-000006f9" lastModified="1326647649"/>
+          <Include href="Common Assets/Symbol 246.xml" itemIcon="0" loadImmediate="false" itemID="4f3f7adf-000004dd" lastModified="1329560299"/>
+          <Include href="ConfirmAlert.xml" itemID="522276d0-0000061d" lastModified="1384713499"/>
+          <Include href="Content Assets/refreshButton.xml" itemID="4ff811ca-00000763" lastModified="1341657700"/>
+          <Include href="Content Assets/WindowBackground.xml" itemID="4ff7ee0f-00000492" lastModified="1384713230"/>
+          <Include href="ContentToggle Assets/AppIcon.xml" itemID="4ff7f4b0-000004ac" lastModified="1341650358"/>
+          <Include href="ContentToggle Assets/ContentToggle.xml" itemID="4ff598be-0000078a" lastModified="1341649532"/>
+          <Include href="ContentToggle Assets/InfoIcon.xml" itemID="4ff5b0da-000007df" lastModified="1341647269"/>
+          <Include href="ContentToggle Assets/leftButton.xml" loadImmediate="false" itemID="4ff5995a-000007c7" lastModified="1341495694"/>
+          <Include href="ContentToggle Assets/rightButton.xml" loadImmediate="false" itemID="4ff59955-000007c6" lastModified="1341495716"/>
+          <Include href="ContentToggle Assets/SettingIcon.xml" itemID="4ff5a5ed-000007d4" lastModified="1341660563"/>
+          <Include href="ContentToggle Assets/SiteIcon.xml" itemID="4ff7f4d3-000004ad" lastModified="1341650374"/>
+          <Include href="dragEnterFrame.xml" loadImmediate="false" itemID="52a0e1b8-00000151" lastModified="1386275256"/>
+          <Include href="Hint.xml" itemID="52890936-0000015d" lastModified="1384714906"/>
+          <Include href="IconItemRenderer.xml" itemID="52b62596-000002c9" lastModified="1387668980"/>
+          <Include href="InfoContent.xml" itemID="52228cca-000006b1" lastModified="1386277804"/>
+          <Include href="InternetSettingView.xml" itemID="5290c61c-00000152" lastModified="1386275174"/>
+          <Include href="MainWindowBackground.xml" itemID="52b6323c-000002d5" lastModified="1387672124"/>
+          <Include href="ProcessesMenu.xml" itemID="4eedd256-00000460" lastModified="1387665201"/>
+          <Include href="ProcessItemRenderer.xml" itemID="4ef64ac2-0000076e" lastModified="1387664880"/>
+          <Include href="ProjectCreateButton.xml" itemID="52b629be-000002ce" lastModified="1387669952"/>
+          <Include href="ProjectIconsLineView.xml" itemID="52b6254c-000002c8" lastModified="1387668823"/>
+          <Include href="ProjectQuestionButton.xml" itemID="52b6243c-000002c6" lastModified="1387669116"/>
+          <Include href="ProjectsView.xml" itemID="527cec88-0000015c" lastModified="1384713213"/>
+          <Include href="ProjectView Assets/Assets/confirmButtonDownState.xml" loadImmediate="false" itemID="5122288b-000007d1" lastModified="1367855239"/>
+          <Include href="ProjectView Assets/Assets/confirmButtonOverState.xml" loadImmediate="false" itemID="51222869-000007bf" lastModified="1367855035"/>
+          <Include href="ProjectView Assets/Assets/confirmButtonUpState.xml" loadImmediate="false" itemID="51222822-0000074a" lastModified="1367854948"/>
+          <Include href="ProjectView Assets/Assets/Symbol 197 copy.xml" loadImmediate="false" itemID="5222744c-00000618" lastModified="1361196540"/>
+          <Include href="ProjectView Assets/Assets/Symbol 197 copy 2.xml" loadImmediate="false" itemID="5222744c-00000619" lastModified="1323198610"/>
+          <Include href="ProjectView Assets/LabelEditorView.xml" itemID="52322770-00000197" lastModified="1384612935"/>
+          <Include href="ProjectView Assets/optionsMenu.xml" loadImmediate="false" itemID="518b75a8-000003bc" lastModified="1382685287"/>
+          <Include href="ProjectView Assets/Project Assets/confirmButton.xml" itemID="512227d8-00000742" lastModified="1384713345"/>
+          <Include href="ProjectView Assets/ProjectEditorView.xml" itemID="52b6237e-000002c5" lastModified="1387669534"/>
+          <Include href="ProjectView Assets/ProjectItemRenderer.xml" itemID="52322f2d-00000359" lastModified="1441315893"/>
+          <Include href="ProjectView Assets/ProjectsCreatorView.xml" itemID="52b627dc-000002cd" lastModified="1387670283"/>
+          <Include href="ScrollGfx.xml" itemID="518cc8de-0000038c" lastModified="1441138480"/>
+          <Include href="searchBar.xml" loadImmediate="false" itemID="5290c727-00000156" lastModified="1385219879"/>
+          <Include href="SettingCheckBox.xml" itemID="5289274e-000001db" lastModified="1384720219"/>
+          <Include href="Slider.xml" itemID="52892692-000001da" lastModified="1384721423"/>
+          <Include href="SmallFlipper.xml" itemID="4f0f47cc-000005aa" lastModified="1384724276"/>
+          <Include href="StatisticChartView.xml" itemID="52b61df4-000002c3" lastModified="1441225385"/>
+          <Include href="StatisticItemRenderer.xml" itemID="4f3f7a9c-000004c9" lastModified="1387666365"/>
+          <Include href="StatisticMenu.xml" itemID="52b61a34-000002ac" lastModified="1387666565"/>
+          <Include href="StatisticMenuButton.xml" itemID="52b61be6-000002ba" lastModified="1387666417"/>
+          <Include href="StatisticView.xml" itemID="52b61f23-000002c4" lastModified="1387667345"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="StatisticGuiSymbol" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="StatisticView" name="statisticGui" centerPoint3DX="131.5" centerPoint3DY="311.5">
+                                             <matrix>
+                                                  <Matrix tx="131.5" ty="163"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="148.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="projectsGui" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ProjectsView" name="projectsGui" centerPoint3DX="130.8" centerPoint3DY="141.5">
+                                             <matrix>
+                                                  <Matrix tx="130.8" ty="123"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="18.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="clockGui" color="#FF4F4F" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ClockView" name="clockGui" centerPoint3DX="88.45" centerPoint3DY="90.25">
+                                             <matrix>
+                                                  <Matrix tx="31" ty="62.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="57.5" y="28.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="back" color="#4FFFFF" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="MainWindowBackground" name="back" centerPoint3DX="131.5" centerPoint3DY="122">
+                                             <matrix>
+                                                  <Matrix tx="2.5" ty="18"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="129" y="104"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="clockToggle" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ClockToggleView" name="clockToggle" centerPoint3DX="93.1" centerPoint3DY="22">
+                                             <matrix>
+                                                  <Matrix tx="18.5" ty="7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="74.6" y="15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="HintSymbol" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hint">
+                                             <matrix>
+                                                  <Matrix tx="119.95" ty="-167.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="27.5" y="8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="confirmAlert" color="#808080" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ConfirmAlert" name="confirmAlert" centerPoint3DX="436.1" centerPoint3DY="212">
+                                             <matrix>
+                                                  <Matrix tx="436.1" ty="212"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="AlertContentSymbol" color="#FF800A" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="AlertContent" centerPoint3DX="316.5" centerPoint3DY="377.5">
+                                             <matrix>
+                                                  <Matrix tx="316.5" ty="377.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="InfoContentSymbol" color="#4FFF4F" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="InfoContent" centerPoint3DX="-162.4" centerPoint3DY="136.9">
+                                             <matrix>
+                                                  <Matrix tx="-293.4" ty="13.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="131" y="123.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="ProcessesContentSymbol" color="#9933CC" locked="true" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <swatchLists>
+          <swatchList>
+               <swatches>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
+     <extendedSwatchLists>
+          <swatchList>
+               <swatches>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#00FF00" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#0000FF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#0066FD" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.376470588235294"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                         <GradientEntry color="#996600" ratio="0.501960784313725"/>
+                         <GradientEntry color="#FFCC00" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFF00" ratio="0.164705882352941"/>
+                         <GradientEntry color="#00FF00" ratio="0.364705882352941"/>
+                         <GradientEntry color="#00FFFF" ratio="0.498039215686275"/>
+                         <GradientEntry color="#0000FF" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FF00FF" ratio="0.831372549019608"/>
+                         <GradientEntry color="#FF0000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+               </swatches>
+          </swatchList>
+     </extendedSwatchLists>
+     <persistentData>
+          <PD n="com.air.artemis.airdest" v="D:/Projects/MotivateClock/app/trunk/bin/install/motivateclock.exe"/>
+          <PD n="ane.tmp.unzipped.folder" v="C:\Users\40E4~1\AppData\Local\Temp\Tmp_ANE_File_Unzipped_Packages"/>
+          <PD n="com.air.oldTargetPlatform" v="Desktop"/>
+          <PD n="com.air.artemis.included.count" v="5"/>
+          <PD n="DebugMovieChecked" v="ADLDesktop"/>
+          <PD n="TestMovieChecked" v="ADLDesktop"/>
+          <PD n="com.air.artemis.pubair" v="false"/>
+          <PD n="com.air.sdk.path"/>
+          <PD n="com.air.artemis.included.item0" v="utils"/>
+          <PD n="com.air.artemis.pubipa" v="false"/>
+          <PD n="com.air.artemis.included.item1" v="languages.xml"/>
+          <PD n="com.air.artemis.included.item2" v="sounds"/>
+          <PD n="com.air.artemis.included.item3" v="changelog.txt"/>
+          <PD n="flash.swf.basename" v="motivateclock"/>
+          <PD n="com.air.artemis.included.item4" v="assets"/>
+          <PD n="com.air.artemis.included.item5" v="extensions"/>
+          <PD n="com.air.artemis.pubcaptive" v="false"/>
+          <PD n="flash.fla.filepath" v="D:/Projects/MotivateClock/app/trunk/xfl/motivate_clock/motivate_clock.xfl"/>
+          <PD n="swf.folder.path" v="D:/Projects/MotivateClock/app/trunk/bin/"/>
+          <PD n="com.air.artemis.pubexe" v="true"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="246203" publishTime="1441315829"/>
+          <PublishItem publishSize="246191" publishTime="1441315756"/>
+          <PublishItem publishSize="246159" publishTime="1441224129"/>
+          <PublishItem publishSize="245534" publishTime="1441139006"/>
+          <PublishItem publishSize="245578" publishTime="1441138639"/>
+          <PublishItem publishSize="246207" publishTime="1387672626"/>
+          <PublishItem publishSize="246207" publishTime="1387672244"/>
+          <PublishItem publishSize="246172" publishTime="1387671307"/>
+          <PublishItem publishSize="246172" publishTime="1387670652"/>
+          <PublishItem publishSize="1446974" publishTime="1387670481"/>
+          <PublishItem publishSize="1448029" publishTime="1387670407"/>
+          <PublishItem publishSize="1448161" publishTime="1387670268"/>
+          <PublishItem publishSize="242865" publishTime="1387670251"/>
+          <PublishItem publishSize="242881" publishTime="1387670240"/>
+          <PublishItem publishSize="242920" publishTime="1387670228"/>
+          <PublishItem publishSize="1448589" publishTime="1387669985"/>
+          <PublishItem publishSize="1447514" publishTime="1387669851"/>
+          <PublishItem publishSize="1447494" publishTime="1387669213"/>
+          <PublishItem publishSize="1447258" publishTime="1387669123"/>
+          <PublishItem publishSize="1446361" publishTime="1387669077"/>
+     </publishHistory>
+</DOMDocument>

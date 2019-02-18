@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LANGUAGES>
+
+    <LANGUAGE ID="ru" NAME="Русский">
+        <TEXT ID="WORK"><![CDATA[Работа]]></TEXT>
+        <TEXT ID="REST"><![CDATA[Отдых]]></TEXT>
+        <TEXT ID="PAUSE"><![CDATA[Пауза]]></TEXT>
+        <TEXT ID="START_TIME_TRACKING"><![CDATA[Начните учет рабочего времени]]></TEXT>
+        <TEXT ID="YOU_WORK"><![CDATA[Вы работаете]]></TEXT>
+        <TEXT ID="YOU_REST"><![CDATA[Вы отдыхаете]]></TEXT>
+        <TEXT ID="CLOSE"><![CDATA[Закрыть]]></TEXT>
+        <TEXT ID="SETTINGS"><![CDATA[Настройки]]></TEXT>
+        <TEXT ID="MINIMIZE"><![CDATA[Свернуть]]></TEXT>
+        <TEXT ID="UPDATE"><![CDATA[Обновить]]></TEXT>
+        <TEXT ID="AND"><![CDATA[и]]></TEXT>
+        <TEXT ID="EXIT"><![CDATA[Выход]]></TEXT>
+        <TEXT ID="VISIT_WEBSITE"><![CDATA[Посетить сайт]]></TEXT>
+        <TEXT ID="ABOVE_ALL"><![CDATA[Поверх всех окон]]></TEXT>
+        <TEXT ID="CANCEL"><![CDATA[отмена]]></TEXT>
+        <TEXT ID="YES"><![CDATA[да]]></TEXT>
+        <TEXT ID="EVERY"><![CDATA[Каждую,Каждые,Каждые]]></TEXT>
+        <TEXT ID="THROUGH"><![CDATA[Через]]></TEXT>
+        <TEXT ID="RATE"><![CDATA[Оценить приложение]]></TEXT>
+        <TEXT ID="ERROR"><![CDATA[Сообщить об ошибке]]></TEXT>
+
+        <TEXT ID="DAY"><![CDATA[день,дня,дней]]></TEXT>
+        <TEXT ID="HOUR"><![CDATA[час,часа,часов]]></TEXT>
+        <TEXT ID="MINUTE"><![CDATA[минуту,минуты,минут]]></TEXT>
+        <TEXT ID="SECOND"><![CDATA[секунда,секунды,секунд]]></TEXT>
+        <TEXT ID="MONTHS_COLLECTION"><![CDATA[Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь]]></TEXT>
+
+        <TEXT ID="ALERT_UPDATE_AVAILABLE"><![CDATA[Доступно обновление]]></TEXT>
+        <TEXT ID="ALERT_DOWNLOAD"><![CDATA[Скачать обновление {0} для Windows]]></TEXT>
+        <TEXT ID="ALERT_WORKING"><![CDATA[Вы работаете]]></TEXT>
+        <TEXT ID="ALERT_WORKING_QUESTION"><![CDATA[Не пора ли отдохнуть?]]></TEXT>
+        <TEXT ID="ALERT_RESTING"><![CDATA[Вы отдыхаете]]></TEXT>
+        <TEXT ID="ALERT_RESTING_QUESTION"><![CDATA[Не пора ли поработать?]]></TEXT>
+        <TEXT ID="ALERT_PROJECT"><![CDATA[Вы работаете над проектом]]></TEXT>
+
+        <TEXT ID="PDF_SAVE_AS"><![CDATA[Сохранить как]]></TEXT>
+        <TEXT ID="PDF_ACTIVE"><![CDATA[Проект активен]]></TEXT>
+        <TEXT ID="PDF_CREATED"><![CDATA[Проект создан]]></TEXT>
+        <TEXT ID="PDF_INTO_ACCOUNT"><![CDATA[Учтено]]></TEXT>
+        <TEXT ID="PDF_WORKING"><![CDATA[рабочего]]></TEXT>
+        <TEXT ID="PDF_RESTING"><![CDATA[не рабочего]]></TEXT>
+        <TEXT ID="PDF_TIME"><![CDATA[времени]]></TEXT>
+        <TEXT ID="PDF_YEAR"><![CDATA[год]]></TEXT>
+        <TEXT ID="PDF_MONTH"><![CDATA[месяц]]></TEXT>
+        <TEXT ID="PDF_DAY"><![CDATA[день]]></TEXT>
+
+        <TEXT ID="PROJECT_NEW"><![CDATA[Новый проект]]></TEXT>
+        <TEXT ID="PROJECT_CANCEL"><![CDATA[Отмена]]></TEXT>
+        <TEXT ID="PROJECT_DELETE"><![CDATA[Удалить проект]]></TEXT>
+        <TEXT ID="PROJECT_DUPLICATE"><![CDATA[Дублировать проект]]></TEXT>
+        <TEXT ID="PROJECT_OPTIONS"><![CDATA[Настройки проекта]]></TEXT>
+        <TEXT ID="PROJECT_EDIT_NAME"><![CDATA[Редактировать название]]></TEXT>
+        <TEXT ID="PROJECT_SAVE"><![CDATA[Сохранить и выбрать]]></TEXT>
+        <TEXT ID="PROJECT_COPY"><![CDATA[Копия]]></TEXT>
+        <TEXT ID="PROJECT_ADD_APPS"><![CDATA[Добавить приложения]]></TEXT>
+        <TEXT ID="PROJECT_UNNAMED"><![CDATA[Без имени]]></TEXT>
+        <TEXT ID="PROJECT_SELECT_APP"><![CDATA[В чем вы работаете?]]></TEXT>
+        <TEXT ID="PROJECT_ENTER_NAME"><![CDATA[Введите название проекта]]></TEXT>
+        <TEXT ID="PROJECT_CREATED"><![CDATA[создан]]></TEXT>
+        <TEXT ID="PROJECT_OPEN"><![CDATA[Открыть]]></TEXT>
+        <TEXT ID="PROJECT_CLOSE"><![CDATA[Закрыть]]></TEXT>
+        <TEXT ID="PROJECT_MANUAL_MODE"><![CDATA[Режим ручного учета]]></TEXT>
+        <TEXT ID="PROJECT_MINIMIZE"><![CDATA[Свернуть проекты]]></TEXT>
+        <TEXT ID="PROJECT_FIRST"><![CDATA[Ваш первый проект]]></TEXT>
+
+        <TEXT ID="PROJECT_PROMPT_CREATE_NEW"><![CDATA[Для начала работы, <a href="event:create">создайте ваш первый проект</a>]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_ADD_APPS"><![CDATA[<a href="event:setting">Отметьте приложения,</a> которые относятся к вашей работе]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_EXTENSION"><![CDATA[<a href="event:extension">Установите расширения,</a> для учета времени на веб сайтах]]></TEXT>
+
+        <TEXT ID="PROCESSES_HINT_UPDATE"><![CDATA[Обновить список программ]]></TEXT>
+        <TEXT ID="PROCESSES_APP_UPDATE"><![CDATA[Обновить]]></TEXT>
+        <TEXT ID="PROCESSES_HINT_AUTO"><![CDATA[Автоучет]]></TEXT>
+        <TEXT ID="PROCESSES_APP_TITLE"><![CDATA[Программы]]></TEXT>
+        <TEXT ID="PROCESSES_APP_INFO"><![CDATA[Отметьте программы<br>в которых вы работаете]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_TITLE"><![CDATA[Интернет]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_DRAG"><![CDATA[Перетащите сюда URL адрес<br>из вкладки браузера]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_INSERT"><![CDATA[или впишите url сайта,<br>относящегося к вашей работе]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_ADD"><![CDATA[Добавить сайт]]></TEXT>
+        <TEXT ID="PROCESSES_INSTALL_EXTENSION"><![CDATA[Установите расширение<br>для вашего браузера]]></TEXT>
+        <TEXT ID="PROCESSES_APP_HINT"><![CDATA[Программы]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_HINT"><![CDATA[Интернет]]></TEXT>
+
+        <TEXT ID="TRAY_OPEN"><![CDATA[Открыть Motivate Clock]]></TEXT>
+        <TEXT ID="TRAY_PROJECTS"><![CDATA[Проекты]]></TEXT>
+        <TEXT ID="TRAY_PROJECT"><![CDATA[Проект]]></TEXT>
+        <TEXT ID="TRAY_MODE"><![CDATA[Режим]]></TEXT>
+
+        <TEXT ID="CONFIRM_DELETE"><![CDATA[Проект будет удален]]></TEXT>
+        <TEXT ID="CONFIRM_CLEAR"><![CDATA[Статистика будет обнулена]]></TEXT>
+        <TEXT ID="CONFIRM_EXPORT"><![CDATA[Экспорт данных...]]></TEXT>
+
+        <TEXT ID="ABOUT_TITLE"><![CDATA[О приложении]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_CURRENT"><![CDATA[Вы используете самую последнюю версию]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_NEW"><![CDATA[Доступно обновление]]></TEXT>
+        <TEXT ID="ABOUT_SITE"><![CDATA[Посетить сайт приложения]]></TEXT>
+        <TEXT ID="ABOUT_DEVELOPERS"><![CDATA[Разработчики]]></TEXT>
+        <TEXT ID="ABOUT_HOTKEY"><![CDATA[Ctrl + P <font color='#5c5e61'>- открыть проекты</font><br>
+                                        Ctrl + N <font color='#5c5e61'>- новый проект</font><br>
+                                        Ctrl + S <font color='#5c5e61'>- открыть статистику</font><br>
+                                        Ctrl + O <font color='#5c5e61'>- открыть настройки</font><br>
+                                        ESC <font color='#5c5e61'>- свернуть приложение</font><br>
+                                        Alt + C <font color='#5c5e61'>- изменить цвет приложения</font>
+                                        ]]></TEXT>
+
+        <TEXT ID="SETTINGS_AUTORUN"><![CDATA[Включать при запуске ОС]]></TEXT>
+        <TEXT ID="SETTINGS_SOUND"><![CDATA[Включить<br>звуковые уведомления]]></TEXT>
+        <TEXT ID="SETTINGS_IDLE_TYPE"><![CDATA[При бездействии,<br>переключать в режим]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_WORK"><![CDATA[Уведомлять про<br>длительность <font color='#5b8403'>работы</font>]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_REST"><![CDATA[Уведомлять про<br>длительность <font color='#ab2121'>отдыха</font>]]></TEXT>
+        <TEXT ID="SETTINGS_LANGUAGE"><![CDATA[Язык:]]></TEXT>
+        <TEXT ID="SETTINGS_EXPORT_REST_STAT"><![CDATA[Экспортировать статистику отдыха]]></TEXT>
+        <TEXT ID="SETTINGS_WORKING_HOURS"><![CDATA[Продолжительность рабочего дня]]></TEXT>
+        <TEXT ID="SETTINGS_APP_COLOR"><![CDATA[Изменить цвет приложения:]]></TEXT>
+
+        <TEXT ID="STATISTIC_OPEN"><![CDATA[Открыть статистику]]></TEXT>
+        <TEXT ID="STATISTIC_CLOSE"><![CDATA[Свернуть статистику]]></TEXT>
+        <TEXT ID="STATISTIC_ALL"><![CDATA[Все]]></TEXT>
+        <TEXT ID="STATISTIC_WORK"><![CDATA[Работа]]></TEXT>
+        <TEXT ID="STATISTIC_REST"><![CDATA[Отдых]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_CLEAR"><![CDATA[Очистить статистику]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_PDF"><![CDATA[Экcпорт в PDF]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_UPDATE"><![CDATA[Обновить статистику]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_WORK"><![CDATA[Работа]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_REST"><![CDATA[Отдых]]></TEXT>
+        <TEXT ID="STATISTIC_DESKTOP"><![CDATA[Рабочий стол]]></TEXT>
+        <TEXT ID="STATISTIC_DATE_RANGE"><![CDATA[день,неделя,месяц,проект]]></TEXT>
+    </LANGUAGE>
+
+    <LANGUAGE ID="ua" NAME="Українська">
+        <TEXT ID="WORK"><![CDATA[Робота]]></TEXT>
+        <TEXT ID="REST"><![CDATA[Дозвілля]]></TEXT>
+        <TEXT ID="PAUSE"><![CDATA[Пауза]]></TEXT>
+        <TEXT ID="START_TIME_TRACKING"><![CDATA[Почніть облік робочого часу]]></TEXT>
+        <TEXT ID="YOU_WORK"><![CDATA[Ви працюєте]]></TEXT>
+        <TEXT ID="YOU_REST"><![CDATA[Ви відпочиваєте]]></TEXT>
+        <TEXT ID="CLOSE"><![CDATA[Закрити]]></TEXT>
+        <TEXT ID="SETTINGS"><![CDATA[Параметри]]></TEXT>
+        <TEXT ID="MINIMIZE"><![CDATA[Згорнути ]]></TEXT>
+        <TEXT ID="UPDATE"><![CDATA[Оновити]]></TEXT>
+        <TEXT ID="AND"><![CDATA[та]]></TEXT>
+        <TEXT ID="EXIT"><![CDATA[Вихід]]></TEXT>
+        <TEXT ID="VISIT_WEBSITE"><![CDATA[Відвідати сайт]]></TEXT>
+        <TEXT ID="ABOVE_ALL"><![CDATA[Поверх всіх вікон]]></TEXT>
+        <TEXT ID="CANCEL"><![CDATA[відмінити]]></TEXT>
+        <TEXT ID="YES"><![CDATA[так]]></TEXT>
+        <TEXT ID="EVERY"><![CDATA[Кожну, Кожні, Кожні]]></TEXT>
+        <TEXT ID="THROUGH"><![CDATA[Через]]></TEXT>
+        <TEXT ID="RATE"><![CDATA[Оцінити додаток]]></TEXT>
+        <TEXT ID="ERROR"><![CDATA[Повідомити про помилку]]></TEXT>
+
+        <TEXT ID="DAY"><![CDATA[день, дня, днів]]></TEXT>
+        <TEXT ID="HOUR"><![CDATA[годину, години, годин]]></TEXT>
+        <TEXT ID="MINUTE"><![CDATA[хвилину, хвилини, хвилин]]></TEXT>
+        <TEXT ID="SECOND"><![CDATA[секунда, секунди, секунд]]></TEXT>
+        <TEXT ID="ALERT_UPDATE_AVAILABLE"><![CDATA[Доступно оновлення]]></TEXT>
+        <TEXT ID="ALERT_DOWNLOAD"><![CDATA[Завантажити оновлення {0} для Windows]]></TEXT>
+        <TEXT ID="ALERT_WORKING"><![CDATA[Ви працюєте]]></TEXT>
+        <TEXT ID="ALERT_WORKING_QUESTION"><![CDATA[Чи не час відпочити?]]></TEXT>
+        <TEXT ID="ALERT_RESTING"><![CDATA[Ви відпочиваєте]]></TEXT>
+        <TEXT ID="ALERT_RESTING_QUESTION"><![CDATA[Чи не час попрацювати?]]></TEXT>
+        <TEXT ID="ALERT_PROJECT"><![CDATA[Ви працюєте над проектом]]></TEXT>
+
+        <TEXT ID="PDF_SAVE_AS"><![CDATA[Зберегти як]]></TEXT>
+        <TEXT ID="PDF_ACTIVE"><![CDATA[Проект активний]]></TEXT>
+        <TEXT ID="PDF_CREATED"><![CDATA[Проект створений]]></TEXT>
+        <TEXT ID="PDF_INTO_ACCOUNT"><![CDATA[Враховано]]></TEXT>
+        <TEXT ID="PDF_WORKING"><![CDATA[робочого]]></TEXT>
+        <TEXT ID="PDF_RESTING"><![CDATA[не робочого]]></TEXT>
+        <TEXT ID="PDF_TIME"><![CDATA[часу]]></TEXT>
+        <TEXT ID="PDF_YEAR"><![CDATA[рік]]></TEXT>
+        <TEXT ID="PDF_MONTH"><![CDATA[місяць]]></TEXT>
+        <TEXT ID="PDF_DAY"><![CDATA[день]]></TEXT>
+
+        <TEXT ID="PROJECT_NEW"><![CDATA[Новий проект]]></TEXT>
+        <TEXT ID="PROJECT_CANCEL"><![CDATA[Відмінити]]></TEXT>
+        <TEXT ID="PROJECT_DELETE"><![CDATA[Видалити проект]]></TEXT>
+        <TEXT ID="PROJECT_DUPLICATE"><![CDATA[Дублювати проект]]></TEXT>
+        <TEXT ID="PROJECT_OPTIONS"><![CDATA[Налаштування проекту]]></TEXT>
+        <TEXT ID="PROJECT_EDIT_NAME"><![CDATA[Редагувати назву]]></TEXT>
+        <TEXT ID="PROJECT_SAVE"><![CDATA[Зберегти і вибрати]]></TEXT>
+        <TEXT ID="PROJECT_COPY"><![CDATA[Копія]]></TEXT>
+        <TEXT ID="PROJECT_ADD_APPS"><![CDATA[Додати програми]]></TEXT>
+        <TEXT ID="PROJECT_UNNAMED"><![CDATA[Без назви]]></TEXT>
+        <TEXT ID="PROJECT_SELECT_APP"><![CDATA[У чому ви працюєте?]]></TEXT>
+        <TEXT ID="PROJECT_ENTER_NAME"><![CDATA[Введіть назву проекту]]></TEXT>
+        <TEXT ID="PROJECT_CREATED"><![CDATA[створений]]></TEXT>
+        <TEXT ID="PROJECT_OPEN"><![CDATA[Відкрити]]></TEXT>
+        <TEXT ID="PROJECT_CLOSE"><![CDATA[Закрити]]></TEXT>
+        <TEXT ID="PROJECT_MANUAL_MODE"><![CDATA[Режим ручного обліку]]></TEXT>
+        <TEXT ID="PROJECT_MINIMIZE"><![CDATA[Згорнути проекти]]></TEXT>
+        <TEXT ID="PROJECT_FIRST"><![CDATA[Ваш перший проект]]></TEXT>
+
+        <TEXT ID="PROJECT_PROMPT_CREATE_NEW"><![CDATA[Для початку роботи, <a href="event:create">створіть ваш перший проект</a>]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_ADD_APPS"><![CDATA[<a href="event:setting">Позначте програми,</a> які належать до вашої роботи]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_EXTENSION"><![CDATA[<a href="event:extension">Встановіть розширення,</a> для обліку часу на веб сайтах]]></TEXT>
+
+        <TEXT ID="PROCESSES_HINT_UPDATE"><![CDATA[Оновити список програм]]></TEXT>
+        <TEXT ID="PROCESSES_APP_UPDATE"><![CDATA[Оновити]]></TEXT>
+        <TEXT ID="PROCESSES_HINT_AUTO"><![CDATA[Автооблік]]></TEXT>
+        <TEXT ID="PROCESSES_APP_TITLE"><![CDATA[Програми]]></TEXT>
+        <TEXT ID="PROCESSES_APP_INFO"><![CDATA[Позначте програми <br> в яких ви працюєте]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_TITLE"><![CDATA[Інтернет]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_DRAG"><![CDATA[Перетягніть сюди URL адресу<br>з вкладки браузера]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_INSERT"><![CDATA[або впишіть url сайту,<br>який відноситься до вашої роботи]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_ADD"><![CDATA[Додати сайт]]></TEXT>
+        <TEXT ID="PROCESSES_INSTALL_EXTENSION"><![CDATA[Встановіть розширення<br>для вашого браузера]]></TEXT>
+        <TEXT ID="PROCESSES_APP_HINT"><![CDATA[Програми]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_HINT "><![CDATA[Інтернет]]></TEXT>
+
+        <TEXT ID="TRAY_OPEN"><![CDATA[Відкрити Motivate Clock]]></TEXT>
+        <TEXT ID="TRAY_PROJECTS"><![CDATA[Проекти]]></TEXT>
+        <TEXT ID="TRAY_PROJECT"><![CDATA[Проект]]></TEXT>
+        <TEXT ID="TRAY_MODE"><![CDATA[Режим]]></TEXT>
+
+        <TEXT ID="CONFIRM_DELETE"><![CDATA[Проект буде видалено]]></TEXT>
+        <TEXT ID="CONFIRM_CLEAR"><![CDATA[Статистика буде обнулена]]></TEXT>
+        <TEXT ID="CONFIRM_EXPORT"><![CDATA[Експорт даних...]]></TEXT>
+
+        <TEXT ID="ABOUT_TITLE"><![CDATA[Про програму]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_CURRENT"><![CDATA[Ви використовуєте<br>останню версію]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_NEW"><![CDATA[Доступно оновлення]]></TEXT>
+        <TEXT ID="ABOUT_SITE"><![CDATA[Відвідати сайт програми]]></TEXT>
+        <TEXT ID="ABOUT_DEVELOPERS"><![CDATA[Розробники]]></TEXT>
+        <TEXT ID="ABOUT_HOTKEY"><![CDATA[Ctrl + P <font color='#5c5e61'>- відкрити проекти</font><br>
+                                        Ctrl + N <font color='#5c5e61'>- новий проект</font><br>
+                                        Ctrl + S <font color='#5c5e61'>- відкрити статистику</font><br>
+                                        Ctrl + O <font color='#5c5e61'>- відкрити параметри</font><br>
+                                        ESC <font color='#5c5e61'>- згорнути програму</font><br>
+                                        Alt + C <font color='#5c5e61'>- змінити колір додатку</font>
+                                        ]]></TEXT>
+
+        <TEXT ID="SETTINGS_AUTORUN"><![CDATA[Включати при запуску ОС]]></TEXT>
+        <TEXT ID="SETTINGS_SOUND"><![CDATA[Включити<br>звукові повідомлення]]></TEXT>
+        <TEXT ID="SETTINGS_IDLE_TYPE"><![CDATA[При бездіяльності,<br>перемикати в режим]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_WORK"><![CDATA[Повідомляти про<br>тривалість <font color='#5b8403'>роботи</ font>]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_REST"><![CDATA[Повідомляти про<br>тривалість <font color='#ab2121'>відпочинку</font>]]></TEXT>
+        <TEXT ID="SETTINGS_LANGUAGE"><![CDATA[Мова:]]></TEXT>
+        <TEXT ID="SETTINGS_EXPORT_REST_STAT"><![CDATA[Експортувати статистику відпочинку]]></TEXT>
+        <TEXT ID="SETTINGS_WORKING_HOURS"><![CDATA[Тривалість робочого дня]]></TEXT>
+        <TEXT ID="SETTINGS_APP_COLOR"><![CDATA[Змінити колір додатку:]]></TEXT>
+
+        <TEXT ID="STATISTIC_OPEN"><![CDATA[Відкрити статистику]]></TEXT>
+        <TEXT ID="STATISTIC_CLOSE"><![CDATA[Згорнути статистику]]></TEXT>
+        <TEXT ID="STATISTIC_ALL"><![CDATA[Всі]]></TEXT>
+        <TEXT ID="STATISTIC_WORK"><![CDATA[Робота]]></TEXT>
+        <TEXT ID="STATISTIC_REST"><![CDATA[Дозвілля]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_CLEAR"><![CDATA[Очистити статистику]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_PDF"><![CDATA[Експорт до PDF]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_UPDATE"><![CDATA[Оновити статистику]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_WORK"><![CDATA[Робота]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_REST"><![CDATA[Дозвілля]]></TEXT>
+        <TEXT ID="STATISTIC_DESKTOP"><![CDATA[Робочий стіл]]></TEXT>
+        <TEXT ID="STATISTIC_DATE_RANGE"><![CDATA[день,тиждень,місяць,проект]]></TEXT>
+    </LANGUAGE>
+
+    <LANGUAGE ID="en" NAME="English">
+        <TEXT ID="WORK"><![CDATA[Work]]></TEXT>
+        <TEXT ID="REST"><![CDATA[Rest]]></TEXT>
+        <TEXT ID="PAUSE"><![CDATA[Pause]]></TEXT>
+        <TEXT ID="START_TIME_TRACKING"><![CDATA[Start time tracking]]></TEXT>
+        <TEXT ID="YOU_WORK"><![CDATA[You are working]]></TEXT>
+        <TEXT ID="YOU_REST"><![CDATA[You are resting]]></TEXT>
+        <TEXT ID="CLOSE"><![CDATA[Close]]></TEXT>
+        <TEXT ID="SETTINGS"><![CDATA[Settings]]></TEXT>
+        <TEXT ID="MINIMIZE"><![CDATA[Minimize]]></TEXT>
+        <TEXT ID="UPDATE"><![CDATA[Update]]></TEXT>
+        <TEXT ID="AND"><![CDATA[&]]></TEXT>
+        <TEXT ID="EXIT"><![CDATA[Exit]]></TEXT>
+        <TEXT ID="VISIT_WEBSITE"><![CDATA[Visit website]]></TEXT>
+        <TEXT ID="ABOVE_ALL"><![CDATA[Above all windows]]></TEXT>
+        <TEXT ID="CANCEL"><![CDATA[cancel]]></TEXT>
+        <TEXT ID="YES"><![CDATA[ok]]></TEXT>
+        <TEXT ID="EVERY"><![CDATA[Every]]></TEXT>
+        <TEXT ID="THROUGH"><![CDATA[Through]]></TEXT>
+        <TEXT ID="RATE"><![CDATA[Rate]]></TEXT>
+        <TEXT ID="ERROR"><![CDATA[Bug report]]></TEXT>
+
+        <TEXT ID="DAY"><![CDATA[day,days,days]]></TEXT>
+        <TEXT ID="HOUR"><![CDATA[hour,hours,hours]]></TEXT>
+        <TEXT ID="MINUTE"><![CDATA[min.]]></TEXT>
+        <TEXT ID="SECOND"><![CDATA[sec.]]></TEXT>
+        <TEXT ID="MONTHS_COLLECTION"><![CDATA[January,February,March,April,May,June,July,August,September,October,November,December]]></TEXT>
+
+        <TEXT ID="ALERT_UPDATE_AVAILABLE"><![CDATA[Update available]]></TEXT>
+        <TEXT ID="ALERT_DOWNLOAD"><![CDATA[Download the update version {0} for Windows]]></TEXT>
+
+        <TEXT ID="ALERT_WORKING"><![CDATA[You're working]]></TEXT>
+        <TEXT ID="ALERT_WORKING_QUESTION"><![CDATA[Isn't it time to take a break?]]></TEXT>
+        <TEXT ID="ALERT_RESTING"><![CDATA[You're taking a break]]></TEXT>
+        <TEXT ID="ALERT_RESTING_QUESTION"><![CDATA[Isn't it time to get back to work?]]></TEXT>
+        <TEXT ID="ALERT_PROJECT"><![CDATA[You are working on]]></TEXT>
+
+        <TEXT ID="PDF_SAVE_AS"><![CDATA[Save as]]></TEXT>
+        <TEXT ID="PDF_ACTIVE"><![CDATA[Project active]]></TEXT>
+        <TEXT ID="PDF_CREATED"><![CDATA[Project created]]></TEXT>
+        <TEXT ID="PDF_INTO_ACCOUNT"><![CDATA[Time recorded in]]></TEXT>
+        <TEXT ID="PDF_WORKING"><![CDATA[work]]></TEXT>
+        <TEXT ID="PDF_RESTING"><![CDATA[rest]]></TEXT>
+        <TEXT ID="PDF_TIME"><![CDATA[mode]]></TEXT>
+        <TEXT ID="PDF_YEAR"><![CDATA[year]]></TEXT>
+        <TEXT ID="PDF_MONTH"><![CDATA[month]]></TEXT>
+        <TEXT ID="PDF_DAY"><![CDATA[day]]></TEXT>
+
+        <TEXT ID="PROJECT_NEW"><![CDATA[New project]]></TEXT>
+        <TEXT ID="PROJECT_CANCEL"><![CDATA[Cancel]]></TEXT>
+        <TEXT ID="PROJECT_DELETE"><![CDATA[Delete project]]></TEXT>
+        <TEXT ID="PROJECT_DUPLICATE"><![CDATA[Duplicate project]]></TEXT>
+        <TEXT ID="PROJECT_OPTIONS"><![CDATA[Project settings]]></TEXT>
+        <TEXT ID="PROJECT_EDIT_NAME"><![CDATA[Edit project name]]></TEXT>
+        <TEXT ID="PROJECT_SAVE"><![CDATA[Save and select]]></TEXT>
+        <TEXT ID="PROJECT_COPY"><![CDATA[Copy of]]></TEXT>
+        <TEXT ID="PROJECT_ADD_APPS"><![CDATA[Add application]]></TEXT>
+        <TEXT ID="PROJECT_UNNAMED"><![CDATA[Unnamed]]></TEXT>
+        <TEXT ID="PROJECT_SELECT_APP"><![CDATA[Select application(s).]]></TEXT>
+        <TEXT ID="PROJECT_ENTER_NAME"><![CDATA[Enter project name]]></TEXT>
+        <TEXT ID="PROJECT_CREATED"><![CDATA[created]]></TEXT>
+        <TEXT ID="PROJECT_OPEN"><![CDATA[Open]]></TEXT>
+        <TEXT ID="PROJECT_CLOSE"><![CDATA[Close]]></TEXT>
+        <TEXT ID="PROJECT_MANUAL_MODE"><![CDATA[Manual mode tracking]]></TEXT>
+        <TEXT ID="PROJECT_MINIMIZE"><![CDATA[Close projects]]></TEXT>
+        <TEXT ID="PROJECT_FIRST"><![CDATA[Your first project]]></TEXT>
+
+        <TEXT ID="PROJECT_PROMPT_CREATE_NEW"><![CDATA[To start working, <a href="event:create">create your<br>first project</a>]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_ADD_APPS"><![CDATA[<a href="event:setting">Mark applications</a> to make<br>time tracking automatically]]></TEXT>
+        <TEXT ID="PROJECT_PROMPT_EXTENSION"><![CDATA[<a href="event:extension">Install extension for browsers</a><br>to start websites' time tracking]]></TEXT>
+
+        <TEXT ID="PROCESSES_HINT_UPDATE"><![CDATA[Update program list]]></TEXT>
+        <TEXT ID="PROCESSES_APP_UPDATE"><![CDATA[Update]]></TEXT>
+        <TEXT ID="PROCESSES_HINT_AUTO"><![CDATA[Auto]]></TEXT>
+        <TEXT ID="PROCESSES_APP_TITLE"><![CDATA[Applications]]></TEXT>
+        <TEXT ID="PROCESSES_APP_INFO"><![CDATA[Select applications<br>you're working in]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_TITLE"><![CDATA[Internet]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_DRAG"><![CDATA[Drag the URL<br>from the web browser]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_INSERT"><![CDATA[or enter the URL associated<br>with your work manually]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_ADD"><![CDATA[Add site]]></TEXT>
+        <TEXT ID="PROCESSES_INSTALL_EXTENSION"><![CDATA[Install extension for<br>your browser]]></TEXT>
+        <TEXT ID="PROCESSES_APP_HINT"><![CDATA[Applications]]></TEXT>
+        <TEXT ID="PROCESSES_SITE_HINT"><![CDATA[Internet]]></TEXT>
+
+        <TEXT ID="TRAY_OPEN"><![CDATA[Open Motivate Clock]]></TEXT>
+        <TEXT ID="TRAY_PROJECTS"><![CDATA[Projects]]></TEXT>
+        <TEXT ID="TRAY_PROJECT"><![CDATA[Project]]></TEXT>
+        <TEXT ID="TRAY_MODE"><![CDATA[Mode]]></TEXT>
+
+        <TEXT ID="CONFIRM_DELETE"><![CDATA[The project will be removed]]></TEXT>
+        <TEXT ID="CONFIRM_CLEAR"><![CDATA[Statistics will be reset]]></TEXT>
+        <TEXT ID="CONFIRM_EXPORT"><![CDATA[Exporting data...]]></TEXT>
+
+        <TEXT ID="ABOUT_TITLE"><![CDATA[About]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_CURRENT"><![CDATA[You are using the latest version]]></TEXT>
+        <TEXT ID="ABOUT_UPDATE_NEW"><![CDATA[Update is available]]></TEXT>
+        <TEXT ID="ABOUT_SITE"><![CDATA[Visit official website]]></TEXT>
+        <TEXT ID="ABOUT_DEVELOPERS"><![CDATA[Developed by]]></TEXT>
+        <TEXT ID="ABOUT_HOTKEY"><![CDATA[Ctrl + P <font color='#5c5e61'>- open the projects</font><br>
+                                        Ctrl + N <font color='#5c5e61'>- create a new project</font><br>
+                                        Ctrl + S <font color='#5c5e61'>- open the statistics</font><br>
+                                        Ctrl + O <font color='#5c5e61'>- open the settings</font><br>
+                                        ESC <font color='#5c5e61'>- minimize the application</font><br>
+                                        Alt + C <font color='#5c5e61'>- change color of the application</font>
+                                        ]]></TEXT>
+
+        <TEXT ID="SETTINGS_AUTORUN"><![CDATA[Enable on Startup OS]]></TEXT>
+        <TEXT ID="SETTINGS_SOUND"><![CDATA[Enable sound notification]]></TEXT>
+        <TEXT ID="SETTINGS_IDLE_TYPE"><![CDATA[During inactivity, set to]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_WORK"><![CDATA[<font color='#5b8403'>Work</font> activity alert]]></TEXT>
+        <TEXT ID="SETTINGS_ALERT_REST"><![CDATA[<font color='#ab2121'>Rest</font> activity alert]]></TEXT>
+        <TEXT ID="SETTINGS_LANGUAGE"><![CDATA[Language:]]></TEXT>
+        <TEXT ID="SETTINGS_EXPORT_REST_STAT"><![CDATA[Export statistics of rest]]></TEXT>
+        <TEXT ID="SETTINGS_WORKING_HOURS"><![CDATA[Working hours]]></TEXT>
+        <TEXT ID="SETTINGS_APP_COLOR"><![CDATA[Change app color:]]></TEXT>
+
+        <TEXT ID="STATISTIC_OPEN"><![CDATA[Open statistic]]></TEXT>
+        <TEXT ID="STATISTIC_CLOSE"><![CDATA[Close statistic]]></TEXT>
+        <TEXT ID="STATISTIC_ALL"><![CDATA[All]]></TEXT>
+        <TEXT ID="STATISTIC_WORK"><![CDATA[Work]]></TEXT>
+        <TEXT ID="STATISTIC_REST"><![CDATA[Rest]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_CLEAR"><![CDATA[Reset statistic]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_PDF"><![CDATA[Export PDF]]></TEXT>
+        <TEXT ID="STATISTIC_HINT_UPDATE"><![CDATA[Update statistic]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_WORK"><![CDATA[Work]]></TEXT>
+        <TEXT ID="STATISTIC_GRAPH_REST"><![CDATA[Rest]]></TEXT>
+        <TEXT ID="STATISTIC_DESKTOP"><![CDATA[Desktop]]></TEXT>
+        <TEXT ID="STATISTIC_DATE_RANGE"><![CDATA[day,week,month,project]]></TEXT>
+    </LANGUAGE>
+
+</LANGUAGES>

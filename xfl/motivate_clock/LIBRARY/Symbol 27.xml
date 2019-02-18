@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 27" itemID="4ce1783d-00000920" lastModified="1289844797">
+  <timeline>
+    <DOMTimeline name="Symbol 27">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.1123046875" c="-0.113525390625" d="0" tx="-100.5" ty="100.55"/>
+                        </matrix>
+                        <GradientEntry color="#03617E" ratio="0.164705882352941"/>
+                        <GradientEntry color="#012D3B" ratio="0.913725490196078"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!4620 260|480 260!480 260[260 260 260 480!260 480|260 3760!260 3760[260 3980 480 3980!480 3980|4620 3980!4620 3980[4840 3980 4840 3760!4840 3760|4840 480!4840 480[4840 260 4620 260"/>
+                    <Edge cubics="!4840 480(;4840,333 4767,260 4620,260q4840 480Q4840 260q4620 260)4620,260;"/>
+                    <Edge cubics="!4840 3760(4840,3760;4840,3760 4840,480 4840,480q4840 3760 4840 480);"/>
+                    <Edge cubics="!480 260(;333,260 260,333 260,480q480 260Q260 260q260 480);"/>
+                    <Edge cubics="!260 480(260,480;260,480 260,3760 260,3760q260 480 260 3760)260,3760;"/>
+                    <Edge cubics="!480 3980(480,3980;480,3980 4620,3980 4620,3980q480 3980 4620 3980)4620,3980;"/>
+                    <Edge cubics="!4620 3980(4620,3980;4767,3980 4840,3907 4840,3760q4620 3980Q4840 3980q4840 3760)4840,3760;"/>
+                    <Edge cubics="!4620 260(4620,260;4620,260 480,260 480,260q4620 260 480 260)480,260;"/>
+                    <Edge cubics="!260 3760(260,3760;260,3907 333,3980 480,3980q260 3760Q260 3980q480 3980)480,3980;"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="101.png" color="#9933CC" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="101.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LINKS>
+
+    <LINKS lang="ru">
+        <LINK id="BUG_REPORT">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/support</LINK>
+        <LINK id="HOME_PAGE">https://motivateclock.org</LINK>
+        <LINK id="RATE">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/reviews</LINK>
+
+        <LINK id="OPERA_EXTENSION">https://addons.opera.com/ru/extensions/details/motivate-clock-extension/</LINK>
+        <LINK id="CHROME_EXTENSION">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg</LINK>
+        <LINK id="FIREFOX_EXTENSION">https://addons.mozilla.org/ru/firefox/addon/motivate-clock-extension/</LINK>
+    </LINKS>
+
+    <LINKS lang="ua">
+        <LINK id="BUG_REPORT">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/support</LINK>
+        <LINK id="HOME_PAGE">https://motivateclock.org</LINK>
+        <LINK id="RATE">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/reviews</LINK>
+
+        <LINK id="OPERA_EXTENSION">https://addons.opera.com/ru/extensions/details/motivate-clock-extension/</LINK>
+        <LINK id="CHROME_EXTENSION">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg</LINK>
+        <LINK id="FIREFOX_EXTENSION">https://addons.mozilla.org/ru/firefox/addon/motivate-clock-extension/</LINK>
+    </LINKS>
+
+    <LINKS lang="en">
+        <LINK id="BUG_REPORT">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/support</LINK>
+        <LINK id="HOME_PAGE">https://motivateclock.org/en/</LINK>
+        <LINK id="RATE">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg/reviews</LINK>
+
+        <LINK id="OPERA_EXTENSION">https://addons.opera.com/en/extensions/details/motivate-clock-extension/</LINK>
+        <LINK id="CHROME_EXTENSION">https://chrome.google.com/webstore/detail/motivate-clock-extension/binhgmklnnecdadhiodcjcnhpbnknomg</LINK>
+        <LINK id="FIREFOX_EXTENSION">https://addons.mozilla.org/en/firefox/addon/motivate-clock-extension/</LINK>
+    </LINKS>
+
+</LINKS>

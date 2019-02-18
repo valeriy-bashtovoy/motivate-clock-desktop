@@ -1,0 +1,124 @@
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="SiteSelector" itemID="4eecbe80-000007cd"
+               linkageExportForAS="true" linkageClassName="org.motivateclock.gui.processes.SiteSelector"
+               lastModified="1324221466" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="SiteSelector">
+      <layers>
+        <DOMLayer name="targetArea" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 226" name="targetArea">
+                  <matrix>
+                    <Matrix tx="25" ty="46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="84" y="25.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="urlField" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMInputText name="urlField" width="134.5" height="14.7" antiAliasSharpness="-25" antiAliasThickness="-25">
+                  <matrix>
+                    <Matrix tx="28.75" ty="144.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>http://</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="-1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#B6B6B6"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="addButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 152" name="addButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="183" ty="151.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="infoField" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoField" width="194.5" height="28.4" antiAliasSharpness="-25" antiAliasThickness="-25" isSelectable="false" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="10" ty="103.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>или вставьте url рабочего &#xD;сайта в адресную строку&#xA;                                            </characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="-1" bitmapSize="240" face="MyriadPro-Semibold" fillColor="#5E6064"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x054.png" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/x054.png">
+                  <matrix>
+                    <Matrix tx="24" ty="139"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x052.png" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!3845 1820|3845 1035!3845 1035[3845 935 3745 935!3745 935|635 935!635 935[535 935 535 1035!535 1035|535 1820!535 1820[535 1920 635 1920!635 1920|3745 1920!3745 1920[3813 1920 3835 1873!3835 1873[3845 1852 3845 1820"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="x053.png" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap/x053.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

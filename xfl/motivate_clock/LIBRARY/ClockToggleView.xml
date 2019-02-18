@@ -1,0 +1,88 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClockToggleView" itemID="52891134-0000017c" linkageExportForAS="true" linkageClassName="gfx_clock_toggle_view" lastModified="1384718473" lastUniqueIdentifier="14">
+  <timeline>
+    <DOMTimeline name="ClockToggleView" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;3&lt;/guideline&gt;&lt;guideline direction="v"&gt;4&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="restButton" color="#FF800A" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/ToggleButton" name="restButton" selected="true">
+                  <matrix>
+                    <Matrix tx="101.5" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="workButton" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClockControlView Assets/ToggleButton" name="workButton" selected="true">
+                  <matrix>
+                    <Matrix tx="3.5" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pauseButton" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 171" name="pauseButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="91" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="settingButton" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 163" name="settingButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="115" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="exitButton" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Common Assets/Symbol 59 copy" name="exitButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="136" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.5" y="13"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

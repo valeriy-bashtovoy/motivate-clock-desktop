@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 54" itemID="4ca21286-00000289" lastModified="1285690035">
+  <timeline>
+    <DOMTimeline name="Symbol 54">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#A8A8A8"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" caps="square" pixelHinting="true" joints="miter">
+                        <fill>
+                          <SolidColor color="#A8A8A8"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!0 1660|0 1775!0 1775[0 1835 60 1835!60 1835|1420 1835!1420 1835[1480 1835 1480 1775!1480 1775|1480 1660"/>
+                    <Edge fillStyle0="1" strokeStyle="2" edges="!1480 1660|1480 0!1480 0|0 0!0 0|0 1660"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

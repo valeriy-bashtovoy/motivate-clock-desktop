@@ -6,7 +6,7 @@
 
 # Motivate Clock
 
-Motivate Clock is incredibly simple and absolutely free time tracking assistant for anyone whose work involves working with computer.
+Motivate Clock is an incredibly simple and absolutely free time tracking assistant for anyone working with a computer.
 
 It is based on [Adobe AIR](https://get.adobe.com/air) and is written in ActionScript3. Currently app is translated to [EN, RU and UK languages](static/text.xml).
 

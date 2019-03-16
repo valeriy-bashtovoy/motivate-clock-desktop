@@ -33,6 +33,7 @@ package org.motivateclock.controller.command
             if (!_project || _project.isManual || !_project.isAuto)
             {
                 _model.isPending = false;
+                _model.dispatchEvent(new ModelEvent(ModelEvent.PROJECT_SYNC_COMPLETE));
                 return;
             }
 

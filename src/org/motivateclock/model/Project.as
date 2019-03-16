@@ -44,7 +44,8 @@ package org.motivateclock.model
 
             _isChanged = true;
 
-            _processModel.currentProcess.clear();
+            if(_processModel.currentProcess)
+                _processModel.currentProcess.clear();
         }
 
         public function get isManual():Boolean

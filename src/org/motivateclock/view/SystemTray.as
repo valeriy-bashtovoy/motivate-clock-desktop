@@ -24,6 +24,7 @@ package org.motivateclock.view
     import org.motivateclock.enum.TypeEnum;
     import org.motivateclock.events.McEvent;
     import org.motivateclock.events.ModelEvent;
+    import org.motivateclock.interfaces.IProject;
     import org.motivateclock.model.Project;
     import org.motivateclock.utils.RegularUtils;
 
@@ -67,8 +68,6 @@ package org.motivateclock.view
             {
                 throw new Error("Error: " + this + " is Singletone, use getInstance()");
             }
-
-
         }
 
         private function languageChangeHandler(event:McEvent = null):void
@@ -268,7 +267,10 @@ package org.motivateclock.view
         {
             addSubMenuItems();
 
-            enableManualMode(_model.projectModel.currentProject && _model.projectModel.currentProject.isAuto);
+            const currentProject:IProject = _model.projectModel.currentProject;
+            const isManual:Boolean = currentProject && (!currentProject.isAuto || currentProject.isManual);
+
+            enableManualMode(isManual);
         }
 
         private function mouseClickHandler(event:ScreenMouseEvent):void

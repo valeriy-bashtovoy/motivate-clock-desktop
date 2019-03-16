@@ -135,6 +135,7 @@ package org.motivateclock.model
         public function set name(value:String):void
         {
             _name = value;
+            _isChanged = true;
         }
 
         public function get name():String

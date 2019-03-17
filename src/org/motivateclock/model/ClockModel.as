@@ -5,6 +5,7 @@ package org.motivateclock.model
     import flash.events.TimerEvent;
     import flash.utils.Timer;
     import flash.utils.getTimer;
+    import flash.desktop.NativeApplication;
 
     import org.motivateclock.events.ModelEvent;
 
@@ -41,13 +42,24 @@ package org.motivateclock.model
                 return;
             }
 
-            var e:ModelEvent = new ModelEvent(ModelEvent.CLOCK_TICK);
-            e.timeRange = (getTimer() - _time) / 1000;
-            dispatchEvent(e);
-
-            //trace(this, "timeRange:", e.timeRange );
+            const timeRange:Number = (getTimer() - _time) / 1000;
 
             _time = getTimer();
+
+//            trace(this, "timeRange:", timeRange, NativeApplication.nativeApplication.idleThreshold );
+
+            /**
+             * It seems that OS was in sleep/hibernate mode,
+             * in this case, the tick should be skipped;
+             */
+            if(timeRange >= NativeApplication.nativeApplication.idleThreshold)
+            {
+                return;
+            }
+
+            const e:ModelEvent = new ModelEvent(ModelEvent.CLOCK_TICK);
+            e.timeRange = timeRange;
+            dispatchEvent(e);
         }
 
         public function stop():void

@@ -17,7 +17,7 @@ package org.motivateclock.model.statistic
     import org.motivateclock.Model;
     import org.motivateclock.enum.TextKeyEnum;
     import org.motivateclock.events.McEvent;
-    import org.motivateclock.model.Project;
+    import org.motivateclock.interfaces.IProject;
     import org.motivateclock.model.settings.Settings;
     import org.motivateclock.utils.RegularUtils;
     import org.motivateclock.utils.TimeUtils;
@@ -48,6 +48,7 @@ package org.motivateclock.model.statistic
     public class PDF extends Sprite
     {
         public static const UNKNOWN_PROCESS:String = "Unknown";
+        public static const DEFAULT_WORKING_HOURS:int = 24;
 
         [Embed(source="/../resources/fonts/tahoma.ttf", mimeType="application/octet-stream")]
         private var tahoma:Class;
@@ -79,7 +80,7 @@ package org.motivateclock.model.statistic
         private var _workTimeColor:RGBColor;
         private var _restTimeColor:RGBColor;
         private var _blackfont:Font;
-        private var _project:Project;
+        private var _project:IProject;
         private var _statisticResults:Array;
         private var _anchorFont:Font;
         private var _greyFont:Font;
@@ -314,9 +315,6 @@ package org.motivateclock.model.statistic
 
         private function addProjectStatus():void
         {
-            //			var allTimeParagraph:Paragraph = new Paragraph(null);
-            //			allTimeParagraph.setLeading(1, 1.7);
-
             _titleFont.size = 14;
             _titleFont.color = new RGBColor(128, 128, 128);
 
@@ -335,7 +333,7 @@ package org.motivateclock.model.statistic
 
             workTimeParagraph.add(new Phrase(_model.languageModel.getText(TextKeyEnum.PDF_TIME) + ": ", _titleFont));
 
-            time = TimeUtils.convertSeconds(_project.workTime, _settings.workingHours);
+            time = TimeUtils.convertSeconds(_project.workTime);
             dayName = " " + TimeUtils.getDeclensionNumberName(time.day, _model.languageModel.getText(TextKeyEnum.DAY).split(",")) + " ";
             workTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min + ":" + time.sec, _font));
 
@@ -362,7 +360,7 @@ package org.motivateclock.model.statistic
 
             restTimeParagraph.add(new Phrase(_model.languageModel.getText(TextKeyEnum.PDF_TIME) + ": ", _titleFont));
 
-            time = TimeUtils.convertSeconds(_project.restTime, _settings.workingHours);
+            time = TimeUtils.convertSeconds(_project.restTime);
             dayName = " " + TimeUtils.getDeclensionNumberName(time.day, _model.languageModel.getText(TextKeyEnum.DAY).split(",")) + " ";
             restTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min + ":" + time.sec, _font));
 
@@ -441,9 +439,9 @@ package org.motivateclock.model.statistic
 
             fieldWidth = RegularUtils.getPdfFieldWidthByString(active, new TextFormat("tahoma", 13)) + 4;
 
-            const hourName:String = " " + TimeUtils.getDeclensionNumberName(_settings.workingHours, _model.languageModel.getText(TextKeyEnum.HOUR).split(",")) + " ";
+            const hourName:String = " " + TimeUtils.getDeclensionNumberName(DEFAULT_WORKING_HOURS, _model.languageModel.getText(TextKeyEnum.HOUR).split(",")) + " ";
 
-            showTextAt(_settings.workingHours + hourName, Element.ALIGN_LEFT, 13, RGBColor.WHITE, x + fieldWidth, y);// + int(time.sec) + secName
+            showTextAt(DEFAULT_WORKING_HOURS + hourName, Element.ALIGN_LEFT, 13, RGBColor.WHITE, x + fieldWidth, y);
 
             var p:Paragraph = new Paragraph(" ", _font);
             p.setLeading(3, 3);
@@ -512,10 +510,10 @@ package org.motivateclock.model.statistic
 
             x += grayWidth;
 
-            var work:Object = TimeUtils.convertSeconds(workTime, _settings.workingHours);
+            var work:Object = TimeUtils.convertSeconds(workTime);
             var workTimeString:String = TimeUtils.setDoubleFormat(work.hour) + ":" + TimeUtils.setDoubleFormat(work.min) + ":" + TimeUtils.setDoubleFormat(work.sec);
 
-            var rest:Object = TimeUtils.convertSeconds(restTime, _settings.workingHours);
+            var rest:Object = TimeUtils.convertSeconds(restTime);
             var restTimeString:String = TimeUtils.setDoubleFormat(rest.hour) + ":" + TimeUtils.setDoubleFormat(rest.min) + ":" + TimeUtils.setDoubleFormat(rest.sec);
 
             y -= 0.5;
@@ -537,7 +535,7 @@ package org.motivateclock.model.statistic
 
         private function addApp(app:Object, color:RGBColor):void
         {
-            var time:Object = TimeUtils.convertSeconds(app.time, _settings.workingHours);
+            var time:Object = TimeUtils.convertSeconds(app.time);
 
             _font.color = color;
             _font.size = 12;

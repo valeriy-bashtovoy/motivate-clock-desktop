@@ -3,8 +3,9 @@ package org.motivateclock.model.statistic
 
     import flash.events.EventDispatcher;
 
+    import org.motivateclock.interfaces.IProject;
+
     import org.motivateclock.model.Process;
-    import org.motivateclock.model.Project;
 
     /**
      * @author: Valeriy Bashtovoy
@@ -16,12 +17,12 @@ package org.motivateclock.model.statistic
         private var _date:String;
         private var _workAppCollection:Array = [];
         private var _restAppCollection:Array = [];
-        private var _project:Project;
+        private var _project:IProject;
         private var _restTime:Number = 0;
         private var _workTime:Number = 0;
         private var _dateArray:Array;
 
-        public function StatDay(project:Project)
+        public function StatDay(project:IProject)
         {
             _project = project;
         }

@@ -23,6 +23,7 @@ package org.motivateclock.view
     import org.motivateclock.events.ModelEvent;
     import org.motivateclock.events.StatisticViewEvent;
     import org.motivateclock.events.ViewEvent;
+    import org.motivateclock.interfaces.IProject;
     import org.motivateclock.model.Project;
     import org.motivateclock.model.ProjectsModel;
     import org.motivateclock.model.icons.IconManager;
@@ -453,7 +454,9 @@ package org.motivateclock.view
 
         private function stat_list_changeHandler(event:ModelEvent):void
         {
-            _listView.enabled = !_model.statisticsModel.currentProject.isManual;
+            const project:IProject = _model.statisticsModel.currentProject;
+
+            _listView.enabled = project.isAuto;
             _listView.setDataProvider(Vector.<Object>(_model.statisticsModel.processList), false);
         }
 

@@ -109,9 +109,6 @@ package org.motivateclock.model.statistic
 
             _buffer = new ByteArray();
 
-            _workTimeColor = new RGBColor(141, 142, 21);
-            _restTimeColor = new RGBColor(145, 3, 3);
-
             _writer = PdfWriter.create(_buffer, PageSize.A4);
             _document = _writer.pdfDocument;
             _document.addAuthor("Motivate Clock");
@@ -126,6 +123,9 @@ package org.motivateclock.model.statistic
             _statisticResults = statisticResults;
             _project = _model.projectModel.getProjectById(projectId);
             _filename = _project.name;
+
+            _workTimeColor = new RGBColor(141, 142, 21);
+            _restTimeColor = _project.isAuto ? new RGBColor(145, 3, 3) : new RGBColor(61, 61, 61);
 
             _document.open();
 
@@ -341,9 +341,9 @@ package org.motivateclock.model.statistic
 
             totalSec = _project.workTime + _project.restTime;
 
-            var workPercent:Number = _project.workTime / totalSec;
-            var resetPercent:Number = _project.restTime / totalSec;
-            var idlePercent:Number = 0; //1 - (workPercent + resetPercent);
+            var workPercent:Number = _project.workTime / totalSec || 0;
+            var resetPercent:Number = _project.restTime / totalSec || 0;
+            var idlePercent:Number = 0;
 
             showTextAt(Math.round(workPercent * 100) + "%", Element.ALIGN_RIGHT, 14, _font.color, _document.pageSize.width - _document.marginRight, _document.getVerticalPosition(false));
 
@@ -474,8 +474,6 @@ package org.motivateclock.model.statistic
             _font.size = 14;
             _font.color = new RGBColor(38, 106, 124);
 
-            //			_document.add(new Paragraph(" ", _titleFont));
-
             var paragraph:Paragraph = new Paragraph(null);
             paragraph.setLeading(1, 3.5);
 
@@ -487,9 +485,28 @@ package org.motivateclock.model.statistic
 
             _document.add(paragraph);
 
-            var width:int = 244;//261;
+            var width:int = 244;
             var x:int = _document.marginLeft + 80;
             var y:Number = _document.getVerticalPosition(false) + 2;
+
+            if(!_project.isAuto)
+            {
+                const total:Object = TimeUtils.convertSeconds(restTime + workTime);
+
+                const totalTimeString:String = TimeUtils.setDoubleFormat(total.hour) + ":"
+                        + TimeUtils.setDoubleFormat(total.min) + ":" + TimeUtils.setDoubleFormat(total.sec);
+
+                showTextAt(totalTimeString, Element.ALIGN_RIGHT, 12, new RGBColor(61, 61, 61),
+                        _document.pageSize.width - _document.marginRight, y);
+
+                return;
+            }
+
+            var work:Object = TimeUtils.convertSeconds(workTime);
+            var workTimeString:String = TimeUtils.setDoubleFormat(work.hour) + ":" + TimeUtils.setDoubleFormat(work.min) + ":" + TimeUtils.setDoubleFormat(work.sec);
+
+            var rest:Object = TimeUtils.convertSeconds(restTime);
+            var restTimeString:String = TimeUtils.setDoubleFormat(rest.hour) + ":" + TimeUtils.setDoubleFormat(rest.min) + ":" + TimeUtils.setDoubleFormat(rest.sec);
 
             var daySec:int = 24 * 60 * 60;
             var workPct:Number = workTime / daySec;
@@ -510,19 +527,11 @@ package org.motivateclock.model.statistic
 
             x += grayWidth;
 
-            var work:Object = TimeUtils.convertSeconds(workTime);
-            var workTimeString:String = TimeUtils.setDoubleFormat(work.hour) + ":" + TimeUtils.setDoubleFormat(work.min) + ":" + TimeUtils.setDoubleFormat(work.sec);
-
-            var rest:Object = TimeUtils.convertSeconds(restTime);
-            var restTimeString:String = TimeUtils.setDoubleFormat(rest.hour) + ":" + TimeUtils.setDoubleFormat(rest.min) + ":" + TimeUtils.setDoubleFormat(rest.sec);
-
             y -= 0.5;
-
-            var fieldWidth:int = 0;
 
             var workLabel:String = _model.languageModel.getText(TextKeyEnum.WORK) + ": ";
             showTextAt(workLabel, Element.ALIGN_LEFT, 12, RGBColor.BLACK, x + 10, y);
-            fieldWidth = RegularUtils.getPdfFieldWidthByString(workLabel, new TextFormat("tahoma", 12)) + 4;
+            var fieldWidth:int = RegularUtils.getPdfFieldWidthByString(workLabel, new TextFormat("tahoma", 12)) + 4;
 
             showTextAt(workTimeString, Element.ALIGN_LEFT, 12, new RGBColor(161, 162, 0), x + fieldWidth, y);
 

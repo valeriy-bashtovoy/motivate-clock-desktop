@@ -341,8 +341,8 @@ package org.motivateclock.model.statistic
 
             totalSec = _project.workTime + _project.restTime;
 
-            var workPercent:Number = _project.workTime / totalSec || 0;
-            var resetPercent:Number = _project.restTime / totalSec || 0;
+            var workPercent:Number = (totalSec > 0) ? _project.workTime / totalSec : 0;
+            var resetPercent:Number = (totalSec > 0) ? 1 - workPercent : 0;
             var idlePercent:Number = 0;
 
             showTextAt(Math.round(workPercent * 100) + "%", Element.ALIGN_RIGHT, 14, _font.color, _document.pageSize.width - _document.marginRight, _document.getVerticalPosition(false));

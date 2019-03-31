@@ -9,6 +9,7 @@ package org.motivateclock.controller
     import org.motivateclock.Model;
     import org.motivateclock.controller.command.SaveProcessCommand;
     import org.motivateclock.controller.command.TempSaveProcessCommand;
+    import org.motivateclock.enum.TypeEnum;
     import org.motivateclock.events.ModelEvent;
     import org.motivateclock.events.ViewEvent;
     import org.motivateclock.interfaces.ICommand;
@@ -67,7 +68,8 @@ package org.motivateclock.controller
 
         private function clock_tickHandler(event:ModelEvent):void
         {
-            _processModel.increaseCurrentProcessTime(event.timeRange);
+            if(_model.currentType != TypeEnum.IDLE)
+                _processModel.increaseCurrentProcessTime(event.timeRange);
         }
 
         private function application_exitingHandler(event:ModelEvent):void

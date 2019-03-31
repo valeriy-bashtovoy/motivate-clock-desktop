@@ -32,8 +32,6 @@ package org.motivateclock.controller
             _model.projectModel.addEventListener(ModelEvent.PROJECT_CHANGE, projectChangedHandler);
             _model.addEventListener(ModelEvent.APP_PENDING_CHANGE, model_app_pending_changeHandler);
 
-//            _model.isPending = true;
-
             projectChangedHandler();
         }
 

@@ -5,6 +5,7 @@ package org.motivateclock.model.statistic
 
     import org.motivateclock.Model;
     import org.motivateclock.controller.command.ProjectSyncCommand;
+    import org.motivateclock.controller.command.SaveProcessCommand;
     import org.motivateclock.events.McEvent;
     import org.motivateclock.events.ModelEvent;
     import org.motivateclock.interfaces.IProject;
@@ -51,6 +52,7 @@ package org.motivateclock.model.statistic
 
             _model.addEventListener(ModelEvent.PROJECT_SYNC_COMPLETE, model_project_sync_completeHandler);
 
+            new SaveProcessCommand(_model).execute();
             new ProjectSyncCommand(_model, project).execute();
         }
 

@@ -335,15 +335,15 @@ package org.motivateclock.model.statistic
 
             time = TimeUtils.convertSeconds(_project.workTime);
             dayName = " " + TimeUtils.getDeclensionNumberName(time.day, _model.languageModel.getText(TextKeyEnum.DAY).split(",")) + " ";
-            workTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min + ":" + time.sec, _font));
+            workTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min, _font));
 
             _document.add(workTimeParagraph);
 
             totalSec = _project.workTime + _project.restTime;
 
-            var workPercent:Number = (totalSec > 0) ? _project.workTime / totalSec : 0;
-            var resetPercent:Number = (totalSec > 0) ? 1 - workPercent : 0;
-            var idlePercent:Number = 0;
+            const workPercent:Number = Math.min(1, (_project.workTime / totalSec || 0));
+            const resetPercent:Number = (1 - workPercent);
+            const idlePercent:Number = 0;
 
             showTextAt(Math.round(workPercent * 100) + "%", Element.ALIGN_RIGHT, 14, _font.color, _document.pageSize.width - _document.marginRight, _document.getVerticalPosition(false));
 
@@ -362,7 +362,7 @@ package org.motivateclock.model.statistic
 
             time = TimeUtils.convertSeconds(_project.restTime);
             dayName = " " + TimeUtils.getDeclensionNumberName(time.day, _model.languageModel.getText(TextKeyEnum.DAY).split(",")) + " ";
-            restTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min + ":" + time.sec, _font));
+            restTimeParagraph.add(new Phrase(time.day + dayName + time.hour + ":" + time.min, _font));
 
             _document.add(restTimeParagraph);
 

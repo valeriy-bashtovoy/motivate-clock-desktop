@@ -456,6 +456,8 @@ package org.motivateclock.view
         {
             const project:IProject = _model.statisticsModel.currentProject;
 
+            _menu.enabled = project.isAuto;
+
             _listView.enabled = project.isAuto;
             _listView.setDataProvider(Vector.<Object>(_model.statisticsModel.processList), false);
         }

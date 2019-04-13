@@ -28,7 +28,7 @@ package org.motivateclock.view.statistic
         private var _workButton:StatisticMenuButton;
         private var _restButton:StatisticMenuButton;
         private var _type:String = "";
-        private var _activated:Boolean = true;
+        private var _enabled:Boolean = true;
 
         private var _hintClear:String = "";
         private var _hintPdf:String = "";
@@ -94,21 +94,13 @@ package org.motivateclock.view.statistic
             _restButton.x = _workButton.x + _workButton.width + 4;
         }
 
-        public function set activated(value:Boolean):void
+        public function set enabled(value:Boolean):void
         {
-            _activated = value;
+            _enabled = value;
 
             _allButton.activated = value;
             _workButton.activated = value;
             _restButton.activated = value;
-        }
-
-        public function set exportEnabled(value:Boolean):void
-        {
-            value = false;
-
-            _exportButton.enabled = value;
-            _exportButton.alpha = value ? 1 : 0.4;
         }
 
         public function get type():String
@@ -118,7 +110,7 @@ package org.motivateclock.view.statistic
 
         public function reset():void
         {
-            if (!_activated)
+            if (!_enabled)
             {
                 return;
             }

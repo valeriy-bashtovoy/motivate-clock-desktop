@@ -45,7 +45,12 @@ package org.motivateclock.view.statistic
         public function set activated(value:Boolean):void
         {
             this.mouseEnabled = value;
-            if (!value)
+
+            if(value)
+            {
+                this.enabled ? this.out() : this.over();
+            }
+            else
             {
                 RegularUtils.setColor(this, 0xc0c0c0);
             }

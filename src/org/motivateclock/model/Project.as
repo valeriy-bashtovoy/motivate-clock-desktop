@@ -93,6 +93,9 @@ package org.motivateclock.model
         public function set workTime(value:Number):void
         {
             _workTime = value;
+
+            _isChanged = true;
+
             dispatchEvent(new ModelEvent(ModelEvent.PROJECT_TIME_CHANGE));
         }
 
@@ -104,6 +107,9 @@ package org.motivateclock.model
         public function set restTime(value:Number):void
         {
             _restTime = value;
+
+            _isChanged = true;
+
             dispatchEvent(new ModelEvent(ModelEvent.PROJECT_TIME_CHANGE));
         }
 
@@ -115,6 +121,8 @@ package org.motivateclock.model
         public function set idleTime(value:Number):void
         {
             _idleTime = value;
+
+            _isChanged = true;
         }
 
         public function get idleTime():Number
@@ -145,6 +153,7 @@ package org.motivateclock.model
 
         public function set applications(value:String):void
         {
+            _isChanged = true;
             _processModel.initialize(value);
         }
 
@@ -158,9 +167,6 @@ package org.motivateclock.model
             return _processModel;
         }
 
-        /**
-         * temporary;
-         */
         public function updateProjectMode():void
         {
             isAuto = _processModel.processList.length != 0;
@@ -169,6 +175,9 @@ package org.motivateclock.model
         public function set isAuto(value:Boolean):void
         {
             _isAuto = value;
+
+            _isChanged = true;
+
             dispatchEvent(new ModelEvent(ModelEvent.PROJECT_MODE_CHANGE));
         }
 

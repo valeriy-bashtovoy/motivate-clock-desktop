@@ -99,6 +99,7 @@ package org.motivateclock.controller
                 return;
             }
 
+            project.isChanged = true;
             project.processModel.add(event.process);
         }
 
@@ -114,6 +115,7 @@ package org.motivateclock.controller
                 return;
             }
 
+            project.isChanged = true;
             project.processModel.remove(event.process);
         }
     }

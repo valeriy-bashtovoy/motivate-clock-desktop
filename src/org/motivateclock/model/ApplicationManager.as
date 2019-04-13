@@ -22,9 +22,11 @@ package org.motivateclock.model
      * @author: Valeriy Bashtovoy
      *
      */
-        // TODO should be converted to controller;
+    // TODO should be converted to controller;
     public class ApplicationManager extends EventDispatcher
     {
+        private static const DELAY:int = 2000;
+
         public static var instance:ApplicationManager;
 
         private var _mainWindow:NativeWindow;
@@ -38,8 +40,7 @@ package org.motivateclock.model
         {
             _model = model;
 
-
-            _saveTimer = new Timer(300000);
+            _saveTimer = new Timer(DELAY);
             _saveTimer.addEventListener(TimerEvent.TIMER, saveTimerHandler);
             _saveTimer.start();
 
@@ -193,20 +194,15 @@ package org.motivateclock.model
             modelEvent.isEmergency = isEmergency;
             dispatchEvent(modelEvent);
 
-            _mainWindow.removeEventListener(Event.CLOSE, mainWindowCloseHandler);
-
             _saveTimer.stop();
             _model.clockModel.stop();
-            SystemTray.getInstance().hide();
 
             _model.settingModel.save();
             _model.iconManager.save();
 
-            if (isEmergency)
-            {
-                NativeApplication.nativeApplication.exit();
-                return;
-            }
+            SystemTray.getInstance().hide();
+
+            _mainWindow.removeEventListener(Event.CLOSE, mainWindowCloseHandler);
 
             _model.projectModel.addEventListener(ModelEvent.PROJECT_SAVE_COMPLETE, project_save_completeHandler);
             _model.projectModel.save();
@@ -247,7 +243,6 @@ package org.motivateclock.model
 
         private function saveTimerHandler(event:TimerEvent):void
         {
-            _model.settingModel.save();
             _model.projectModel.save();
         }
     }

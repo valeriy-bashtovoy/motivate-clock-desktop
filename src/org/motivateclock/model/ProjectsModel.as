@@ -9,6 +9,7 @@ package org.motivateclock.model
     import org.motivateclock.Model;
     import org.motivateclock.enum.ProcessTypeEnum;
     import org.motivateclock.enum.TextKeyEnum;
+    import org.motivateclock.enum.TypeEnum;
     import org.motivateclock.events.McEvent;
     import org.motivateclock.events.ModelEvent;
     import org.motivateclock.interfaces.IProcess;
@@ -170,7 +171,10 @@ package org.motivateclock.model
                 return;
             }
 
+            _model.currentType = TypeEnum.IDLE;
+
             project.reset();
+
             _model.dataBase.resetProjectStatistic(project.id);
         }
 

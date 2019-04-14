@@ -17,6 +17,7 @@ package org.motivateclock.model
         private var _currentProject:IProject;
         private var _map:Object = [];
         private var _currentProcess:IProcess;
+        private var _currentCategory:String;
 
         public function StatisticsModel()
         {
@@ -116,6 +117,16 @@ package org.motivateclock.model
             _processList.splice(index - 1, 0, _currentProcess);
 
             dispatchEvent(new ModelEvent(ModelEvent.STAT_LIST_CHANGE));
+        }
+
+        public function set currentCategory(value:String):void
+        {
+            _currentCategory = value;
+        }
+
+        public function get currentCategory():String
+        {
+            return _currentCategory;
         }
     }
 }

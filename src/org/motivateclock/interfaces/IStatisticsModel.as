@@ -27,5 +27,9 @@ package org.motivateclock.interfaces
         function addProcess(process:IProcess):void;
 
         function updateCurrentProcess(time:Number):void;
+
+        function set currentCategory(value:String):void;
+
+        function get currentCategory():String;
     }
 }

@@ -9,6 +9,7 @@ package org.motivateclock.controller
     import org.motivateclock.Model;
     import org.motivateclock.controller.command.ProjectSyncCommand;
     import org.motivateclock.enum.ProcessTypeEnum;
+    import org.motivateclock.enum.TypeEnum;
     import org.motivateclock.events.DBEvent;
     import org.motivateclock.events.ModelEvent;
     import org.motivateclock.events.StatisticViewEvent;
@@ -94,6 +95,7 @@ package org.motivateclock.controller
                 return;
             }
 
+            _statisticsModel.currentCategory = event.category;
             _statisticsModel.currentProject = project;
 
             if (project.id == _model.projectModel.currentProject.id)
@@ -137,6 +139,7 @@ package org.motivateclock.controller
         private function process_changeHandler(event:ModelEvent = null):void
         {
             const currentProject:IProject = _statisticsModel.currentProject;
+            const category:String = _statisticsModel.currentCategory;
 
             if (!currentProject)
             {
@@ -148,6 +151,11 @@ package org.motivateclock.controller
             if (!process)
                 return;
 
+            if(!isSuitable(process, category))
+            {
+                return;
+            }
+
             process.addEventListener(ModelEvent.PROCESS_TIME_CHANGE, process_process_time_changeHandler, false, 0, true);
 
             if (!_statisticsModel.hasProcess(process))
@@ -158,6 +166,19 @@ package org.motivateclock.controller
             _statisticsModel.currentProcess = _statisticsModel.getProcess(process.id);
 
             _currentProcessTime = _statisticsModel.currentProcess.time;
+        }
+
+        private function isSuitable(process:IProcess, category:String):Boolean
+        {
+            switch (category)
+            {
+                case TypeEnum.WORK:
+                    return process.isMarked;
+                case TypeEnum.REST:
+                    return !process.isMarked;
+                default:
+                    return true;
+            }
         }
 
         private function process_process_time_changeHandler(event:ModelEvent = null):void

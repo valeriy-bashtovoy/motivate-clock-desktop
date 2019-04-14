@@ -1,0 +1,7 @@
+﻿What is Motivate Clock?
+It is an incredibly simple and absolutely free time tracking assistant for anyone working with a computer.
+
+Why should I use it?
+Motivate Clock allows you to realize how much time is wasted daily and pushes you to manage your time better. You can create your personal projects for each task, track your time, and analyze personal productivity. You can be sure that Motivate Clock will count every second of your efforts.
+
+Motivate Clock is Open Source project and we welcome all your contributions, check out our Github repository: https://github.com/valeriy-bashtovoy/motivate-clock-desktop.

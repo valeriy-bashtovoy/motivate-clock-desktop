@@ -13,8 +13,12 @@
     <property name="APP_DESCRIPTOR_TEMPLATE" value="${TEMPLATES_DIR}/${APP_NAME}-app.xml"/>
     <property name="APP_DESCRIPTOR" value="${APP_NAME}-app.xml"/>
 
+    <property name="WIN_SETUP_SCRIPT" value="installer.iss"/>
+
     <property name="STORETYPE" value="pkcs12"/>
     <property name="TEMP_DIR" value="${DIST_DIR}/temp"/>
+
+    <property name="ABSOLUTE_PATH" location="${APP_ROOT_DIR}"/>
 
     <condition property="isMac">
         <os family="mac"/>
@@ -57,11 +61,30 @@
             <create.app.descriptor dir="${TEMP_DIR}" url="${UPDATE_URL}"/>
             <create.update.descriptor url="${UPDATE_URL}"/>
             <compile file="${MAIN_CLASS}" output="${TEMP_DIR}/${APP_NAME}.swf"/>
-            <package.native ext="exe"/>
-            <sign.exe file="${DIST_DIR}/motivateclock.exe"/>
+            <package.bundle dir="${TEMP_DIR}"/>
+            <package.installer dir="${TEMP_DIR}"/>
+            <sign.exe file="${DIST_DIR}/${APP_NAME}.exe"/>
             <delete dir="${TEMP_DIR}"/>
         </sequential>
     </target>
+
+    <macrodef name="package.installer">
+        <attribute name="dir"/>
+        <sequential>
+            <copy file="${TEMPLATES_DIR}/${WIN_SETUP_SCRIPT}"
+                  tofile="@{dir}/${WIN_SETUP_SCRIPT}"
+                  overwrite="true"/>
+            <replace file="@{dir}/${WIN_SETUP_SCRIPT}">
+                <replacefilter token="VERSION" value="${APP_VERSION}"/>
+                <replacefilter token="APP_DIR" value="${ABSOLUTE_PATH}"/>
+            </replace>
+            <exec executable="cmd">
+                <arg value="/c"/>
+                <arg value="${WIN_INSTALLER_DIR}/ISCC.exe"/>
+                <arg value="${TEMP_DIR}/${WIN_SETUP_SCRIPT}"/>
+            </exec>
+        </sequential>
+    </macrodef>
 
     <macrodef name="serve.debug.dir">
         <sequential>
@@ -87,6 +110,27 @@
                 <arg value="-target"/>
                 <arg value="native"/>
                 <arg value="${DIST_DIR}/${APP_NAME}.@{ext}"/>
+                <arg value="${TEMP_DIR}/${APP_DESCRIPTOR}"/>
+                <arg line="-C ${TEMP_DIR} ${APP_NAME}.swf"/>
+                <arg line="-C ${STATIC_DIR} ${ASSETS_FILELIST}"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="package.bundle">
+        <attribute name="dir"/>
+        <sequential>
+            <java jar="${ADT}" fork="true" failonerror="true">
+                <arg value="-package"/>
+                <arg value="-storetype"/>
+                <arg value="${STORETYPE}"/>
+                <arg value="-keystore"/>
+                <arg value="${KEYSTORE}"/>
+                <arg value="-storepass"/>
+                <arg value="${STOREPASS}"/>
+                <arg value="-target"/>
+                <arg value="bundle"/>
+                <arg value="@{dir}/bundle/"/>
                 <arg value="${TEMP_DIR}/${APP_DESCRIPTOR}"/>
                 <arg line="-C ${TEMP_DIR} ${APP_NAME}.swf"/>
                 <arg line="-C ${STATIC_DIR} ${ASSETS_FILELIST}"/>

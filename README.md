@@ -23,8 +23,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install:
 
-* [Apache Flex SDK](http://flex.apache.org/installer.html)
-* [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Apache Flex SDK](http://flex.apache.org/installer.html);
+* [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html);
+* [Inno Setup](http://www.jrsoftware.org/isinfo.php) (For OS Windows);
 
 ### Building
 
@@ -33,6 +34,11 @@ A step by step series of examples that tell you how to get a development env run
 * Define path to Flex SDK inside [build.properties](build.properties):
 ```
 FLEX_HOME=X:\sdk
+```
+
+* Define path to Inno Setup inside [build.properties](build.properties):
+```
+WIN_INSTALLER_DIR=X:\Program Files (x86)\Inno Setup 5
 ```
 
 * Perform ANT target to serve, compile and launch app in debug mode:
@@ -53,6 +59,7 @@ package
 * [Apache Ant](https://ant.apache.org) - Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other.
 * [PurePDF](https://github.com/sephiroth74/purePDF) - purePDF is a complete PDF library for Actionscript.
 * [Tweener](https://github.com/zeh/tweener) - Tweener library for Actionscript.
+* [Inno Setup](http://www.jrsoftware.org/isinfo.php) - Inno Setup is a free installer for Windows programs by Jordan Russell and Martijn Laan.
 
 ## Versioning
 

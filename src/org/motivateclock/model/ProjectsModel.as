@@ -4,8 +4,6 @@ package org.motivateclock.model
     import flash.events.Event;
     import flash.events.EventDispatcher;
 
-    import mx.utils.UIDUtil;
-
     import org.motivateclock.Model;
     import org.motivateclock.enum.ProcessTypeEnum;
     import org.motivateclock.enum.TextKeyEnum;
@@ -215,7 +213,7 @@ package org.motivateclock.model
             project.creationDate = new Date();
             project.applications = applications;
 
-            project.id = (id != "") ? id : UIDUtil.createUID();
+            project.id = (id != "") ? id : new Date().getTime().toString();
 
             _projectsList.push(project);
 

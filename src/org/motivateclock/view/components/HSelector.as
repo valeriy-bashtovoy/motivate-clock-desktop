@@ -13,8 +13,6 @@ package org.motivateclock.view.components
     import flash.text.TextFormat;
     import flash.utils.Timer;
 
-    import flashx.textLayout.formats.TextAlign;
-
     import org.motivateclock.events.ViewEvent;
     import org.motivateclock.interfaces.IDisposable;
     import org.motivateclock.resource.ResourceImage;
@@ -44,7 +42,6 @@ package org.motivateclock.view.components
             _labelField.selectable = false;
             _labelField.multiline = false;
             _labelField.textColor = 0x5e6064;
-//            _labelField.background = true;
             _labelField.autoSize = TextFieldAutoSize.CENTER;
             _labelField.embedFonts = true;
             _labelField.wordWrap = true;
@@ -113,7 +110,7 @@ package org.motivateclock.view.components
 
         public function setTextSize(size:int):void
         {
-            _labelField.defaultTextFormat = new TextFormat("Myriad Pro Semibold", size, null, null, null, null, null, null, TextAlign.CENTER);//
+            _labelField.defaultTextFormat = new TextFormat("Myriad Pro Semibold", size, null, null, null, null, null, null, 'center');
             _labelField.setTextFormat(_labelField.defaultTextFormat);
 
             _labelField.y = int(_labelField.textHeight - _labelField.height);

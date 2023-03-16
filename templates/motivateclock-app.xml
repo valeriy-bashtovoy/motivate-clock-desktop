@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<application xmlns="http://ns.adobe.com/air/application/32.0">
+<application xmlns="http://ns.adobe.com/air/application/50.0">
     <id>MotivateClock</id>
     <versionNumber>VERSION</versionNumber>
     <versionLabel>VER_LABEL</versionLabel>
@@ -10,7 +10,7 @@
         <text xml:lang="uk">Motivate Clock це неймовірно простий і абсолютно безоплатний помічник, що дозволяє вести посекундний облік часу, проведеного в різних застосунках і сайтах.</text>
     </description>
     <name>Motivate Clock</name>
-    <copyright>www.motivateclock.org</copyright>
+    <copyright>https://motivateclock.org</copyright>
     <initialWindow>
         <content>motivateclock.swf</content>
         <title>Motivate Clock</title>

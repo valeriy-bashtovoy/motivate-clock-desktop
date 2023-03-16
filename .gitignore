@@ -1,6 +1,7 @@
 /.idea
 /dist
 /debug
+/sdk
 
 /resources/config.xml
 *.iml

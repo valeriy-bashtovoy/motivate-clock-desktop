@@ -38,7 +38,7 @@ FLEX_HOME=X:\sdk
 
 * Define path to Inno Setup inside [build.properties](build.properties):
 ```
-WIN_INSTALLER_DIR=X:\Program Files (x86)\Inno Setup 5
+WIN_INSTALLER_DIR=X:\Program Files (x86)\Inno Setup 6
 ```
 
 * Perform ANT target to serve, compile and launch app in debug mode:
@@ -55,7 +55,7 @@ package
 
 ## Built With
 
-* [Adobe AIR](https://get.adobe.com/air) - Adobe AIR is a cross-platform runtime system developed by Adobe Systems for building desktop applications and mobile applications, programmed using Adobe Animate, ActionScript and optionally Apache Flex.
+* [Adobe AIR](https://airsdk.harman.com/download) - Adobe AIR is a cross-platform runtime system developed by Adobe Systems for building desktop applications and mobile applications, programmed using Adobe Animate, ActionScript and optionally Apache Flex.
 * [Apache Ant](https://ant.apache.org) - Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other.
 * [PurePDF](https://github.com/sephiroth74/purePDF) - purePDF is a complete PDF library for Actionscript.
 * [Tweener](https://github.com/zeh/tweener) - Tweener library for Actionscript.
@@ -67,8 +67,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* [Valeriy Bashtovoy](https://github.com/valeriy-bashtovoy) - *Initial work*
-* [Dmitriy Starishev](https://www.linkedin.com/in/starishev) - *Design*
+* [Valerii Bashtovoi](https://linkedin.com/in/bashtovoy) - *Development*
+* [Dmitriy Starishev](https://linkedin.com/in/starishev) - *Design*
 
 See also the list of [contributors](https://github.com/valeriy-bashtovoy/motivate-clock-desktop/contributors) who participated in this project.
 
